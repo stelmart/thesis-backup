@@ -1,37 +1,18 @@
-%% uctest.tex 11/3/94
-%% Copyright (C) 1988-2004 Daniel Gildea, BBF, Ethan Munson.
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.3
-% of this license or (at your option) any later version.
-% The latest version of this license is in
-%   http://www.latex-project.org/lppl.txt
-% and version 1.3 or later is part of all distributions of LaTeX
-% version 2003/12/01 or later.
-%
-% This work has the LPPL maintenance status "maintained".
-% 
-% The Current Maintainer of this work is Daniel Gildea.
-
-\documentclass[11pt]{ucthesis}
-\def\dsp{\def\baselinestretch{2.0}\large\normalsize}
-\dsp
-
+\documentclass[journal = mamobx, manuscript = article]{achemso}
+%\bibliographystyle{naturemag}
+\usepackage[pdfpagemode=UseNone,pdfstartview=FitH]{hyperref}
 \usepackage{nameref}
 \usepackage{graphicx}
 \usepackage{mathptmx}
 \usepackage{grffile}
-
+%\usepackage[scaled=0.90]{helvet} % ss
+%\usepackage{courier} % tt
+%\normalfont
+%\usepackage[T1]{fontenc}
 \usepackage{amsmath,amssymb,amsthm}
-%\newcounter{subfigure}
+\newcounter{subfigure}
 
-\usepackage{amsfonts}
 
-\usepackage{xr}
-\usepackage{xr-hyper}
-\usepackage{hyperref} % For hyperlinks in the PDF
-
-\usepackage[caption=false]{subfig}
 
 \DeclareMathOperator{\Tr}{Tr}
 \def\br{{\bf r}}
@@ -45,68 +26,22 @@
 \def\px{\partial_x}
 \def\half{\frac{1}{2}}
 
-\begin{document}
 
-% Declarations for Front Matter
-
-\title{Emergent Phenomena in Active Polymer Arrays}
+\author{Joshua M. Deutsch}
 \author{Stephen E. Martin}
-\degreeyear{2018}
-\degreemonth{September}
-\degree{DOCTOR OF PHILOSOPHY}
-\chair{Professor Joshua Deutsch}
-\committeememberone{Professor Onuttom Narayan}
-\committeemembertwo{Professor Alexander Sher}
-%\committeememberthree{Professor Ipsum Lorem}
-\numberofmembers{3} %% (including chair) possible: 3, 4, 5, 6
-\deanlineone{Lori Kletzer}
-\deanlinetwo{Dean of Graduate Studies}
-\deanlinethree{}
-\field{Physics}
-\campus{Santa Cruz}
+\affiliation[UCSC]
+{Department of Physics, University of California, Santa Cruz CA 95064}
+\email{stelmart@ucsc.edu}
+\title[title]
+{Photo-mechanical energy conversion using polymer brush dissociation}
 
-\begin{frontmatter}
-
-\maketitle
-\copyrightpage
-
-\tableofcontents
-\listoffigures
-\listoftables
-
-\begin{abstract}
-Theses have elements.  Isn't that nice?
-
-\end{abstract}
-
-\begin{dedication}
-\null\vfil
-{\large
-\begin{center}
-To myself,\\\vspace{12pt}
-Perry H. Disdainful,\\\vspace{12pt}
-the only person worthy of my company.
-\end{center}}
-\vfil\null
-\end{dedication}
-
-
-\begin{acknowledgements}
-I want to ``thank'' my committee, without whose ridiculous demands, I
-would have graduated so, so, very much faster.
-\end{acknowledgements}
-
-\end{frontmatter}
-
-\chapter{Introduction}
-
-Every dissertation should have an introduction.  You might not realize
-it, but the introduction should introduce the concepts, backgrouand,
-and goals of the dissertation.
-
+\begin{document}
+\begin{tocentry}
 \includegraphics[height = 1.375in]{TOC2}
 \includegraphics[height = 1.375in]{4040per_TOC}
+\end{tocentry}
 
+\begin{abstract}
 A device is investigated that continuously and directly converts
 light into mechanical energy, using polymers and photodissociation.
 A polymer brush tethered to a surface, is brought into contact with a parallel
@@ -124,20 +59,8 @@ in the bound state. It is shown that the work per cycle can be made
 much larger than the thermal energy but at the expense of requiring
 a greatly diminished photodissociation rate. Parameters
 are discussed in order to optimize mechanical energy conversion.
-
-The physical mechanism behind the spontaneous formation of metachronal
-waves in microtubule arrays in a low Reynolds number fluid has been
-of interest for the past several years, yet is still not well
-understood. We present a model implementing the hydrodynamic coupling
-hypothesis from first principles, and use this model to simulate
-kinesin-driven microtubule arrays and observe their emergent behavior.
-The results of simulations are compared to known experimental
-observations by Sanchez et al.\cite{Sanchez2011,sanchez2013engineering}. By varying
-parameters, we determine regimes in which the metachronal wave
-phenomenon emerges, and categorize other types of possible microtubule
-motion outside these regimes.
-
-\chapter{Photomechanical Energy Conversion Using Polymer Brush Dissociation}
+\end{abstract}
+\maketitle
 
 \section{Introduction}
 \label{sec:Introduction}
@@ -185,8 +108,7 @@ energy~\cite{ProstPRL}.
 In this paper, we investigate the use of photons in powering a two state motor
 system similar to biological motors. We consider
 creating motion between two surfaces that are very close together by placing
-%%%%JOSH: added /em:
-an {\em asymmetric} polymer brush between them.
+an asymmetric polymer brush between them.
 This could potentially have advantages. A continuous source of light would create
 a motion that is constant on a macroscopic scale, that could for example, rotate
 the surfaces relative to each other. It would not require any additional
@@ -207,21 +129,30 @@ This asymmetry, plus a disruption of thermal equilibrium due to energy input
 are the two factors needed to convert energy from chemical or electromagnetic energy, to
 mechanical~\cite{ProstPRL}.
 
-The paper is organized as follows: The photo-mechanical system is described (\nameref{sec:System}) and rough estimates of its
+The paper is organized as follows: 
+\begin{itemize}
+\item The
+photo-mechanical system is described (\nameref{sec:System}) and rough estimates of its
 operation are given (\nameref{sec:EOSP}), including a discussion
-of its potential efficiency. In order to illustrate the characteristics
+of its potential efficiency. 
+\item In order to illustrate the characteristics
 that need to be understood, a three dimensional simulation of this device
-is carried out (\nameref{sec:3Dmodel}). The physics of this system is then
+is carried out (\nameref{sec:3Dmodel}). 
+\item The physics of this system is then
 investigated in more analytical detail, starting with general considerations of its steady state behavior using Fokker Planck equations. The results will be used in subsequent sections. An exact description of this
 system is possible in steady state (\nameref{sec:SSPD}) and the resulting differential equation
 is solved numerically in one dimension (\nameref{sec:1Dsol}). This allows
 to understand better how effective the asymmetry in the force produces power,
-and influences the direction that is taken in the rest of this work. Next, we study the useful large power stroke limit that is hard to probe
+and influences the direction that is taken in the rest of this work. 
+\item Next, we study the useful large power stroke limit that is hard to probe
 numerically, but allows us to understand how the efficiency of this system is
 related to spring stiffness, metastability, relaxation times, and the
-photo-dissociation rate (\nameref{sec:UEM}). We then use this model to understand the efficiency,
-using a one dimensional Monte Carlo model that is in this regime (\nameref{sec:EILPSL}). Finally, we conclude on how the physics that has been learned 
+photo-dissociation rate (\nameref{sec:UEM}). 
+\item We then use this model to understand the efficiency,
+using a one dimensional Monte Carlo model that is in this regime (\nameref{sec:EILPSL}).
+\item Finally, we conclude on how the physics that has been learned 
 might be useful in optimizing experimental parameters for such a system (\nameref{sec:Conclusions}).
+\end{itemize}
 
 
 \section{The System}
@@ -256,7 +187,7 @@ with a  plate a height $h$ above the base, containing an array of anisotropic bi
 the plate. Photodissociation of the polymer ends 
 with the binding sites releases the chain end that will move until it finds
 another site. The upper plate moves at a velocity $\rm v$, thereby generating
-power. A single track is shown, and the separation between binding sites is $L$. The shape of the binding sites is meant only as a guide to the eye concerning the direction of ${\bf \hat n}_a$, and is not necessarily an indicator of the binding sites' physical structure.
+power. A single track is shown, and the separation between binding sites is $L$.
 }
 \label{fig:device}
 \end{center}
@@ -283,7 +214,9 @@ better understand the power generation.
 
 We will now make a crude estimate with realistic parameters of how well this device should work.
 We envisage separate one dimensional tracks of the kind shown in Fig.
-\ref{fig:device}. We do not enforce that the arrangement of binding sites need be a square two-dimensional array---the spacing between the tracks could indeed be much greater than the distances between polymers on a single track. This would have the effect of limiting polymers to a particular track of binding sites. In reality, it might prove more efficacious to manufacture a square array of polymers and binding sites
+\ref{fig:device}(b). The spacing between the tracks could be greater than the
+distances between polymers on a single track.  In reality, it might prove
+more efficacious to manufacture a square array of polymers and binding sites
 but we will allow two separate length scales in our analysis below.
 
 We will assume a solar intensity of $I = 600 W/m^2$~\cite{SunLiu}, and an average photon energy of  $e = 2eV$~\cite{Gates}. We
@@ -736,64 +669,40 @@ is centered at $x'$ and $L-x'$.
 
 In the following, we present a new analytical method that allows us to systematically solve for the behavior of this kind of nonequilibrium system in the limit of large activation barriers. To understand how equilibration can occur in this model, we can rewrite 
 Eqs. \ref{eq:FP} in the steady state limit
-%\begin{subequations}
-%\label{eq:SFP}
-%\begin{align}
-%\nabla \cdot (\nabla - \bof_0)P_0(\br) - c_0 P_0(\br) = -c_1 P_1(\br)\label{eq:SFP0}\\
-%\nabla \cdot (\nabla - \bof_1)P_1(\br) - c_1 P_1(\br) = -c_0 P_0(\br) \label{eq:SFP1}
-%\end{align}
-%\end{subequations}
-
-%%%%
-%%%%JOSH: We could shorten this a bit:
-%%%%
-\begin{equation}
+\begin{subequations}
 \label{eq:SFP}
-\nabla \cdot (\nabla - \bof_i)P_i(\br) - c_i P_i(\br) = -c_{1-i} P_{1-i}(\br), ~~ i=0,1
-\end{equation}
-
+\begin{align}
+\nabla \cdot (\nabla - \bof_0)P_0(\br) - c_0 P_0(\br) = -c_1 P_1(\br)\label{eq:SFP0}\\
+\nabla \cdot (\nabla - \bof_1)P_1(\br) - c_1 P_1(\br) = -c_0 P_0(\br) \label{eq:SFP1}
+\end{align}
+\end{subequations}
 Although this is time independent, we consider the related time dependent equations for
 variables $\tilde{P}_i(\br, t)$
-%%%%JOSH: And this:
-%\begin{subequations}
-%\label{eq:LFP}
-%\begin{align}
-% \partial_t \tilde{P}_0(\br)-\nabla \cdot (\nabla - \bof_0)\tilde{P}_0(\br)  = 0 \label{eq:LFP0}\\
-% \partial_t  \tilde{P}_1(\br)-\nabla \cdot (\nabla - \bof_1)\tilde{P}_1(\br)  = 0 \label{eq:LFP1}
-%\end{align}
-%\end{subequations}
-\begin{equation}
+\begin{subequations}
 \label{eq:LFP}
- \partial_t \tilde{P}_i(\br)-\nabla \cdot (\nabla - \bof_i)\tilde{P}_i(\br)  = 0, ~~ i = 0,1
-\end{equation}
-where $P_i$, $i=0,1$, is the Laplace transform of $\tilde{P}_i$, $P_i(s) = \mathcal{L} \{\tilde{P}_i\}$, where the conjugate variable
-for $i=0,1$ are $s =c_0$ and $s = c_1$, respectively. Taking the Laplace transform of both sides of Eqns. \ref{eq:LFP} yields Eqns. \ref{eq:SFP}, with the initial conditions 
-%%%%JOSH: And this:
-%\begin{subequations}
-%\label{eq:IFP}
-%\begin{align}
-%\tilde{P}_0(\br,t=0) = c_1 P_1(\br,s=c_1) \label{eq:IFP0}\\
-%\tilde{P}_1(\br,t=0) = c_0 P_0(\br,s=c_0) \label{eq:IFP1}
-%\end{align}
-%\end{subequations}
-%%%%JOSH: the same way:
-\begin{equation}
+\begin{align}
+ \partial_t \tilde{P}_0(\br)-\nabla \cdot (\nabla - \bof_0)\tilde{P}_0(\br)  = 0 \label{eq:LFP0}\\
+ \partial_t  \tilde{P}_1(\br)-\nabla \cdot (\nabla - \bof_1)\tilde{P}_1(\br)  = 0 \label{eq:LFP1}
+\end{align}
+\end{subequations}
+where $P_i$, $i=0,1$, is the Laplace transform of $\tilde{P}_i$, $P_i(s) = {\cal L} \{\tilde{P}_i\}$, where the conjugate variable
+for equations (a) and (b) are $s =c_0$ and $s = c_1$, respectively. Taking the Laplace transform of both sides of Eqns. \ref{eq:LFP} yields Eqns. \ref{eq:SFP}, with the initial conditions 
+\begin{subequations}
 \label{eq:IFP}
-\tilde{P}_{i}(\br,t=0) = c_{1-i} P_{1-i}(\br,s=c_{1-i}) , ~~ i=0,1
-\end{equation}
-
+\begin{align}
+\tilde{P}_0(\br,t=0) = c_1 P_1(\br,s=c_1) \label{eq:IFP0}\\
+\tilde{P}_1(\br,t=0) = c_0 P_0(\br,s=c_0) \label{eq:IFP1}
+\end{align}
+\end{subequations}
 These equations have a direct physical interpretation. The left hand sides in
 Eqs. \ref{eq:LFP} are those of particles diffusing in potentials, but with
 conservation of particles. For long enough times, independent of initial
 conditions, the solution to these equations will go to thermal equilibrium given
 by the Gibbs distribution. 
-%%%%% JOSH: replace: 
-%Eq. \ref{eq:LFP0} describes diffusion in a quadratic potential. We require that
-%with
-Eq. \ref{eq:LFP}, $i=0$,  describes diffusion in a quadratic potential. We require that
+Eq. \ref{eq:LFP0} describes diffusion in a quadratic potential. We require that
 we are probing this at long enough times $t$, so that it will have nearly
 reached this equilibrium state. Call this longest relaxation time $\tau_0$.
-The solution to the diffusion equation $\tilde{P}_0(\br,t)$ for either $i=0,1$ in Eq.
+The solution to the diffusion equation $\tilde{P}_0(\br,t)$ for either of Eqs.
 \ref{eq:LFP}, can be written as a sum over spatial
 eigenfunctions, $\phi_n(\br)$ that decay at different rates $\lambda_n$,
 (arranged to be monotonically increasing):
@@ -802,7 +711,7 @@ eigenfunctions, $\phi_n(\br)$ that decay at different rates $\lambda_n$,
 \tilde{P}_0(\br,t) = \sum_{n=0}^\infty \phi_n(\br) \exp(-\lambda_n t), 
 \end{equation}
 of which the smallest $\lambda$, $\lambda_0 = 0$, corresponds to the equilibrium state. The relaxation
-time is $\tau_0 = 1/\lambda_1$, thus the Laplace
+time is $\tau_0 = 1/\lambda_1$, Thus the Laplace
 transformed variable $P_0$ can be written
 \begin{equation}
 \label{eq:phiexpansion2}
@@ -816,7 +725,7 @@ $P_0(\br, s=c_0)$ will be dominated by the first term in Eq. \ref{eq:phiexpansio
 and therefore proportional to the eigenfunction $\phi_0(\br)$ which is
 the equilibrium distribution and is $\propto \exp(-V_0)$.
 An important simplifying point in the above approach is that the precise form of
-the initial condition Eq. \ref{eq:IFP}, $i=0$, is not important, but because of
+the initial condition Eq. \ref{eq:IFP0} is not important, but because of
 particle conservation, only the total area under $P_1$ affects the result.
 
 
@@ -824,10 +733,7 @@ Now we consider the solution for $P_1$. If we consider unbinding times much
 longer than the relaxation time in the bound state, we also arrive at thermal
 equilibrium, which was shown by Eq. \ref{eq:Weq0} to lead to no work being performed. Instead
 we will consider situations where there are very long lived metastable states.
-%%%%JOSH: Replace
-%In Fig. \ref{fig:1dpot}, the potential seen by a particle in Eq. \ref{eq:LFP1}
-%with
-In Fig. \ref{fig:1dpot}, the potential seen by a particle in Eq. \ref{eq:LFP}, $i=1$,
+In Fig. \ref{fig:1dpot}, the potential seen by a particle in Eq. \ref{eq:LFP1}
 is $V_1 = V_0 + V_p$. If a particle starts between $0$ and $L$, it will remain
 trapped in that region for a Kramer's time which (ignoring algebraic pre-factors)
 depends on $x'$, but has a minimum value of $\tau_m \propto \exp(V_{max})$. By
@@ -841,12 +747,9 @@ will be taken to be much smaller than $\tau_m$. Thus the above argument on the
 range of $c_0$ can be used {\em mutatis mutandis} to restrict
 the unbinding rate to $1/\tau_m \ll c_1 \ll 1/\tau_1.$
 
-%%%%JOSH: Replace
-%In this regime we can understand the solution to  Eqs. \ref{eq:LFP1} and \ref{eq:IFP1} 
-%with
-In this regime we can understand the solution to  Eqs. \ref{eq:LFP} and \ref{eq:IFP}, $i=1$ 
+In this regime we can understand the solution to  Eqs. \ref{eq:LFP1} and \ref{eq:IFP1} 
 by considering the corresponding Green's function $\tilde{G}(\br,t;\br_0)$. We replace the initial
-condition Eq. \ref{eq:IFP}, $i=1$, by 
+condition Eq. \ref{eq:IFP1} by 
 \begin{equation}
 \label{eq:GIFP} 
 \tilde{G}_1(\br,t=0;\br_0) = \delta(\br-\br_0) . 
@@ -921,36 +824,27 @@ At this point, it is possible to evaluate Eq. \ref{eq:symWL1d} directly. However
 potential $V_0$  and corresponding probability distribution $p_0$ is for the tethering point at
 $x'$ and at $L-x'$. Therefore it is convenient to consider the quantity $f_{l/2}(x')\equiv f_l(x') + f_l(L-x')$. 
 
-Additionally, by equation \ref{eq:F1d}, $f_l$ can be thought of as an expectation value, or weighted average. Any expectation value can be expressed as a weighted sum of expectation values broken down by region.
-%%%%
-%%%%JOSH: We can probably leave all this out:
-%%%%
-%With this in mind, $f_{l/2}$ can be written as
-%\begin{align}
-%\label{eq:flplusfl}
-%f_{l/2}(x')=-\frac{k c_0}{c_0+c_1} &\left[-E(x')\langle x \rangle' +  E(x') x' \right.\nonumber\\
-%&\left. -(1-E(x'))x' + (1-E(x'))\langle x\rangle''\right]
-%\end{align}
-%where
-%\begin{equation}
-%\langle x \rangle' \equiv -\frac{\int_{-\infty}^0 (x-x')p_0(x-x')dx}{\int_{-\infty}^0 p_0(x-x')dx} 
-%= \frac{\int_{x'}^\infty x p_0(x)dx}{E(x')}
-%\end{equation}
-%and
-%\begin{equation}
-%\langle x \rangle'' \equiv -\frac{\int_{-\infty}^0 (x+x')p_0(x+x')dx}{\int_{-\infty}^0 p_0(x+x')dx} 
-%= \frac{-E(x')}{1-E(x')} \langle x \rangle' .
-%\end{equation}
-%
-%The four terms in Eq. \ref{eq:flplusfl} correspond to contributions from respectively regions $I_-$, $I_+$ , $I_0$, and
-%$I_0$. The first and third term are contributions from $f_l(x')$ and the others
-%are from $f_l(L-x')$. The factors involving $c$ give the correct normalization
-%according to Eq. \ref{eq:norms}. Combining the above equations, 
-%%%%%
-%%%%%JOSH: Now we can continue saying:
-%%%%
-This yields
-%%%%JOSH: and continuing as before:
+Additionally, by equation \ref{eq:F1d}, $f_l$ can be thought of as an expectation value, or weighted average. Any expectation value can be expressed as a weighted sum of expectation values broken down by region. With this in mind, $f_{l/2}$ can be written as
+\begin{align}
+\label{eq:flplusfl}
+f_{l/2}(x')=-\frac{k c_0}{c_0+c_1} &\left[-E(x')\langle x \rangle' +  E(x') x' \right.\nonumber\\
+&\left. -(1-E(x'))x' + (1-E(x'))\langle x\rangle''\right]
+\end{align}
+where
+\begin{equation}
+\langle x \rangle' \equiv -\frac{\int_{-\infty}^0 (x-x')p_0(x-x')dx}{\int_{-\infty}^0 p_0(x-x')dx} 
+= \frac{\int_{x'}^\infty x p_0(x)dx}{E(x')}
+\end{equation}
+and
+\begin{equation}
+\langle x \rangle'' \equiv -\frac{\int_{-\infty}^0 (x+x')p_0(x+x')dx}{\int_{-\infty}^0 p_0(x+x')dx} 
+= \frac{-E(x')}{1-E(x')} \langle x \rangle' .
+\end{equation}
+
+The four terms in Eq. \ref{eq:flplusfl} correspond to contributions from respectively regions $I_-$, $I_+$ , $I_0$, and
+$I_0$. The first and third term are contributions from $f_l(x')$ and the others
+are from $f_l(L-x')$. The factors involving $c$ give the correct normalization
+according to Eq. \ref{eq:norms}. Combining the above equations, 
 \begin{equation}
 W_l = \frac{k c_0}{c_0+c_1} \int_0^{L/2} 2 E(x')(\langle x\rangle' - x') + x' dx' .
 \end{equation}
@@ -1154,427 +1048,63 @@ in fabrication or due to thermal motion, than approaches that require precise ch
 of molecules capable of sophisticated conformational changes~\cite{credi2006}.
 However, its experimental realization is still quite clearly a formidable task.
 
-\chapter{Emergence of Metachronal Waves in Active Microtubule Arrays}
+\section{Acknowledgments}
 
-Metachronal waves refer to the synchronization of thin, flexible
-appendages that result in large-scale wavelike formations. These
-appear in biological systems at the macroscopic scale (e.g. the
-motion of millipede legs) and at the microscopic scale (e.g. cilia
-in air pathways). On the microscopic level, metachronal waves are
-essential components of several critical biological processes, from
-motility in microorganisms to mucus clearance in human bronchial
-tubes \cite{Afzelius2004,Okada2005}. If cilia are unable to effectively
-move and synchronize, the results are often severe -- especially
-if the disorder is genetic \cite{Afzelius2004}. Research into
-physical explanations for cilia beating~\cite{brokaw1975molecular}, and of spontaneous metachronal behavior in cilia
-is ongoing and still not well understood~\cite{camalet1999self,lindemann2010flagellar}, although many have suggested
-that this phenomenon can be explained from hydrodynamic coupling
-between cilia \cite{Sleigh1969,Sleigh1974,Gheber1989,Gueron1997}.
-
-Recently, in some remarkable experiments, Sanchez et al. demonstrated metachronal wave behavior in
-an \textit{in vitro} system\cite{Sanchez2011,sanchez2013engineering}.  
-Microtubules (MTs) aggregated into bundles of length $10-100 \mu\mathrm{m}$ due to the addition of
-polyethylene glycol~\cite{needleman2004synchrotron}.
-Many of these bundles attached at one end
-to a fixed boundary forming dense arrays. When exposed to a solution
-containing clusters of kinesin and ATP, sustained metachronal wave
-behavior between MT bundles (similar to that displayed by cilia and
-flagella) was observed. MT bundles were constrained to move between
-two glass slides. It is surprising that a system with such few ingredients
-could develop complex behavior that so closely
-resembles biological systems, which are made up from a much
-more complicated machinery. Proteomic analysis indicate that eukaryotic cilia are
-composed of many hundreds of proteins~\cite{pazour2005proteomic}.
-
-Some important details of this
-\textit{in vitro} system are still unclear, most notably whether the
-MTs in this experiment are unipolar or of mixed polarity. 
-Opposite polarity MTs will move past each other, causing separation
-into unipolar bundles~\cite{kruse2000actively,liverpool2003instabilities}. 
-We present arguments and simulations for unipolarity in 
-S-\ref{S-app:unipolar}.
-The surprising mechanism for the motion of unipolar bundles mentioned here
-has not previously been given~\cite{Sanchez2011,sanchez2013engineering}, 
-and we believe that the agreement between our model and
-experiments provides further evidence to support our proposed explanation. 
-
-In this article, we first outline a mechanism by which the metachronal
-wave formation observed by Sanchez et al. can be understood. 
-%(Section \ref{sec:mech}). 
-The mechanism described here is in most ways
-identical to the model used to describe and simulate cytoplasmic
-streaming in \textit{Drosophila} oocytes, and the fact that it can
-be adapted as such is in many ways a testament to its predictive
-power. A fair amount of attention has been paid in recent years to
-the understanding of how metachronal waves form in such arrays
-\cite{Lagomarsino2003,guirao2007spontaneous,Elgeti2013,Niedermayer2008}. However, such
-models often rely on assumptions about individual MT (or cilia)
-beat patterns and/or on phenomenology. The model we propose makes
-no such assumptions (beyond some minor simplifications), relying
-on first-principles fluid mechanics calculations. This is important,
-as it is not clear why one would additional want to impose oscillatory behavior
-on individual MTs given the lack of a well defined internal structure.
-
-%In Section \ref{sec:results}, we present the results of hydrodynamic coupling simulations which replicate the behavior observed by Sanchez et al. We also present the results of simulations with varying parameters in two different geometries. Section \ref{sec:disc} discusses the behaviors observed and compares these results to the observations of Sanchez.
+One of the authors (JMD) would like to thank Professor Monica Olvera de la Cruz and Edward
+Santos for useful discussions. Support from  National Science Foundation
+CCLI Grant DUE-0942207 is gratefully acknowledged.
 
 
-%------------------------------------------------
-%\section{Proposed Mechanism of Action}
-\label{sec:mech}
+\begin{thebibliography}{99}
 
-
-\begin{figure}
-%\begin{center}
-\includegraphics[width = 1.2in]{MT_forces}
-%\captionsetup{justification=justified}
-\caption{Conceptual illustration of forces acting on a single polymer
-that are not due to hydrodynamic interactions. The blue vectors
-indicate the buckling forces due to kinesin walkers (tangent to
-polymer), the red vectors show the direction and relative magnitude
-of stiffness forces (in the direction of $d^4\mathbf{r}/ds^4$), and
-the green arrows indicate a restorative force keeping the base of
-the polymer approximately perpendicular to the binding
-surface.
-\label{fig:Mtforces}
-}
-%\end{center}
-\end{figure}
-
-
-We now present a model for the simulation of the Sanchez
-et al. system. A similar method has been used successfully to
-simulate cytoplasmic streaming in \textit{Drosophila}
-oocytes\cite{Monteith2016}, and is based on theoretical
-work completed several decades ago regarding the calculation of
-Stokes flows created by a point force (stokeslet) near no-slip
-boundaries\cite{Blake1971,Liron1976}. A conceptual explanation of
-this mechanism is given below, and further details regarding theory
-and implementation are given in supplementary materials \ref{S-app:2Dint} and
-\ref{S-app:sim}.
-
-An illustration of how MT bundles are simulated is given in Figure
-\ref{fig:Mtforces}. Each MT bundle is modeled as a chain of monomers
-(i.e. polymer) which are held an approximately fixed distance from
-one another by a spring force. The base of each polymer is anchored
-to a single point, and the polymer at the base is kept roughly
-perpendicular to the anchoring surface. Let the polymer be described
-by the curve $\mathbf{r}(s)$, where $\mathbf{r}(0)$ is the location
-of the polymer base, and $s$ is the arc length. We give the polymer a stiffness by implementing
-an energetic cost of bending proportional to curvature squared, which
-implies a local force at $s$ proportional to  $d^4\mathbf{r}/ds^4$. Additionally, monomers feel a ``buckling"
-force due to the drag from the walking kinesin $F_{kin} = - f_k d\mathbf{r}/ds$, which is parallel to the polymer
-and toward the polymer base. $f_k$ will depend linearly on the speed of the kinesin
-and the solvent viscosity. This force continually adds energy to
-the system (making it active), and has been shown to be a good
-representation of the average drag force due to kinesin walking
-along the microtubule away from the polymer base~\cite{Monteith2016}.
-
-This kind of model for a single chain was first employed to understand glide assay dynamics
-in two dimensions~\cite{bourdieu1995spiral}. In three dimensions,
-periodic waves develop whose dynamics have been analyzed in detail~\cite{Monteith2016}, and
-related theoretical work has recently also been performed~\cite{de2017spontaneous}. However,
-scaling can be used to get the relevant length and timescales~\cite{bourdieu1995spiral}.
-The average radius of curvature depends on the strength of the buckling force $f_k$,
-and the elastic constant of a filament characterizing its stiffness $k_{stiff}$. The radius of curvature over
-quite a wide range of parameters can be shown to be
-$R = (k_{stiff}/(\beta f_k))^{1/3}$, where $\beta \approx 0.05$. Likewise, the angular frequency is
-$\omega = f_k/(\nu R)$, where $\nu$ is the hydrodynamic drag coefficient per unit length.
-Although there is a fairly large experimental uncertainty in parameters
-used to model a Drosophila oocyte, this model finds quite good agreement with the experimental
-time and length scales. $R$ was predicted to be $25-54\mu$m, close to the $16.3\pm 2.2 \mu$m observed.
-Likewise, the time scale was predicted to be $203-1094$s, which is in the observed range of $370\pm 42$s.
-It is interesting that the length and time scales observed by Sanchez et al. are also quite close to
-these numbers, and that the frequency of biological cilia beating is often three orders of magnitude higher than this.
-
-
-Polymers also feel hydrodynamic forces.
-As the force from the kinesin causes the polymers to buckle, we
-begin to see complex motion. Each monomer acts as a point force
-(stokeslet) in the surrounding fluid. This force a monomer exerts
-on the fluid is simply the sum of all of the other forces on the
-monomer: because the Reynolds number is nearly zero, there are no
-inertial terms, meaning the force is transferred perfectly from the
-monomer to the fluid. As this is a Stokes flow, the flow contributions
-from all stokeslets add linearly, and we can (in principle) calculate
-the flow everywhere. However, we do not need to calculate the fluid
-velocity everywhere -- only at points with monomers. 
-%As such, the
-%results of what initially seems to be a computationally intense
-%fluid mechanics calculation 
-Therefore, the evolution can be calculated via a pairwise sum over
-all monomers (see the supplemental materials S-\ref{S-app:2Dint}).
-
-We also assume all polymer motion is two dimensional with a constant value of $z$, which
-is physically sensible when considering the geometry of the Sanchez et al.
-experiments. In this experiment, MT bundles were observed between
-glass slides, with a height $H$, of approximately $10 \mu$m, creating a narrow channel for which fluid can flow.
-For this reason, we adopt a two dimensional geometry. In addition,
-the no-slip boundaries
-of the plates have a large impact on the hydrodynamic forces between
-monomers\cite{Blake1971,Liron1976}, which we state explicitly in
-the supplemental materials S-\ref{S-app:2Dint}. Other close-range contact forces were
-also used (repulsion from anchoring surface, monomer-monomer
-repulsion), and these are explained in the supplementary materials S-\ref{S-app:sim}.
-
-We can now address at the qualitative level the mechanism by which
-we propose the metachronal waves observed by Sanchez et al. form.
-As kinesin walk away from the polymer bases, the polymers will tend
-to buckle. If a polymer is isolated, this buckling will lead to
-unstable motion (corkscrew motion or irregular
-beating)\cite{Monteith2016}. When placed in an array,
-however, nearby polymers will exert hydrodynamic forces on one
-another that tend to synchronize their motion. If these hydrodynamic
-forces are sufficiently strong, this can cause a transition from
-disordered motion to aligned MTs and correlated motion. 
-
-Despite the fact that this model was developed to explain and
-simulate cytoplasmic streaming, its mechanism 
-can be easily adapted for related biological phenomena. Indeed,
-when the conditions of the Sanchez et al. experiment are simulated
-in the same way, we observe metachronal waves.
-It is not clear if this is formally a transition or a more continuous
-crossover effect, but the results found make strong predictions
-that should be testable experimentally.
-In the following, we present
-the results of these simulations and discuss the required conditions
-for metachronal wave formation. 
-
-
-%------------------------------------------------
-
-%\section{Results}
-%\label{sec:results}
-
-\begin{figure}
-\centering
-\subfloat[][]{
-\includegraphics[width =\columnwidth]{anim_circ}
-}
-\qquad
-\subfloat[][]{
-\includegraphics[width =\columnwidth]{anim_plane}
-}
-\caption{Simulated metachronal wave formation for 128-polymer arrays in (a) circular and (b) planar geometries. 
-In both cases, $k_{oseen} = 0.1$, $k_{stiff}  = 10.0$, $H=1$.
-\label{fig:anims}}
-\end{figure}
-Videos of select simulations are included in the Supplementary
-Materials. Figure \ref{fig:anims} shows some still frames of simulated
-arrays demonstrating metachronal wave behavior in both the planar
-and circular geometries.
-
-%\begin{figure}
-%\centering
-%\begin{subfigure}[b]{0.45\columnwidth}
-%\includegraphics[height = 3in]{plane-0p1-10-4.png}
-%\caption{}
-%\end{subfigure}
-%\begin{subfigure}[b]{0.45\columnwidth}
-%\includegraphics[height = 3in]{circ-0p2-10-4.png}
-%\caption{}
-%\end{subfigure}
-%\caption{Characteristic correlation functions demonstrating wavelike behavior in (a) planar and (b) circular geometries. 
-%\label{fig:corr1}}
-%\end{figure}
-
-We characterize the behavior of each system using the correlation function 
-\begin{equation}
-C(\Delta i, \Delta t) = \langle \Delta x(i + \Delta i, t+\Delta t)\Delta x(i,t)\rangle,
-\end{equation}
-where
-\[
-\Delta x(i,t) = x(i,t) - \langle x(i,t)\rangle.
-\]
-Figs.  \ref{fig:oseenk}, \ref{fig:stiffk}, and \ref{fig:H} 
-show correlation functions for planar
-and a circular geometries (for the circular geometry, $\theta$ is
-the position variable rather than $x$). 
-In the following, we will discuss these and examine how the system responds to changes in $k_{Oseen}$,
-$k_{stiff}$, and height $H$. It should be noted that changes in the viscosity or kinesin velocity and density 
-(that affect $f_k$), can be absorbed into a rescaling of time, and of $k_{stiff}$.
-
-\begin{figure*}
-\centering
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p1-10-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p2-10-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p3-10-4}
-}
-\qquad
-\subfloat[][]{
-\includegraphics[width=0.45\textwidth]{circ_tcorrs_oseen_10-4}
-}
-\caption{Full correlation functions for circular geometry with $H=1$
-and $k_{stiff}=10$, with $k_{Oseen}=$ 0.1, 0.2, and 0.3 (a-c,
-respectively). The correlation function at $\Delta i = 0$ for all
-of these values of $k_{Oseen}$ are shown in (d).  
-\label{fig:oseenk}
-}
-\end{figure*}
-The strength of the interaction tensor, $k_{Oseen}$, has a dramatic
-effect on the type of wave behavior seen, or whether it is observed
-at all. This strength is a function of the hydrodynamic effects of
-kinesin walking along microtubules, and will depend on their density
-and speed, as explained in detail in Ref. \cite{Monteith2016}. 
-Figure \ref{fig:oseenk} shows the correlation results of
-three 128-polymer simulations in the same circular geometry shown
-in Figure \ref{fig:anims}(a) for three different values of $k_{Oseen}$.
-There is an overall strengthening of the metachronal
-behavior as $k_{Oseen}$ is increased from  $0.1$ to $0.2$. 
-The sign of the slope reflects the initial conditions of the system.
-Long lived waves travel predominantly in a single direction over
-long times scales resulting in a 
-slope of the crests of the correlation function that can
-either be positive or negative. Similar crests are
-seen in the analysis of the real experimental data~\cite{Sanchez2011}.
-With this circular geometry, the correlation function must be periodic,
-which is why it rises again when $i$ becomes large.
-%Figs. \ref{fig:oseenk}(a-b) are more reminiscent of standard wavelike behavior.
-
-\begin{figure*}
-\centering
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-5-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-10-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-20-4}
-}
-\qquad
-\subfloat[][]{
-\includegraphics[width=0.45\textwidth]{plane_tcorr_stiff-0p1-4}
-}
-\caption{Full correlation functions for planar geometry with $H=1$
-and $k_{Oseen}=0.1$, with $k_{stiff}=$ 5.0, 10.0, and 20.0 (a-c,
-respectively). The correlation function at $\Delta i = 0$ for all
-of these values of $k_{stiff}$ are shown in (d).  
-\label{fig:stiffk}
-}
-\end{figure*}
-
-The polymer stiffness $k_{stiff}$ also has an interesting effect
-on metachronal wave formation. Figure \ref{fig:stiffk} shows the
-correlation functions for $k_{stiff}=$ 5.0, 10.0, and 20.0 in a
-planar geometry. While Figs. \ref{fig:stiffk}(a-b) are qualitatively
-similar, we do see an apparent decrease in the metachronal wavelength.
-Figs. \ref{fig:stiffk}(c-d) show that if the polymer is made too
-stiff, no metachronal behavior is observed at all.
-In general, planar geometry appears to cause more coherence in the motion of the different
-bundles, and the correlation function is dominated by motion at
-the longest lengths and time scales. 
-
-\begin{figure*}
-\centering
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-1H-0p2-10-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-p5H-0p2-10-4}
-}
-\subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-p1H-0p2-10-4}
-}
-\qquad
-\subfloat[][]{
-\includegraphics[width=0.45\textwidth]{circ_tcorr_H-0p2-10-4}
-}
-\caption{Full correlation functions for circular geometry with
-$k_{stiff}=10$, $k_{Oseen}=0.2$, and $H$ = 1.0, 0.5, and 0.1 (a-c,
-respectively). The correlation function at $\Delta i = 0$ for all
-of these values of $H$ are shown in (d).  
-\label{fig:H}} 
-\end{figure*}
-
-
-The distance between plates, $H$, has a considerable effect on the dynamics
-as well. Longer range, more coherent motion is observed when $H$ is larger, and
-short range, less coherent motion when $H$ is small. See Figure \ref{fig:H}. This
-is to be expected due to the strong screening effect that these boundary conditions
-impose. Smaller $H$ reduces the hydrodynamic coupling, causing a decrease in coherence.
-
-%------------------------------------------------
-
-%\section{Discussion}
-%\label{sec:disc}
-When comparing these results to those of
-Sanchez et al., we find that the basic features agree. The videos
-included in the supplemental materials qualitatively mimic the
-experimental videos, and the experimental correlation analysis
-agrees quite well with the simulations. More importantly, this agreement between
-theory and experiment was reached from first principles. We only
-use a handful of forces in our simulations, and each force has a
-physical justification for being used.
-
-There are potential shortcomings of this model that may result in
-some differences between experiment and theory. 
-The first is that the experiments observe bundles of microtubules
-that taper away from their base. The hydrodynamics are not
-expected to be uniform along the length of a chain. In addition
-these bundles will, for short enough times, behave like rigid
-material, but for longer times, because they are connected through
-walking kinesin molecules, will behave more as individual mictrotubules
-with a greatly reduced elastic constant. On the time scales of the motion,
-we expect to be in the latter regime. However the details of the
-hydrodynamics and elasticity in these bundles is still not understood
-experimentally. In fact, as we mentioned earlier, the polarity of
-individual MT's is not known experimentally, and arguments for their
-unipolarity are given in the supplementary information, S-\ref{S-app:unipolar}.
-But still, the basic mechanism of dynamic buckling due to kinesin drag, 
-and metachronal waves being generated by hydrodynamic coupling is
-robust over a wide parameter range, so we believe that these
-complications, aside from unipolarity, will not alter the basics of our explanation.
-
-At a more technical level, there are other things that may
-make a slight difference to the results here.
-The bundles are constrained to move only in the $xy$-plane, and
-while it is true that MT motion is nearly 2-dimensional, there is
-some room in the $z-$direction that MT bundles can occupy. Additionally,
-this model does not account for the fluid boundary condition at the
-anchoring surface. This may introduce some errors if a monomer
-becomes close ($\sim H$) to the anchoring plane. However, because
-of the screening effects of the plates, this should not alter the behavior
-at distances large compared to the plate separation. We have tested
-for this by adding image charges to the planar case, 
-and found that their effects on correlations are small, as expected.
-
-%\section{Conclusions}
-In conclusion,
-we have developed a model for the spontaneous formation of wavelike
-behavior in active polymer arrays that only requires two ingredients:
-semi-flexible chains tethered to a surface, and motors walking from
-their bases to their tips. The hydrodynamics in their confined
-geometry gives rise to metachronal waves that appear remarkably
-similar to what is observed experimentally~\cite{Sanchez2011,sanchez2013engineering}.
-There is no need to posit additional mechanisms that force
-individual bundles to oscillate. This all happens as a consequence of Newton's
-laws and fluid mechanics, allowing us to
-gain a better understanding of how metachronal waves form with
-considerable predictive power. As such, we have examined new parameter spaces and have
-demonstrated boundaries between different types of metachronal
-behavior and regimes in which no metachronal behavior exists.
-It would be of great interest to test these predictions
-experimentally.
-Given the simplicity and robust nature of this mechanism, 
-and the ubiquity of microtubules and kinesin in cells, it
-gives one further impetus to look for other places in biology
-where this kind of behavior can be found.
-
-\chapter{Conclusion}
-
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{uctest}
-
-\appendix
-\chapter{Some Ancillary Stuff}
-
-Ancillary material should be put in appendices, which appear after the
-bibliography. 
-
+\bibitem{IrieKunwatchakun} M. Irie and D. Kunwatchakun, 
+%"Photoresponsive polymers. 8. Reversible photostimulated dilation of polyacrylamide gels having triphenylmethane leuco derivatives'' 
+Macromolecules, 19 (10), pp 2476-2480 (1986).
+\bibitem{Irie} M. Irie, 
+%``Photoresponsive polymers" 
+Advances in Polymer Science, {\bf 94}, 27-67 (1990).
+\bibitem{SuzukiHirasa} M. Suzuki and O. Hirasa, 
+%"An approach to artificial muscle using polymer gels formed by micro-phase separation", 
+Adv Poly Sci {\bf 110} 241 (1993).
+\bibitem{BehlLendlein} M. Behl and A. Lendlein, Soft Matter, {\bf 3}, 58-67 (2007) %"Actively moving polymers''
+\bibitem{RoyGupta} I. Roy and M. N. Gupta, %``Smart Polymeric Materials: Emerging Biochemical Applications"
+{\bf 10} 1161-1171 (2003).
+\bibitem{credi2006} A. Credi, Aust. J. Chem. {\bf 59}, 157 (2006).
+\bibitem{terWiel2005} M. K. J. ter Wiel, R. A. van Delden, A. Meetsma, B. L. Feringa, J. Am. Chem.
+Soc. {\bf 127}, 14208 (2005).
+\bibitem{Ruangsupapichat} N. Ruangsupapichat, M. M. Pollard, S. R. Harutyunyan and B. L. Feringa, Nature Chem. {\bf 3} 53 (2011).
+\bibitem{Vicario} J. Vicario, M. Walko, A. Meetsma, and B. L. Feringa, J. Am. Chem. Soc. {\bf 128},  5127 (2006).
+\bibitem{Ashton1998} P. R. Ashton, R. Ballardini, V. Balzani, E. C. Constable, A. Credi, 
+O. Kocian, S. J. Langford, J. A. Preece, L. Prodi, E. R. Schofield, N. Spencer, J. F. Stoddart 
+and S. Wenger, Chem. Eur. J.  {\bf 4}, 2413 (1998).
+\bibitem{Ashton2000} P. R. Ashton, R. Ballardini, V. Balzani, A. Credi, R. Dress,
+E. Ishow, C. J. Kleverlaan, O. Kocian, J. A. Preece, N. Spencer and J. F.
+Stoddart, M. Venturi, S. Wenger, Chem. Eur. J.  {\bf 6}, 3558 (2000).
+\bibitem{Berna} J. Bern\'a, D. A. Leigh, M. Lubomska, S. M. Mendoza, E. M. P\'erez, P. Rudolf, G.
+Teobaldi, and F. Zerbetto, Nature Mat.  {\bf 4}, 704 (2005).
+\bibitem{Liu} Y. Liu, A. H. Flood, P. A. Bonvallett, S. A. Vignon, B. H. Northrop, H.-R.
+Tseng, J. O. Jeppesen, T. J. Huang, B. Brough, M. Baller, S. Magonov, S. D.
+Solares, W. A. Goddard, C. M. Ho and J. F. Stoddart, J. Am. Chem. Soc.  {\bf 127}, 9745 (2005).
+\bibitem{BustamanteKellerOster} C. Bustamante, D. Keller, and G. Oster, Acc. Chem. Res. {\bf 34} 412 (2001).
+\bibitem{ProstPRL} J. Prost, J.-F. Chauwin, L. Peliti, and  A. Ajdari, Phys. Rev.  Lett. {\bf 72} 2652 (1994).
+\bibitem{SunLiu} Z. Sun and A. Liu, Solar Energy, {\bf 98} B 125-137 (2013).
+\bibitem{Gates} D. M. Gates, Science, {\bf 151} 3710, 523-529 (1966)
+\bibitem{degennes} P.G. de Gennes ``Scaling Concepts in Polymer Physics" Cornell University Press, Page 181 (1985).
+\bibitem{Klampfatis} E. Klampaftis, D. Ross, K. R.  McIntosh, and B. S. Richards, 
+%"Enhancing the performance of solar cells via luminescent down-shifting of the
+%incident spectrum:A review"  1182−1194. (2009).
+Solar Energy Materials and Solar Cells, {\bf 93}, 1182-1194. (2009).
+\bibitem{Harder} N.-P. Harder and P. W\"urfel, 
+%"Theoretical limits of thermophotovoltaic solar energy conversion", 
+Semiconductor Science and Technology, {\bf 18} S151 (2003). 
+\bibitem{DeutschCerfFriction} J.M. Deutsch Phys. Rev. E {\bf 81}, 061804 (2010). 
+\bibitem{ReimannRev} P. Reimann and P. H\"anggi, Appl. Phys. A {\bf 75} 169 (2002).
+\bibitem{JulicherRevModPhys} F. J\"ulicher, A. Ajdari, and J. Prost, Rev. Mod. Phys., {\bf 69}, (1997).
+\bibitem{ShootingMethod} W.H. Press, S.A. Teukolsky, W.T. Vetterling and B.P. Flannery "Section 18.1.
+The Shooting Method". Numerical Recipes: The Art of Scientific Computing (3rd ed.). New York: Cambridge University Press (2007).
+\bibitem{GrzybowskiReview} A. Coskun, M. Banaszak, R. D. Astumian, J. F. Stoddart and B. A. Grzybowski, Chem. Soc. Rev., {\bf 41}, 19 (2012).
+\end{thebibliography}{}
 \end{document}
+
+
+

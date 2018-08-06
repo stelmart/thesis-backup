@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.22)  6 MAR 2018 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.28)  5 AUG 2018 10:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -20,104 +20,1216 @@ Document Class: ucthesis 2006/05/04 v3.2-ucsc-2 University of California Thesis
 \c@subparagraph=\count85
 \c@figure=\count86
 \c@table=\count87
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))))
+\c@section@level=\count88
+LaTeX Info: Redefining \ref on input line 353.
+LaTeX Info: Redefining \pageref on input line 353.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count89
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup4
+\symitalic=\mathgroup5
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grffile.sty
+Package: grffile 2012/04/05 v1.16 Extended file name support for graphics (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package grffile Info: Option `multidot' is set to `true'.
+Package grffile Info: Option `extendedchars' is set to `false'.
+Package grffile Info: Option `space' is set to `true'.
+Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip41
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks16
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks17
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks18
+\multlinegap=\skip42
+\multlinetaggap=\skip43
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup6
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2015/03/04 v2.20.2
+\thm@style=\toks20
+\thm@bodyfont=\toks21
+\thm@headfont=\toks22
+\thm@notefont=\toks23
+\thm@headpunct=\toks24
+\thm@preskip=\skip44
+\thm@postskip=\skip45
+\thm@headsep=\skip46
+\dth@everypar=\toks25
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 1994/05/28 v5.02 eXternal References (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/xr-hyper.sty
+Package: xr-hyper 2000/03/22 v6.00beta4 eXternal References (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package hobsub Info: Skipping package `etexcmds' (already loaded).
+Package hobsub Info: Skipping package `kvsetkeys' (already loaded).
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `refcount' (already loaded).
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen114
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count104
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count105
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen115
+\Fld@menulength=\count106
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip47
+)
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endfigure, most likely
+ \let\endfigure=\end@float
+ which has now been changed to
+ \def\endfigure{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endfigure.
+ Please complain to your document class author.
+
+
+Package subfig Warning: Your document class has a bad definition
+ of \endtable, most likely
+ \let\endtable=\end@float
+ which has now been changed to
+ \def\endtable{\end@float}
+ because otherwise subsequent changes to \end@float
+ (like done by several packages changing float behaviour)
+ can't take effect on \endtable.
+ Please complain to your document class author.
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen118
+\captionmargin@=\dimen119
+\captionwidth=\dimen120
+\caption@tempdima=\dimen121
+\caption@indent=\dimen122
+\caption@parindent=\dimen123
+\caption@hangindent=\dimen124
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+)
+\c@KVtest=\count112
+\sf@farskip=\skip50
+\sf@captopadj=\dimen125
+\sf@capskip=\skip51
+\sf@nearskip=\skip52
+\c@subfigure=\count113
+\c@subfigure@save=\count114
+\c@lofdepth=\count115
+\c@subtable=\count116
+\c@subtable@save=\count117
+\c@lotdepth=\count118
+\sf@top=\skip53
+\sf@bottom=\skip54
 ) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 41.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 41.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 48.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen126
+\scratchbox=\box28
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen127
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks27
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box29
+
+
+Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
+(hyperref)                using 11in.
+
+Package hyperref Info: Link coloring OFF on input line 48.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+(./Thesis.out) (./Thesis.out)
+\@outlinefile=\write3
+\openout3 = `Thesis.out'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 71
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 71
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 71
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 71
+.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 42.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 42.
- [2] (./Thesis.toc)
-\tf@toc=\write3
-\openout3 = `Thesis.toc'.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
+ [2]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 73.
+ (./Thesis.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+)
+\tf@toc=\write4
+\openout4 = `Thesis.toc'.
 
 
 [3
 
-] (./Thesis.lof
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-)
-\tf@lof=\write4
-\openout4 = `Thesis.lof'.
+] (./Thesis.lof [4
 
- [4
+])
+\tf@lof=\write5
+\openout5 = `Thesis.lof'.
 
-] (./Thesis.lot)
-\tf@lot=\write5
-\openout5 = `Thesis.lot'.
+ [5] (./Thesis.lot)
+\tf@lot=\write6
+\openout6 = `Thesis.lot'.
 
- [5
+ [6
 
-] [6] [7] [8] [1
-
-]
+] [7] [8] [9]
 Chapter 1.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 95.
-[2
+<TOC2.pdf, id=229, 790.955pt x 598.235pt>
+File: TOC2.pdf Graphic file (type pdf)
+ <use TOC2.pdf>
+Package pdftex.def Info: TOC2.pdf used on input line 107.
+(pdftex.def)             Requested size: 131.38298pt x 99.37125pt.
 
-] [3]
+<4040per_TOC.pdf, id=230, 746.79pt x 598.235pt>
+File: 4040per_TOC.pdf Graphic file (type pdf)
+ <use 4040per_TOC.pdf>
+Package pdftex.def Info: 4040per_TOC.pdf used on input line 108.
+(pdftex.def)             Requested size: 124.04686pt x 99.37125pt.
+ [1
+
+ <./TOC2.pdf> <./4040per_TOC.pdf>]
+
+LaTeX Warning: Citation `Sanchez2011' on page 2 undefined on input line 135.
+
+
+LaTeX Warning: Citation `sanchez2013engineering' on page 2 undefined on input l
+ine 135.
+
+[2]
 Chapter 2.
-[4
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 142.
 
-] [5]
-Chapter 3.
-No file Thesis.bbl.
-[6
+LaTeX Warning: Citation `IrieKunwatchakun' on page 3 undefined on input line 14
+6.
+
+
+LaTeX Warning: Citation `Irie' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Citation `SuzukiHirasa' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Citation `BehlLendlein' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Citation `RoyGupta' on page 3 undefined on input line 146.
+
+
+LaTeX Warning: Citation `credi2006' on page 3 undefined on input line 147.
+
+
+LaTeX Warning: Citation `IrieKunwatchakun' on page 3 undefined on input line 15
+3.
+
+
+LaTeX Warning: Citation `Irie' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Citation `SuzukiHirasa' on page 3 undefined on input line 153.
+
+
+LaTeX Warning: Citation `Irie' on page 3 undefined on input line 156.
+
+[3
 
 ]
-Appendix A.
-[7
 
-] (./Thesis.aux) ) 
+LaTeX Warning: Citation `credi2006' on page 4 undefined on input line 163.
+
+
+LaTeX Warning: Citation `terWiel2005' on page 4 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Ruangsupapichat' on page 4 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `Vicario' on page 4 undefined on input line 165.
+
+
+LaTeX Warning: Citation `credi2006' on page 4 undefined on input line 165.
+
+
+LaTeX Warning: Citation `Ashton1998' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Citation `credi2006' on page 4 undefined on input line 166.
+
+
+LaTeX Warning: Citation `Ashton2000' on page 4 undefined on input line 167.
+
+
+LaTeX Warning: Citation `credi2006' on page 4 undefined on input line 167.
+
+
+LaTeX Warning: Citation `Berna' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Citation `Liu' on page 4 undefined on input line 169.
+
+
+LaTeX Warning: Citation `IrieKunwatchakun' on page 4 undefined on input line 17
+0.
+
+
+LaTeX Warning: Citation `Irie' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Citation `SuzukiHirasa' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Citation `BehlLendlein' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Citation `RoyGupta' on page 4 undefined on input line 170.
+
+
+LaTeX Warning: Citation `BustamanteKellerOster' on page 4 undefined on input li
+ne 173.
+
+
+LaTeX Warning: Citation `ProstPRL' on page 4 undefined on input line 183.
+
+[4]
+
+LaTeX Warning: Citation `ProstPRL' on page 5 undefined on input line 208.
+
+[5] [6] <Fig1_label.pdf, id=279, 722.7pt x 542.025pt>
+File: Fig1_label.pdf Graphic file (type pdf)
+ <use Fig1_label.pdf>
+Package pdftex.def Info: Fig1_label.pdf used on input line 251.
+(pdftex.def)             Requested size: 234.87749pt x 176.15604pt.
+
+[7 <./Fig1_label.pdf>]
+
+LaTeX Warning: Citation `SunLiu' on page 8 undefined on input line 289.
+
+
+LaTeX Warning: Citation `Gates' on page 8 undefined on input line 289.
+
+
+LaTeX Warning: Citation `degennes' on page 8 undefined on input line 291.
+
+[8]
+
+LaTeX Warning: Citation `Klampfatis' on page 9 undefined on input line 312.
+
+
+LaTeX Warning: Citation `Harder' on page 9 undefined on input line 312.
+
+[9] <expVplot.pdf, id=317, 796.9775pt x 598.235pt>
+File: expVplot.pdf Graphic file (type pdf)
+ <use expVplot.pdf>
+Package pdftex.def Info: expVplot.pdf used on input line 345.
+(pdftex.def)             Requested size: 234.87749pt x 176.30435pt.
+ [10]
+
+LaTeX Warning: Citation `DeutschCerfFriction' on page 11 undefined on input lin
+e 373.
+
+[11 <./expVplot.pdf>] <0505per.pdf, id=337, 587.19376pt x 443.6575pt>
+File: 0505per.pdf Graphic file (type pdf)
+
+<use 0505per.pdf>
+Package pdftex.def Info: 0505per.pdf used on input line 387.
+(pdftex.def)             Requested size: 216.81pt x 163.81221pt.
+ <4040per.pdf, id=338, 587.19376pt x 443.6575pt>
+File: 4040per.pdf Graphic file (type pdf)
+
+<use 4040per.pdf>
+Package pdftex.def Info: 4040per.pdf used on input line 389.
+(pdftex.def)             Requested size: 216.81pt x 163.81221pt.
+ <0505rand.pdf, id=339, 587.19376pt x 443.6575pt>
+File: 0505rand.pdf Graphic file (type pdf)
+
+<use 0505rand.pdf>
+Package pdftex.def Info: 0505rand.pdf used on input line 405.
+(pdftex.def)             Requested size: 216.81pt x 163.81221pt.
+ <4040rand.pdf, id=340, 587.19376pt x 443.6575pt>
+File: 4040rand.pdf Graphic file (type pdf)
+
+<use 4040rand.pdf>
+Package pdftex.def Info: 4040rand.pdf used on input line 407.
+(pdftex.def)             Requested size: 216.81pt x 163.81221pt.
+ [12 <./0505per.pdf> <./4040per.pdf>] [13 <./0505rand.pdf> <./4040rand.pdf>]
+
+LaTeX Warning: Citation `ReimannRev' on page 14 undefined on input line 432.
+
+
+LaTeX Warning: Citation `BustamanteKellerOster' on page 14 undefined on input l
+ine 432.
+
+
+LaTeX Warning: Citation `ProstPRL' on page 14 undefined on input line 433.
+
+
+LaTeX Warning: Citation `JulicherRevModPhys' on page 14 undefined on input line
+ 433.
+
+[14]
+
+LaTeX Warning: Citation `ProstPRL' on page 15 undefined on input line 457.
+
+[15] [16] [17] [18]
+
+LaTeX Warning: Citation `ShootingMethod' on page 19 undefined on input line 606
+.
+
+[19] <vs.pdf, id=429, 796.9775pt x 598.235pt>
+File: vs.pdf Graphic file (type pdf)
+ <use vs.pdf>
+Package pdftex.def Info: vs.pdf used on input line 636.
+(pdftex.def)             Requested size: 234.87749pt x 176.30435pt.
+
+Overfull \hbox (25.21207pt too wide) in paragraph at lines 645--646
+[]\OT1/ptm/m/n/10.95 Plots are shown in Fig. []2.6[] of $\OML/ztmcm/m/it/10.95 
+P[]\OT1/ztmcm/m/n/10.95 (\OML/ztmcm/m/it/10.95 x\OT1/ztmcm/m/n/10.95 )$ \OT1/pt
+m/m/n/10.95 within a pe-riod for four val-ues of $\OML/ztmcm/m/it/10.95 x[]$\OT
+1/ptm/m/n/10.95 : $\OMS/ztmcm/m/n/10.95 ^^@\OML/ztmcm/m/it/10.95 ^^Y;  \OMS/ztm
+cm/m/n/10.95 ^^@\OML/ztmcm/m/it/10.95 ^^Y=\OT1/ztmcm/m/n/10.95 2\OML/ztmcm/m/it
+/10.95 ;  \OT1/ztmcm/m/n/10.95 0\OML/ztmcm/m/it/10.95 ;  ^^Y=\OT1/ztmcm/m/n/10.
+95 2$\OT1/ptm/m/n/10.95 . 
+ []
+
+<Pnl_spr.pdf, id=431, 792.9625pt x 598.235pt>
+File: Pnl_spr.pdf Graphic file (type pdf)
+ <use Pnl_spr.pdf>
+Package pdftex.def Info: Pnl_spr.pdf used on input line 649.
+(pdftex.def)             Requested size: 234.87749pt x 177.19893pt.
+
+<Pasvp.pdf, id=439, 792.9625pt x 598.235pt>
+File: Pasvp.pdf Graphic file (type pdf)
+ <use Pasvp.pdf>
+Package pdftex.def Info: Pasvp.pdf used on input line 670.
+(pdftex.def)             Requested size: 234.87749pt x 177.19893pt.
+ [20] [21 <./vs.pdf> <./Pnl_spr.pdf>]
+
+LaTeX Warning: Citation `ProstPRL' on page 22 undefined on input line 693.
+
+[22 <./Pasvp.pdf>] <1dpot.pdf, id=472, 467.7475pt x 270.00874pt>
+File: 1dpot.pdf Graphic file (type pdf)
+
+<use 1dpot.pdf>
+Package pdftex.def Info: 1dpot.pdf used on input line 722.
+(pdftex.def)             Requested size: 234.87749pt x 135.58495pt.
+ [23] [24 <./1dpot.pdf>] [25] [26] [27] [28] [29] [30] [31]
+<fvsv.k15.pdf, id=562, 796.9775pt x 598.235pt>
+File: fvsv.k15.pdf Graphic file (type pdf)
+ <use fvsv.k15.pdf>
+Package pdftex.def Info: fvsv.k15.pdf used on input line 1064.
+(pdftex.def)             Requested size: 234.87749pt x 176.30435pt.
+
+<maxpower.pdf, id=563, 796.9775pt x 598.235pt>
+File: maxpower.pdf Graphic file (type pdf)
+ <use maxpower.pdf>
+Package pdftex.def Info: maxpower.pdf used on input line 1065.
+(pdftex.def)             Requested size: 234.87749pt x 176.30435pt.
+ [32] [33 <./fvsv.k15.pdf> <./maxpower.pdf>]
+
+LaTeX Warning: Citation `ReimannRev' on page 34 undefined on input line 1120.
+
+
+LaTeX Warning: Citation `ProstPRL' on page 34 undefined on input line 1126.
+
+
+LaTeX Warning: Citation `BustamanteKellerOster' on page 34 undefined on input l
+ine 1126.
+
+[34]
+Overfull \hbox (7.33191pt too wide) in paragraph at lines 1144--1147
+[]\OT1/ptm/m/n/10.95 Therefore it ap-pears that there is no the-o-ret-i-cal ob-
+sta-cle to pre-vent the photo-mechanical
+ []
+
+
+LaTeX Warning: Citation `GrzybowskiReview' on page 35 undefined on input line 1
+148.
+
+
+LaTeX Warning: Citation `credi2006' on page 35 undefined on input line 1154.
+
+[35] [36]
+Chapter 3.
+
+LaTeX Warning: Citation `Afzelius2004' on page 37 undefined on input line 1166.
+
+
+
+LaTeX Warning: Citation `Okada2005' on page 37 undefined on input line 1166.
+
+
+LaTeX Warning: Citation `Afzelius2004' on page 37 undefined on input line 1168.
+
+
+
+LaTeX Warning: Citation `brokaw1975molecular' on page 37 undefined on input lin
+e 1169.
+
+
+LaTeX Warning: Citation `camalet1999self' on page 37 undefined on input line 11
+70.
+
+
+LaTeX Warning: Citation `lindemann2010flagellar' on page 37 undefined on input 
+line 1170.
+
+
+LaTeX Warning: Citation `Sleigh1969' on page 37 undefined on input line 1172.
+
+
+LaTeX Warning: Citation `Sleigh1974' on page 37 undefined on input line 1172.
+
+
+LaTeX Warning: Citation `Gheber1989' on page 37 undefined on input line 1172.
+
+
+LaTeX Warning: Citation `Gueron1997' on page 37 undefined on input line 1172.
+
+
+LaTeX Warning: Citation `Sanchez2011' on page 37 undefined on input line 1175.
+
+
+LaTeX Warning: Citation `sanchez2013engineering' on page 37 undefined on input 
+line 1175.
+
+
+LaTeX Warning: Citation `needleman2004synchrotron' on page 37 undefined on inpu
+t line 1177.
+
+
+LaTeX Warning: Citation `pazour2005proteomic' on page 37 undefined on input lin
+e 1187.
+
+[37
+
+]
+
+LaTeX Warning: Citation `kruse2000actively' on page 38 undefined on input line 
+1193.
+
+
+LaTeX Warning: Citation `liverpool2003instabilities' on page 38 undefined on in
+put line 1193.
+
+
+LaTeX Warning: Reference `S-app:unipolar' on page 38 undefined on input line 11
+95.
+
+
+LaTeX Warning: Citation `Sanchez2011' on page 38 undefined on input line 1197.
+
+
+LaTeX Warning: Citation `sanchez2013engineering' on page 38 undefined on input 
+line 1197.
+
+
+LaTeX Warning: Citation `Lagomarsino2003' on page 38 undefined on input line 12
+10.
+
+
+LaTeX Warning: Citation `guirao2007spontaneous' on page 38 undefined on input l
+ine 1210.
+
+
+LaTeX Warning: Citation `Elgeti2013' on page 38 undefined on input line 1210.
+
+
+LaTeX Warning: Citation `Niedermayer2008' on page 38 undefined on input line 12
+10.
+
+[38] <MT_forces.pdf, id=605, 294.09875pt x 547.04375pt>
+File: MT_forces.pdf Graphic file (type pdf)
+ <use MT_forces.pdf>
+Package pdftex.def Info: MT_forces.pdf used on input line 1228.
+(pdftex.def)             Requested size: 86.72377pt x 161.30972pt.
+
+
+LaTeX Warning: Citation `Monteith2016' on page 39 undefined on input line 1247.
+
+
+
+LaTeX Warning: Citation `Blake1971' on page 39 undefined on input line 1250.
+
+
+LaTeX Warning: Citation `Liron1976' on page 39 undefined on input line 1250.
+
+
+LaTeX Warning: Reference `S-app:2Dint' on page 39 undefined on input line 1252.
+
+
+
+LaTeX Warning: Reference `S-app:sim' on page 39 undefined on input line 1253.
+
+
+LaTeX Warning: Citation `Monteith2016' on page 39 undefined on input line 1270.
+
+
+[39 <./MT_forces.pdf>]
+
+LaTeX Warning: Citation `bourdieu1995spiral' on page 40 undefined on input line
+ 1273.
+
+
+LaTeX Warning: Citation `Monteith2016' on page 40 undefined on input line 1274.
+
+
+
+LaTeX Warning: Citation `de2017spontaneous' on page 40 undefined on input line 
+1275.
+
+
+LaTeX Warning: Citation `bourdieu1995spiral' on page 40 undefined on input line
+ 1276.
+
+[40]
+
+LaTeX Warning: Reference `S-app:2Dint' on page 41 undefined on input line 1305.
+
+
+
+LaTeX Warning: Citation `Blake1971' on page 41 undefined on input line 1314.
+
+
+LaTeX Warning: Citation `Liron1976' on page 41 undefined on input line 1314.
+
+
+LaTeX Warning: Reference `S-app:2Dint' on page 41 undefined on input line 1315.
+
+
+
+LaTeX Warning: Reference `S-app:sim' on page 41 undefined on input line 1317.
+
+
+LaTeX Warning: Citation `Monteith2016' on page 41 undefined on input line 1324.
+
+
+[41] <anim_circ.png, id=631, 1150.2975pt x 1155.31625pt>
+File: anim_circ.png Graphic file (type png)
+ <use anim_circ.png>
+Package pdftex.def Info: anim_circ.png used on input line 1352.
+(pdftex.def)             Requested size: 415.55249pt x 417.35909pt.
+
+<anim_plane.png, id=632, 3212.0pt x 401.5pt>
+File: anim_plane.png Graphic file (type png)
+ <use anim_plane.png>
+Package pdftex.def Info: anim_plane.png used on input line 1356.
+(pdftex.def)             Requested size: 415.55249pt x 51.93951pt.
+
+Overfull \hbox (5.47498pt too wide) in paragraph at lines 1352--1359
+ [][] 
+ []
+
+
+Overfull \hbox (5.47498pt too wide) in paragraph at lines 1352--1359
+ [][] 
+ []
+
+[42] [43 <./anim_circ.png> <./anim_plane.png>]
+<circ-0p1-10-4.png, id=649, 195.129pt x 433.62pt>
+File: circ-0p1-10-4.png Graphic file (type png)
+ <use circ-0p1-10-4.png>
+Package pdftex.def Info: circ-0p1-10-4.png used on input line 1400.
+(pdftex.def)             Requested size: 62.33032pt x 138.5098pt.
+
+<circ-0p2-10-4.png, id=651, 192.9609pt x 433.62pt>
+File: circ-0p2-10-4.png Graphic file (type png)
+ <use circ-0p2-10-4.png>
+Package pdftex.def Info: circ-0p2-10-4.png used on input line 1403.
+(pdftex.def)             Requested size: 62.33032pt x 140.06468pt.
+
+<circ-0p3-10-4.png, id=652, 195.8517pt x 433.62pt>
+File: circ-0p3-10-4.png Graphic file (type png)
+ <use circ-0p3-10-4.png>
+Package pdftex.def Info: circ-0p3-10-4.png used on input line 1406.
+(pdftex.def)             Requested size: 62.33032pt x 138.00034pt.
+
+
+! LaTeX Error: File `circ_tcorrs_oseen_10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1410 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.01895pt too wide) in paragraph at lines 1410--1410
+[]\OT1/ptm/m/n/9 (d)|| 
+ []
+
+
+LaTeX Warning: Citation `Monteith2016' on page 44 undefined on input line 1422.
+
+
+
+LaTeX Warning: Citation `Sanchez2011' on page 44 undefined on input line 1433.
+
+[44 <./circ-0p1-10-4.png> <./circ-0p2-10-4.png> <./circ-0p3-10-4.png>]
+
+! LaTeX Error: File `plane-0p1-5-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1442 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.5149pt too wide) in paragraph at lines 1442--1442
+[]\OT1/ptm/m/n/9 (a)|| 
+ []
+
+
+! LaTeX Error: File `plane-0p1-10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1445 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.01895pt too wide) in paragraph at lines 1445--1445
+[]\OT1/ptm/m/n/9 (b)|| 
+ []
+
+
+! LaTeX Error: File `plane-0p1-20-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1448 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.5149pt too wide) in paragraph at lines 1448--1448
+[]\OT1/ptm/m/n/9 (c)|| 
+ []
+
+
+! LaTeX Error: File `plane_tcorr_stiff-0p1-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1452 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.01895pt too wide) in paragraph at lines 1452--1452
+[]\OT1/ptm/m/n/9 (d)|| 
+ []
+
+
+! LaTeX Error: File `circ-1H-0p2-10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1476 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.5149pt too wide) in paragraph at lines 1476--1476
+[]\OT1/ptm/m/n/9 (a)|| 
+ []
+
+
+! LaTeX Error: File `circ-p5H-0p2-10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1479 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.01895pt too wide) in paragraph at lines 1479--1479
+[]\OT1/ptm/m/n/9 (b)|| 
+ []
+
+
+! LaTeX Error: File `circ-p1H-0p2-10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1482 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (4.5149pt too wide) in paragraph at lines 1482--1482
+[]\OT1/ptm/m/n/9 (c)|| 
+ []
+
+
+! LaTeX Error: File `circ_tcorr_H-0p2-10-4' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1486 }
+        
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.01895pt too wide) in paragraph at lines 1486--1486
+[]\OT1/ptm/m/n/9 (d)|| 
+ []
+
+[45]
+
+LaTeX Warning: Reference `S-app:unipolar' on page 46 undefined on input line 15
+27.
+
+[46]
+
+LaTeX Warning: Citation `Sanchez2011' on page 47 undefined on input line 1553.
+
+
+LaTeX Warning: Citation `sanchez2013engineering' on page 47 undefined on input 
+line 1553.
+
+[47]
+Chapter 4.
+(./Thesis.bbl [48
+
+] [49
+
+]) [50]
+Appendix A.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1580.
+[51
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1580.
+ (./Thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1580.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1580.
+
+Package rerunfilecheck Info: File `Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 156F68EEB7584F4EBD6D5A7F2389F532;1276.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1580.
+ ) 
 Here is how much of TeX's memory you used:
- 309 strings out of 494910
- 3392 string characters out of 6179836
- 51239 words of memory out of 5000000
- 3663 multiletter control sequences out of 15000+600000
- 8820 words of font info for 31 fonts, out of 8000000 for 9000
+ 7444 strings out of 494910
+ 109792 string characters out of 6179836
+ 202457 words of memory out of 5000000
+ 10429 multiletter control sequences out of 15000+600000
+ 51059 words of font info for 115 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 23i,7n,20p,261b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
-2.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Thesis.pdf (15 pages, 94050 bytes).
+ 42i,12n,49p,1001b,439s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/rsfs/rsfs10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/us
+yr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on Thesis.pdf (60 pages, 1573133 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 53 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 795 PDF objects out of 1000 (max. 8388607)
+ 643 compressed objects within 7 object streams
+ 164 named destinations out of 1000 (max. 500000)
+ 261 words of extra memory for PDF output out of 10000 (max. 10000000)
 

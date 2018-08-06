@@ -1,0 +1,24 @@
+Dear Reviewers,
+
+Thank you for all of your helpful suggestions. Here are a list of changes we have made to the manuscript in order to address these:
+
+1. Figures 1(a) and 1(b) have been replaced by a rendered figure similar to the TOC image. Additionally, the distance between binding sites has been labeled, as has the vector denoting the preferred orientation of the polymer head while bound. The caption has been changed as well to explain the new figure.
+
+2. Reviewer 1 has noted that the simulation described in the section "Three Dimensional Model" appears to simply be a "beads and springs" simulation, rather than having semi-flexible chains. We have realized this may be because, in Eqn. 1, C is described as being the "elastic constant". We have changed this to "stiffness constant" to avoid this confusion. 
+
+3. Per Reviewer 1's comments, we have clarified in the new manuscript that 3 separate simulations/numerical studies have been analyzed: a 3D semi-flexible chain, a 1D numerical solution to the Fokker Planck equation for the potentials in Eqns. 21-22, and a 1D Metropolis Monte Carlo simulation. These changes can be found in the last paragraph of the Introduction.
+
+4. We have included references for the estimated parameters given on page 6.
+
+5. The section "Unbound Equilibration Model" has been shortened and partially rewritten in order to emphasize the results of the analytical analysis without including as much the mathematics. We hope this will make the paper more focused and accessible.
+
+6. Some wording has been changed per Reviewer 2's comments in the Abstract and "The System".
+
+7. There was an error in equation 3 that has been corrected.
+
+8. Some errors involving the interchange of parameters c_0 and c_1 have been corrected.
+
+Again, thank you for your help in the reviewing this manuscript. We have found your comments quite valuable.
+
+Best,
+Stephen Martin 
