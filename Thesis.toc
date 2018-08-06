@@ -1,20 +1,30 @@
-\contentsline {chapter}{List of Figures}{iv}{chapter*.2}
-\contentsline {chapter}{List of Tables}{vi}{chapter*.3}
-\contentsline {chapter}{Abstract}{vii}{chapter*.3}
-\contentsline {chapter}{Dedication}{viii}{chapter*.3}
-\contentsline {chapter}{Acknowledgments}{ix}{chapter*.3}
+\contentsline {chapter}{List of Figures}{v}{chapter*.2}
+\contentsline {chapter}{Abstract}{viii}{chapter*.2}
+\contentsline {chapter}{Dedication}{ix}{chapter*.2}
+\contentsline {chapter}{Acknowledgments}{x}{chapter*.2}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Photomechanical Energy Conversion Using Polymer Brush Dissociation}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Introduction}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}The System}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Estimate of system parameters}{8}{section.2.3}
+\contentsline {section}{\numberline {2.3}Estimate of system parameters}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Three dimensional model}{10}{section.2.4}
-\contentsline {section}{\numberline {2.5}Steady State Probability Distribution}{15}{section.2.5}
-\contentsline {section}{\numberline {2.6}One dimensional solution}{19}{section.2.6}
-\contentsline {section}{\numberline {2.7}Unbound Equilibration Model}{22}{section.2.7}
-\contentsline {subsection}{\numberline {2.7.1}Efficiency in large power stroke limit}{30}{subsection.2.7.1}
-\contentsline {section}{\numberline {2.8}Conclusions}{34}{section.2.8}
-\contentsline {chapter}{\numberline {3}Emergence of Metachronal Waves in Active Microtubule Arrays}{37}{chapter.3}
-\contentsline {chapter}{\numberline {4}Conclusion}{48}{chapter.4}
-\contentsline {chapter}{Bibliography}{49}{chapter*.4}
-\contentsline {chapter}{\numberline {A}Some Ancillary Stuff}{51}{appendix.A}
+\contentsline {section}{\numberline {2.5}Steady State Probability Distribution}{16}{section.2.5}
+\contentsline {section}{\numberline {2.6}One dimensional solution}{20}{section.2.6}
+\contentsline {section}{\numberline {2.7}Unbound Equilibration Model}{26}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Efficiency in large power stroke limit}{34}{subsection.2.7.1}
+\contentsline {section}{\numberline {2.8}Conclusions}{38}{section.2.8}
+\contentsline {chapter}{\numberline {3}Emergence of Metachronal Waves in Active Microtubule Arrays}{41}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{41}{section.3.1}
+\contentsline {section}{\numberline {3.2}Proposed Mechanism of Action}{43}{section.3.2}
+\contentsline {section}{\numberline {3.3}The Quasi-2D Interaction Tensor}{47}{section.3.3}
+\contentsline {section}{\numberline {3.4}Simulation Methods}{52}{section.3.4}
+\contentsline {section}{\numberline {3.5}Analysis of Unipolarity}{55}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Instability of mixed polarity bundles}{56}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Model of mixed polarity bundles}{57}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Results}{61}{section.3.6}
+\contentsline {section}{\numberline {3.7}Discussion}{64}{section.3.7}
+\contentsline {section}{\numberline {3.8}Conclusions}{68}{section.3.8}
+\contentsline {chapter}{\numberline {4}Spontaneous Circulation of Active Microtubules Confined by Optical Traps}{69}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{70}{chapter.5}
+\contentsline {chapter}{Bibliography}{71}{chapter*.3}
+\contentsline {chapter}{\numberline {A}Supplementary Videos}{80}{appendix.A}

@@ -19,7 +19,7 @@
 
 \usepackage{nameref}
 \usepackage{graphicx}
-\usepackage{mathptmx}
+%\usepackage{mathptmx}
 \usepackage{grffile}
 
 \usepackage{amsmath,amssymb,amsthm}
@@ -72,7 +72,7 @@
 
 \tableofcontents
 \listoffigures
-\listoftables
+%\listoftables
 
 \begin{abstract}
 Theses have elements.  Isn't that nice?
@@ -92,20 +92,17 @@ the only person worthy of my company.
 
 
 \begin{acknowledgements}
-I want to ``thank'' my committee, without whose ridiculous demands, I
-would have graduated so, so, very much faster.
+The text of this dissertation includes
+reprints of the following previously published material. The primary co-author for both is Josh Deutsch, who directed and supervised the research.\\ \\
+Chapter 2 -- Photomechanical Energy Conversion \cite{deutsch2015photomechanical}\\
+I made computational and modeling contributions to the three dimensional model, especially in relation to randomly placed binding sites, and wrote sections of the paper.\\ \\
+Chapter 3 -- Emergence of Metachronal Waves \cite{martin2018emergence}\\
+I wrote most of this paper, ran all of the simulations and theoretical work. The backbone of the simulation was written by Matthew Brunner, who co-authored the paper. 
 \end{acknowledgements}
 
 \end{frontmatter}
 
 \chapter{Introduction}
-
-Every dissertation should have an introduction.  You might not realize
-it, but the introduction should introduce the concepts, backgrouand,
-and goals of the dissertation.
-
-\includegraphics[height = 1.375in]{TOC2}
-\includegraphics[height = 1.375in]{4040per_TOC}
 
 A device is investigated that continuously and directly converts
 light into mechanical energy, using polymers and photodissociation.
@@ -248,7 +245,7 @@ rate of binding.
 
 \begin{figure*}[htp]
 \begin{center}
-\includegraphics[width = 3.25in]{Fig1_label}
+\includegraphics[width = \textwidth]{Fig1_label}
 \caption{
 (a) A schematic of the light energy to mechanical converter. A polymer
 brush of semiflexible chains is put in contact
@@ -342,7 +339,7 @@ where $A > 0$ is a parameter to adjust the shape of the potential. This binding 
 
 \begin{figure}[htp]
 \begin{center}
-\includegraphics[width=3.25in]{expVplot}
+\includegraphics[width=\textwidth]{expVplot}
 \caption{
 A plot of the isotropic binding potential $U_i(r)$ vs. $r$, for $A=0.2$, potential well depth $V_a = 60$, and interaction length scale $r_s = 1$. 
 }
@@ -383,10 +380,10 @@ $r_s = 1.0$, $A = 0.2$, and a coefficient of damping of $10$.
 
 \begin{figure*}[htp]
 \begin{center}
-(a)
-\includegraphics[width=3in]{0505per}
+\includegraphics[width=4in]{0505per}\\
+(a)\\
+\includegraphics[width=4in]{4040per}\\
 (b)
-\includegraphics[width=3in]{4040per}
 \caption{
 The average force $f$ and the power $P=f {\rm v}$ measured as a function of the
 relative velocity between the plates $\rm v$.  For clarity, the power is multiplied by $2000$. 
@@ -401,10 +398,10 @@ potential range $r_s = 1.0$, and a coefficient of damping of $10$. The coefficie
 
 \begin{figure*}[htp]
 \begin{center}
-(a)
-\includegraphics[width=3in]{0505rand}
+\includegraphics[width=4in]{0505rand}\\
+(a)\\
+\includegraphics[width=4in]{4040rand}\\
 (b)
-\includegraphics[width=3in]{4040rand}
 \caption{
 The average force $f$ and the power $P=f {\rm v}$ measured as a function of the relative velocity between the plates $\rm v$. The binding sites are placed randomly, with average binding site separation $\bar d = 2$ and minimum binding site separation $d_{min}=0.1$. Other than this, the same parameters and scaling are used as in Fig. \ref{fig:expVper}: (a) $c_0=c_1= 0.05$, and (b) $c_0=c_1= 0.4$.
 }
@@ -633,7 +630,7 @@ $b = 2$, and $d=2$. The function is plotted in Fig. \ref{fig:vs}.
 
 \begin{figure}[htp]
 \begin{center}
-\includegraphics[width=3.25in]{vs}
+\includegraphics[width=\textwidth]{vs}
 \caption{
 An asymmetric spring potential used to tether the chain. It has a second dip at
 approximately $x=2$
@@ -646,7 +643,7 @@ Plots are shown in Fig. \ref{fig:Pnlspr} of $P_1(x)$ within a period for four va
 
 \begin{figure}[htp]
 \begin{center}
-\includegraphics[width=3.25in]{Pnl_spr}
+\includegraphics[width=\textwidth]{Pnl_spr}
 \caption{
 Plots of the probability distribution of $P_1$ as a function of position $x$
 for $x' = -\pi,\ -\pi/2,\ 0$, and $\pi/2$ for the asymmetric spring model Eq. \ref{eq:nlfs}.
@@ -665,9 +662,10 @@ in Eq. \ref{eq:nlfs}. Instead we make the periodic potential asymmetric by
 setting  $A_1 = A_2 =2$ in Eq. \ref{eq:Vp}, still with
 $c_0 = 0.25$, and $c_1 = 0.5$. 
 Fig. \ref{fig:Pasvp} plots $P_1(x)$ within a period for the same four values of $x'$ in Fig. \ref{fig:Pnlspr}.
+
 \begin{figure}[htp]
 \begin{center}
-\includegraphics[width=3.25in]{Pasvp}
+\includegraphics[width=\textwidth]{Pasvp}
 \caption{
 Plots of the probability distribution of $P_1$ as a function of position $x$
 for the values of $x'$ shown in Fig. \ref{fig:Pnlspr}, but for an asymmetric periodic potential and a linear
@@ -676,6 +674,7 @@ spring.
 \label{fig:Pasvp}
 \end{center}
 \end{figure}
+
 In this case, the work $W_L = -0.1596$.
 
 What the numerical results have shown is that asymmetry in the spring potential
@@ -715,11 +714,12 @@ $l_c \exp(-k l_c^2/2) \ll 1$.  Below, we will take $l_c = L/2$ or $\infty$.
 The periodic potential $V_p$ is taken to be localized at periodic points (with
 a separation of $L$) that rapidly vary from a large maximum $V_{max}$ to a
 minimum $V_{min}$, as shown. We take the region over which this happens to be
-negligibly small compared to other length scales in the problem.
+negligibly small compared to other length scales in the problem.\\
+\vfill
 
 \begin{figure}[htp]
 \begin{center}
-\includegraphics[width=3.25in]{1dpot}
+\includegraphics[width=\textwidth]{1dpot}
 \caption{
 Illustration of the kind of potentials employed in the Unbound Equilibration
 Model. The periodic potential $V_p$ is nonzero only on small regions on the
@@ -743,7 +743,7 @@ Eqs. \ref{eq:FP} in the steady state limit
 %\nabla \cdot (\nabla - \bof_1)P_1(\br) - c_1 P_1(\br) = -c_0 P_0(\br) \label{eq:SFP1}
 %\end{align}
 %\end{subequations}
-
+%
 %%%%
 %%%%JOSH: We could shorten this a bit:
 %%%%
@@ -1061,8 +1061,10 @@ are shown in Fig. \ref{fig:1dfvsv}(a).
 
 \begin{figure}[htp]
 \begin{center}
-(a)\includegraphics[width=3.25in]{fvsv.k15}\\
-(b)\includegraphics[width=3.25in]{maxpower}
+\includegraphics[width=4in]{fvsv.k15}\\
+(a)\\
+\includegraphics[width=4in]{maxpower}\\
+(b)
 \caption{
 (a) The force and power versus velocity for the one dimensional model described
 in the text. Here the spring coefficient $k=15$. The line going through the
@@ -1156,6 +1158,7 @@ However, its experimental realization is still quite clearly a formidable task.
 
 \chapter{Emergence of Metachronal Waves in Active Microtubule Arrays}
 
+\section{Introduction}
 Metachronal waves refer to the synchronization of thin, flexible
 appendages that result in large-scale wavelike formations. These
 appear in biological systems at the macroscopic scale (e.g. the
@@ -1192,7 +1195,7 @@ MTs in this experiment are unipolar or of mixed polarity.
 Opposite polarity MTs will move past each other, causing separation
 into unipolar bundles~\cite{kruse2000actively,liverpool2003instabilities}. 
 We present arguments and simulations for unipolarity in 
-S-\ref{S-app:unipolar}.
+\ref{app:unipolar}.
 The surprising mechanism for the motion of unipolar bundles mentioned here
 has not previously been given~\cite{Sanchez2011,sanchez2013engineering}, 
 and we believe that the agreement between our model and
@@ -1219,13 +1222,13 @@ on individual MTs given the lack of a well defined internal structure.
 
 
 %------------------------------------------------
-%\section{Proposed Mechanism of Action}
+\section{Proposed Mechanism of Action}
 \label{sec:mech}
 
 
 \begin{figure}
-%\begin{center}
-\includegraphics[width = 1.2in]{MT_forces}
+\begin{center}
+\includegraphics[width = 2in]{MT_forces}
 %\captionsetup{justification=justified}
 \caption{Conceptual illustration of forces acting on a single polymer
 that are not due to hydrodynamic interactions. The blue vectors
@@ -1237,7 +1240,7 @@ the polymer approximately perpendicular to the binding
 surface.
 \label{fig:Mtforces}
 }
-%\end{center}
+\end{center}
 \end{figure}
 
 
@@ -1249,8 +1252,8 @@ work completed several decades ago regarding the calculation of
 Stokes flows created by a point force (stokeslet) near no-slip
 boundaries\cite{Blake1971,Liron1976}. A conceptual explanation of
 this mechanism is given below, and further details regarding theory
-and implementation are given in supplementary materials \ref{S-app:2Dint} and
-\ref{S-app:sim}.
+and implementation are given in \ref{app:2Dint} and
+\ref{app:sim}.
 
 An illustration of how MT bundles are simulated is given in Figure
 \ref{fig:Mtforces}. Each MT bundle is modeled as a chain of monomers
@@ -1302,7 +1305,7 @@ velocity everywhere -- only at points with monomers.
 %results of what initially seems to be a computationally intense
 %fluid mechanics calculation 
 Therefore, the evolution can be calculated via a pairwise sum over
-all monomers (see the supplemental materials S-\ref{S-app:2Dint}).
+all monomers (see \ref{app:2Dint}).
 
 We also assume all polymer motion is two dimensional with a constant value of $z$, which
 is physically sensible when considering the geometry of the Sanchez et al.
@@ -1311,10 +1314,9 @@ glass slides, with a height $H$, of approximately $10 \mu$m, creating a narrow c
 For this reason, we adopt a two dimensional geometry. In addition,
 the no-slip boundaries
 of the plates have a large impact on the hydrodynamic forces between
-monomers\cite{Blake1971,Liron1976}, which we state explicitly in
-the supplemental materials S-\ref{S-app:2Dint}. Other close-range contact forces were
+monomers\cite{Blake1971,Liron1976}, which we state explicitly in \ref{app:2Dint}. Other close-range contact forces were
 also used (repulsion from anchoring surface, monomer-monomer
-repulsion), and these are explained in the supplementary materials S-\ref{S-app:sim}.
+repulsion), and these are explained in \ref{app:sim}.
 
 We can now address at the qualitative level the mechanism by which
 we propose the metachronal waves observed by Sanchez et al. form.
@@ -1342,8 +1344,337 @@ for metachronal wave formation.
 
 %------------------------------------------------
 
-%\section{Results}
-%\label{sec:results}
+\section{The Quasi-2D Interaction Tensor}
+\label{app:2Dint}
+\begin{figure*}
+\begin{center}
+\includegraphics[width=\textwidth]{Sec2}
+\caption{Fluid speeds as a function of distance $\rho$ from the stokeslet $\mathbf{F} = \hat \imath$. Solid curves are calculated using the full interaction tensor (\ref{eq:uab}) and dashed lines are the far-field approximation (\ref{eq:uff}). (a) $u_x(\rho)$ along the line $y=0$; (b) $u_x(\rho)$ along the line $x=0$; (c) $u_y(\rho)$ along the line $y=x$. \label{fig:oseen}}
+\end{center}
+\end{figure*}
+The interaction tensor used in simulations is that of a stokeslet enclosed by two infinite parallel plates, as derived by Liron and Mochon\cite{Liron1976}. In general, the interaction tensor $\mathbb{G}$ is defined as the relationship between the fluid flow $\mathbf{u(r)}$ and the stokeslet $\mathbf{F}$ which causes this flow:
+\begin{equation}
+\label{eq:oseen}
+\mathbf{u(r)} = \mathbf{F}\cdot\mathbb{G}(\mathbf{r})
+\end{equation}
+For computational efficiency, we assume all monomers to be only in
+the $xy$-plane, with parallel plates at $z = \pm H/2$. This reduces
+a three-dimensional problem to two dimensions, as (a) the stokeslet
+is located in the $xy$-plane, (b) the stokeslet's direction has no
+$z$-component, and (c) we only concern ourselves with flows in the
+$xy$-plane (see Figure \ref{fig:schem}). For
+this arrangement, it can be shown from Liron and Mochon's general
+result that the interaction tensor a displacement $\mathbf{r}$ (and
+$\rho\equiv|\mathbf{r}|$) from a single stokeslet $\mathbf{F}$ at
+the origin reduces to
+\begin{equation}
+\label{eq:uab}
+\mathbb{G}(\mathbf{r}) = \frac{H}{8\pi\mu\rho^2}\left\{\left[4\left(\frac\rho H\right)^2 S_1 - \frac12\frac\rho H I_1\right]\mathbb{I}+\left[4\pi\left(\frac{\rho}{H}\right)^3 S_2 + \frac{1}{2}\frac\rho H I_1 -\frac14\left(\frac\rho H\right)^2 I_2\right]\frac{\mathbf{r\otimes r}}{\rho^2}\right\}
+\end{equation}
+where
+\begin{align*}
+S_1\equiv&\frac14\sum_{n=0}^\infty \frac{(-1)^n}{\left[\left(\frac{\rho}{H}\right)^2 + n^2\right]^{1/2}}\\
+S_2\equiv&\frac{1}{4\pi}\frac\rho H\sum_{n=0}^\infty \frac{(-1)^n}{\left[\left(\frac{\rho}{H}\right)^2 + n^2\right]^{3/2}}\\
+I_1\equiv&\int_0^\infty \xi J_1\left(\frac\rho H \xi\right)\frac{\tanh^2\frac\xi 2}{\sinh\xi - \xi}d\xi\\
+I_2\equiv&\int_0^\infty \xi^2\left[J_0\left(\frac\rho H \xi\right) -J_2\left(\frac\rho H \xi\right)\right]\frac{\tanh^2\frac\xi 2}{\sinh\xi - \xi}d\xi
+\end{align*}
+Here, $J_n$ is the Bessel function of the first kind. Because $S_1$ and $S_2$ do not converge rapidly as defined above, we also make use of the Poisson sums
+\begin{align*}
+S_1 =& \sum_{k=0}^\infty K_0\left[\pi(2k+1)\frac\rho H\right]\\
+S_2 =& \sum_{k=0}^\infty (2k+1) K_1\left[\pi(2k+1)\frac\rho H\right]
+\end{align*}
+where $K_n$ is the modified Bessel function of the second kind.
+
+In the far field, it can be shown that (\ref{eq:uab}) approaches
+\begin{equation}
+\label{eq:uff}
+\mathbb{G}\mathbf{(r)} \approx -\frac{3H}{32\pi\mu\rho^2}\left(\mathbb{I} -2\frac{\mathbf{r\otimes r}}{\rho^2}\right)
+\end{equation}
+Figure \ref{fig:oseen} shows plots of $\mathbf{u(r)}$ at selected locations, and compares the exact value from (\ref{eq:uab}) to the far-field approximation from (\ref{eq:uff}).
+
+We can now make some conceptual observations regarding this interaction tensor and how it compares to the boundary-free Oseen tensor $\mathbb{G}_0$:
+\[
+\mathbb{G}_{0}(\mathbf{r}) = \frac{1}{8\pi\mu r}\left(\mathbb{I} + \frac{\mathbf{r\otimes r}}{r^2}\right)
+\]
+First, we immediately notice a $1/r$ dependence (rather than $1/\rho^2$). This means forces without boundaries tend to be more long-range, and boundaries result in long-range screening. Second, $\mathbb{G}_{0}$ is always positive, whereas this is not true for the interaction tensor used here. One key implication of this is that flows created by a stokeslet are often flowing opposite its direction (e.g. Figure \ref{fig:oseen}b). Both of these qualities may enhance metachronal behavior in the confined system. Screening means that interactions between nearby polymers are most important, creating a ``domino effect" from one polymer to the next rather than having motion more influenced by long-range interactions. The creation of opposing flows means (among other things) that if one polymer is moving toward the anchoring surface, it may exert a force on many of its neighboring polymers \textit{away} from the anchoring surface. This encourages wavelike behavior rather than uniformity of beating motion.
+
+
+\begin{figure}
+\begin{center}
+\includegraphics[width = \textwidth]{2plates}
+\caption{Illustration of the geometry for which interaction tensor
+is derived in \ref{app:2Dint}. While this is a three-dimensional
+system, we constrain polymers to the $xy$-plane. 
+\label{fig:schem}}
+\end{center}
+\end{figure}
+
+\section{Simulation Methods}
+\label{app:sim}
+
+\begin{figure}
+\begin{center}
+\includegraphics[width = 4in]{hydroforces}
+\caption{Illustration of hydrodynamic forces between two example
+monomers in a planar polymer array. The green forces are the sum
+of non-hydrodynamic forces on the monomer (and by extension the
+force the monomer exerts on the surrounding fluid). $\vec F_{a\rightarrow
+b}$ and $\vec F_{b\rightarrow a}$ are the hydrodynamic forces on
+monomer $b$ due to $\vec F_a$ and the hydrodynamic force on monomer
+$a$ due to $\vec F_b$, respectively. 
+\label{fig:hydroforces}}
+\end{center}
+\end{figure}
+
+The algorithm we implement is built on work that was used to
+simulate the mechanism behind cytoplasmic streaming in \textit{Drosophila}
+oocytes \cite{Monteith2016}, and many of the methods and equations
+below are explained in detail in these papers. This software simulates
+an array of active microtubules tethered to a plane that works as follows
+and is explained in further detail below.
+\begin{enumerate}
+\item After an array of polymers is initialized, forces on all
+monomers are summed (described below, also see Figure
+\ref{fig:Mtforces}) and monomer position and
+velocity are updated using time step $dt$.
+\item This motion initiates complex flow in the surrounding fluid.
+The fluid flow is not simulated directly, but the resulting
+hydrodynamic forces from this flow are calculated via an Oseen
+tensor with corrections by Blake\cite{Blake1971}. This is illustrated in Fig. \ref{fig:hydroforces}.
+\item Forces on each monomer are summed, and monomer position and
+velocity are updated accordingly.
+\item Once updated, steps 2-3 are repeated.
+\end{enumerate}
+In the present work there were these differences: 
+\begin{enumerate}
+\item $N$ Microtubules are confined to the $xy$-plane, with polymer
+bases separated by a distance $l$ tethered either to a flat plate
+at $y=0$ or to a circular boundary. For all presented results,
+$N=128$. The geometry of this is shown in Fig. \ref{fig:schem}.
+\item At the tethering point, a potential was added in order to
+keep the base monomer approximately orthogonal to the boundary.
+\item Rather than the Blake correction to the Oseen tensor, we use
+the simplified Liron/Mochon interaction tensor described in Section
+\ref{app:2Dint}.
+\end{enumerate}
+
+\noindent
+Now we describe how the above was accomplished in more detail.
+Each polymer is composed of $n=16$ monomers. The $i$th monomer
+position $\mathbf{r}_i$ is updated a using a fourth order Runge
+Kutte integration of the equation
+\begin{equation}
+\frac{d\mathbf{r}_i}{dt} = \mathbf{u(r}_i) - k_{kin}\left(\textbf{r}_{i-1} - \textbf{r}_{i+1}\right)
+\end{equation}
+where $dt$ is the time step (set to 0.003), $k_{kin}$ (set to 0.2)
+controls the strength of the kinesin force tangent to the polymer
+($\mathbf{F}_{kin}$ in Figure \ref{fig:Mtforces}), and $\mathbf{u(r}_i)$
+is the fluid velocity due to the motion of all other monomers as
+given by Equation \ref{eq:oseen} and \ref{eq:uab} (which imparts
+the forces $\mathbf{F}_{a\rightarrow b}$ in Figure \ref{fig:hydroforces}):
+\begin{equation}
+\mathbf{u(r}_i) = \sum_{j\neq i} \mathbf{F}_j \cdot \mathbb{G}(\mathbf{r}_i-\mathbf{r}_j)
+\end{equation}
+Here, $\mathbf{F}_j$ is the total force on the fluid due to the $j$th monomer. Because there are are no inertial effects when $Re\ll 1$, any non-hydrodynamic force exerted on the monomer must be transferred to the fluid. In our case,
+\begin{equation}
+\mathbf{F}_j = \mathbf{T}_j + \mathbf{C}_j + \mathbf{Q}_j,
+\end{equation} 
+where
+\begin{itemize}
+\item $\mathbf{T}_j = k_{spr}\left[\left(|\mathbf{r}_{j-}|-\ell\right)\hat{\mathbf{r}}_{j-} + \left(|\mathbf{r}_{j+}|-\ell\right)\hat{\mathbf{r}}_{j+} \right]$\\
+with $\mathbf{r}_{j\pm}\equiv \mathbf{r}_{j\pm 1} - \mathbf{r}_j$, is the spring force keeping monomer separation approximately constant. For our simulations, $k_{spr}=100$ and $\ell=1$.
+In these simulations the separation between polymer bases defines above, $l$ is equal to $4\ell$.
+\item $\mathbf{C}_j = k_{stiff}\left(2\textbf{r}_i - \textbf{r}_{i+2} - \textbf{r}_{i-2}\right)$\\
+is the stiffness force which resists polymer bending. $k_{stiff}$ is varied in our simulations, but typically $5 \leq k_{stiff} \leq 20$.
+\item $\mathbf{Q}_j = \mathbf{P}_j + \mathbf{B}_j + \mathbf{W}_j + \sum_k\mathbf{H}_{jk}$\\
+is the sum of miscellaneous conditional forces:
+\begin{itemize}
+\item $\mathbf{P}_j = k_{pin}\left(\mathbf{r}_j - h\boldsymbol{\hat{\jmath}}\right)$\\
+\phantom{.}\hfill if $(j \mod n) = 1$\\
+is the force on the base monomer of each polymer chain keeping it pinned to the anchoring surface. For our simulations, we set $k_{pin} = 100$ and $h=1$.
+\item $\mathbf{B}_j = k_{pin2}\left(\mathbf{r}_j - \mathbf{r}_{j-1} - \ell\boldsymbol{\hat{\jmath}}\right)$\\
+\phantom{.}\hfill if $(j \mod n) = 2$\\
+is the force on the second monomer in each polymer chain, keeping
+the base of each polymer approximately orthogonal to the anchoring
+surface ($F_{base}$ in Figure \ref{fig:Mtforces}). For our simulations,
+we set $k_{base}=100$.
+\item $\mathbf{W}_{j} = k_{wall}\left[1-\left(\frac{d_{wall}}{y_j}\right)^4\right]\boldsymbol{\hat\jmath}$\\
+\phantom{.}\hfill if $y_j < d_{wall}$\\
+is the repulsive force exerted by the anchoring plane on any monomer that gets close to the wall. For our simulations, we set $d_{wall}=0.5$ and $k_{wall} = 100$.
+\item $\mathbf{H}_{jk} = k_{rep}\left[1-\left(\frac{d_{rep}}{|\mathbf{r}_j - \mathbf{r}_k|}\right)^4\right]\left(\mathbf{r}_j - \mathbf{r}_k\right)$\\
+\phantom{.}\hfill if $|\mathbf{r}_j-\mathbf{r}_k| < d_{rep}$\\
+is the repulsive force between monomers that are very close to one another. For our simulations, we set $d_{rep}=0.5$ and $k_{rep} = 1$.
+\end{itemize}
+\end{itemize}
+\section{Analysis of Unipolarity}
+\label{app:unipolar}
+
+The work of Sanchez et al.~\cite{Sanchez2011,sanchez2013engineering} consists of a mixture of 
+biotin-labeled kinesin-1 motors bound together to form clusters using multimeric streptavidin
+and taxol stabilized microtubules in a polyethylene-glycol solution with
+ATP. These form bundles of microtubules, some of which are adsorbed to
+air-water or air-glass interfaces, that point out from the interface forming a
+lawn of microtubule bundles. These bundles are flexible and show bending similar
+to what is seen in the simulations described here
+in both the time scales, length scales, and correlations
+between different bundles.
+
+The question that is not answered in the experimental work is the directionality
+of the microtubules inside a bundle. The microtubules forced into bundles by the polyethylene glycol (PEG)
+could be of mixed polarity
+so that some have their minus ends at the interface while others have their plus
+ends there. We will refer to microtubules with different orientations as having
+different ``polarities", minus-ends against the interface as ``minus" and those with opposite
+polarity as ``plus". 
+
+The problems with having a mixed polarity bundle are two fold. The first is
+that for a wide range of experimental parameters, we expect mixed polarity 
+bundles to be unstable~\cite{kruse2000actively,liverpool2003instabilities}. The second problem is that it is not clear that
+mixed polarity bundles can give rise to the motion seen experimentally. We
+will analyze both problems below.
+
+\subsection{Instability of mixed polarity bundles}
+
+The first problem is that adjacent
+microtubules with different polarities will be linked by kinesin clusters that
+will apply equal and opposite forces to them. This will cause the minus
+microtubules to be pushed toward the interface, and the plus ones away from it. 
+The forces from the kinesin act in parallel on a microtubule over its length
+which is of order $10 \mu m$.
+The forces that these cause can be competitive with depletion forces caused by the
+PEG as we will now see.
+A full analysis of this is not possible without more information
+about the details of the system such as the density of kinesin clusters and chain
+lengths of the PEG. However we can do a calculation to show that even with
+very modest assumptions concerning kinesin density, expulsion of plus
+microtubules will take place.
+
+Depletion forces exert an osmotic pressure on microtubules and filaments. 
+Each polymer excludes a roughly spherical region of order its radius of
+gyration $R_g$.
+Entropic forces favor the separation of microtubules into bundles because less
+volume is excluded by the PEG. We will estimate the force acting on a
+single microtubule protruding from a bundle. 
+PEG is depleted in a region of size $R_g$ around the microtubule. The increase in
+free energy per unit area caused by this depletion is of order $p R_g$  where the osmotic pressure is  $p = k_B T \rho$, and
+$\rho$ is the number of polymers per unit volume. The increase in free energy
+$dF$, in raising the microtubule by a height $dz$, is $dF = (2\pi R_m dz) p x$. Here $R_m$
+is the microtubule radius. If we assume that the
+polymers are close-packed around the microtubule to get the maximum effect, then $\rho = 1/(4 \pi R_g^3/3)$.
+So the force needed to push the microtubule out of the tip of the bundle is
+$f = dF/dz = (3/2) R_m k_B T/R_g^2$.
+
+$R_m \approx 13 nm$ and conservatively taking $R_g = 1nm$, which is quite small
+for PEG, $f = 81 pN$
+The stall force of kinesin is approximately $5pN$~\cite{meyhofer1995force}. So only 16.2 kinesins are needed to overcome
+the depletion forces and expel this microtubule from the bundle. 
+
+The minimum separation of kinesin on a microtubule is $8nm$ and there are 13
+tracks around its circumference. Because kinesin has a strong affinity for
+microtubules we expect a high density of bound kinesin. Therefore 16 kinesins
+contributing to the force over
+a distance of $10 \mu m$ is over three orders of magnitude less dense
+than the maximum density attainable.
+This suggests that for a wide range of parameters, the microtubule bundles will
+become unipolar with minus-ends against the interface.
+
+
+\subsection{Model of mixed polarity bundles}
+
+The second problem is
+that it is not clear that a mixed polarity bundle can give rise to the motion
+seen in experiment. Here we analyze this possibility by using simulation methods
+similar to what was used previously to understand molecular motor dynamics~\cite{deutsch2015photomechanical}
+
+We assume that the microtubules are inextensible and that opposite polarity
+microtubules apply forces in equal and opposite directions. We discuss the
+different forces separately.
+
+First there is an effective attractive interaction between microtubules independent of 
+their polarities induced by the presence of PEG polymers. We choose a short range force so the monomers separated by a
+distance $\br$  within a range $\sigma_s$ will feel an attractive force due to
+depletion forces as discussed above. To
+simplify the expressions we use a normalized unitless distance $\Delta \equiv
+\br/\sigma_s$.
+The force between any two monomers for $\Delta < 1$ is taken to be
+\begin{equation}
+{\bf f}_{attr} = f_a \Delta^4 (1-\Delta^{12})^3 \br
+\end{equation}
+where $f_a$ is the strength of the attractive interaction.
+The reason for choosing this functional dependence on $\Delta$ was to produce
+a force that was close to constant for $\Delta < 0.6$, and then drop
+smoothly to zero, so as to work well with the Runge Kutte algorithm.
+
+Second, we introduce an even shorter range repulsion between monomers
+that diverges at a hard core radius $\sigma_h$ and goes to zero at $\sigma_s$:
+\begin{equation}
+{\bf f}_{rep} = f_r\left(\frac{1}{r^2-\sigma_h^2}- \frac{1}{\sigma_s^2-\sigma_h^2}\right)^4 \br 
+\end{equation}
+where $f_r$ is the strength of the repulsive interaction.
+
+Third, we introduce an equal and opposite forces between monomers on opposite polarity microtubules
+that are within a distance $\sigma_s$.
+The direction of the force is as follows. We compute the tangents to both
+monomers as $(\br_{i+1}-\br_{i-1})/2$. Then we choose the direction $\bf t$, to be the
+average of these two tangents. The magnitude of the kinesin force is
+\begin{equation}
+{\bf f}_{kin} = f_k (1-\Delta^{12})^3 
+\end{equation}
+where $f_k$ is similar the symbol used previously and denotes the magnitude of
+the kinesin force.
+
+These forces are added to the elastic forces, viscous drag, and tension that
+must be introduced to conserve link length and the equation of motion is iterated
+using a method for updating chains with constant link length~\cite{deutsch1988theoretical,deutsch1989theoretical}.
+
+We also tried two separate kinds of boundary conditions. First, tethering the chains to
+fixed points on the surface which we will call ``fixed" boundary conditions. Second, confining the chain ends to a two
+dimensional plane but letting the ends move within that plane, which we will
+call ``sliding" boundary conditions. 
+
+We tried a wide range of parameters, of different elastic constants, attractive
+interactions, number of microtubules, and boundary conditions. What we found is
+now summarized. 
+
+For two chain bundles of opposite polarity we did find a set of parameters which
+showed movement of the bundle with: 
+$f_r =  10.0$, $\sigma_s =  2$, $\sigma_h = 1$, $f_a =  3$, $f_k = 0.2$, $C=
+100$, and chain length of $20$.
+
+For larger bundle sizes, e.g. 9 chains,  we did not find anything similar to
+experiments. With fixed boundary conditions, and started as a pillar of
+parallel microtubules with slightly randomized directions, the chains would settle down to
+a pillar shape that would not change with time for sufficiently small attractive
+interactions $f_a$, but when this became greater than a certain value that
+depends on elastic constant and other parameters, it would suddenly collapse
+into a ball because this is more highly favored energetically.
+
+When we chose sliding boundary conditions, and for sufficiently weak attractive
+interactions, $f_a=1$ there was a regime where there was twisting motion inside the
+pillar but then the minus microtubules would suddenly slide off of the plus
+ones, finally lying close to parallel with the plane of attachment, see supplemental movie S10. 
+It therefore appears that a two microtubule bundle moves because of a strong
+anisotropy in forces seen in cross sections. In larger bundles, the forces
+through the bundle are more homogeneous which acts to stabilize them.
+
+We conclude that by direct physical modeling of a mixed polarity bundle, it is
+not clear if there are any reasonable parameters which show motion similar to
+what is seen in the experiments of Sanchez et al~\cite{Sanchez2011,sanchez2013engineering}.
+
+Note that the elastic constant of a microtubule in a bundle will depend strongly on the
+rate at which it is bent. For very short times, the bonds between different
+microtubules caused by kinesin binding will be fixed in position giving the bundle the
+elastic constant of a cylinder of radius $R$ which is $\propto R^4$. However the
+oscillations here take place on minute timescales. In that case the individual
+kinesin molecules have velocities of order $1\mu m/s$ so 
+they unbind and move very far
+on this time scale. This allows neighboring microtubules to move relative to
+each other, to eliminate stress. Therefore on sufficiently long timescales,
+this reduces the elastic constant of a microtubule to that of one in isolation.
+
+
+\section{Results}
+\label{sec:results}
 
 \begin{figure}
 \centering
@@ -1396,17 +1727,17 @@ $k_{stiff}$, and height $H$. It should be noted that changes in the viscosity or
 \begin{figure*}
 \centering
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p1-10-4}
+\includegraphics[width=0.3\textwidth]{circ-0p1-10-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p2-10-4}
+\includegraphics[width=0.3\textwidth]{circ-0p2-10-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-0p3-10-4}
+\includegraphics[width=0.3\textwidth]{circ-0p3-10-4}
 }
 \qquad
 \subfloat[][]{
-\includegraphics[width=0.45\textwidth]{circ_tcorrs_oseen_10-4}
+\includegraphics[width=0.5\textwidth]{circ_tcorrs_oseen_10-4}
 }
 \caption{Full correlation functions for circular geometry with $H=1$
 and $k_{stiff}=10$, with $k_{Oseen}=$ 0.1, 0.2, and 0.3 (a-c,
@@ -1438,17 +1769,17 @@ which is why it rises again when $i$ becomes large.
 \begin{figure*}
 \centering
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-5-4}
+\includegraphics[width=0.3\textwidth]{plane-0p1-5-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-10-4}
+\includegraphics[width=0.3\textwidth]{plane-0p1-10-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{plane-0p1-20-4}
+\includegraphics[width=0.3\textwidth]{plane-0p1-20-4}
 }
 \qquad
 \subfloat[][]{
-\includegraphics[width=0.45\textwidth]{plane_tcorr_stiff-0p1-4}
+\includegraphics[width=0.5\textwidth]{plane_tcorr_stiff-0p1-4}
 }
 \caption{Full correlation functions for planar geometry with $H=1$
 and $k_{Oseen}=0.1$, with $k_{stiff}=$ 5.0, 10.0, and 20.0 (a-c,
@@ -1472,17 +1803,17 @@ the longest lengths and time scales.
 \begin{figure*}
 \centering
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-1H-0p2-10-4}
+\includegraphics[width=0.3\textwidth]{circ-1H-0p2-10-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-p5H-0p2-10-4}
+\includegraphics[width=0.3\textwidth]{circ-p5H-0p2-10-4}
 }
 \subfloat[][]{
-\includegraphics[width=0.15\textwidth]{circ-p1H-0p2-10-4}
+\includegraphics[width=0.3\textwidth]{circ-p1H-0p2-10-4}
 }
 \qquad
 \subfloat[][]{
-\includegraphics[width=0.45\textwidth]{circ_tcorr_H-0p2-10-4}
+\includegraphics[width=0.5\textwidth]{circ_tcorr_H-0p2-10-4}
 }
 \caption{Full correlation functions for circular geometry with
 $k_{stiff}=10$, $k_{Oseen}=0.2$, and $H$ = 1.0, 0.5, and 0.1 (a-c,
@@ -1500,8 +1831,8 @@ impose. Smaller $H$ reduces the hydrodynamic coupling, causing a decrease in coh
 
 %------------------------------------------------
 
-%\section{Discussion}
-%\label{sec:disc}
+\section{Discussion}
+\label{sec:disc}
 When comparing these results to those of
 Sanchez et al., we find that the basic features agree. The videos
 included in the supplemental materials qualitatively mimic the
@@ -1524,7 +1855,7 @@ we expect to be in the latter regime. However the details of the
 hydrodynamics and elasticity in these bundles is still not understood
 experimentally. In fact, as we mentioned earlier, the polarity of
 individual MT's is not known experimentally, and arguments for their
-unipolarity are given in the supplementary information, S-\ref{S-app:unipolar}.
+unipolarity are given in \ref{app:unipolar}.
 But still, the basic mechanism of dynamic buckling due to kinesin drag, 
 and metachronal waves being generated by hydrodynamic coupling is
 robust over a wide parameter range, so we believe that these
@@ -1543,7 +1874,7 @@ at distances large compared to the plate separation. We have tested
 for this by adding image charges to the planar case, 
 and found that their effects on correlations are small, as expected.
 
-%\section{Conclusions}
+\section{Conclusions}
 In conclusion,
 we have developed a model for the spontaneous formation of wavelike
 behavior in active polymer arrays that only requires two ingredients:
@@ -1565,16 +1896,22 @@ and the ubiquity of microtubules and kinesin in cells, it
 gives one further impetus to look for other places in biology
 where this kind of behavior can be found.
 
+
+\chapter{Spontaneous Circulation of Active Microtubules Confined by Optical Traps}
+
 \chapter{Conclusion}
 
 \nocite{*}
-\bibliographystyle{plain}
-\bibliography{uctest}
+\bibliographystyle{unsrt}
+\bibliography{Thesis}
 
 \appendix
-\chapter{Some Ancillary Stuff}
+\chapter{Supplementary Videos}
+\noindent
+Supplementary videos for the material in Chapter 3 can be found here:\\
+\url{https://sites.google.com/ucsc.edu/joshdeutsch/metachronal-videos?authuser=0}\\ \\
+Supplementary videos for the material in Chapter 4 can be found here:
 
-Ancillary material should be put in appendices, which appear after the
-bibliography. 
+
 
 \end{document}

@@ -1,72 +1,49 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Thesis.aux
-The style file: plain.bst
-Database file #1: uctest.bib
-Warning--I didn't find a database entry for "IrieKunwatchakun"
-Warning--I didn't find a database entry for "Irie"
-Warning--I didn't find a database entry for "SuzukiHirasa"
-Warning--I didn't find a database entry for "BehlLendlein"
-Warning--I didn't find a database entry for "RoyGupta"
-Warning--I didn't find a database entry for "credi2006"
-Warning--I didn't find a database entry for "terWiel2005"
-Warning--I didn't find a database entry for "Ruangsupapichat"
-Warning--I didn't find a database entry for "Vicario"
-Warning--I didn't find a database entry for "Ashton1998"
-Warning--I didn't find a database entry for "Ashton2000"
-Warning--I didn't find a database entry for "Berna"
-Warning--I didn't find a database entry for "Liu"
-Warning--I didn't find a database entry for "BustamanteKellerOster"
-Warning--I didn't find a database entry for "ProstPRL"
-Warning--I didn't find a database entry for "SunLiu"
-Warning--I didn't find a database entry for "Gates"
-Warning--I didn't find a database entry for "degennes"
-Warning--I didn't find a database entry for "Klampfatis"
-Warning--I didn't find a database entry for "Harder"
-Warning--I didn't find a database entry for "DeutschCerfFriction"
-Warning--I didn't find a database entry for "ReimannRev"
-Warning--I didn't find a database entry for "JulicherRevModPhys"
-Warning--I didn't find a database entry for "ShootingMethod"
-Warning--I didn't find a database entry for "GrzybowskiReview"
-You've used 14 entries,
-            2118 wiz_defined-function locations,
-            611 strings with 5679 characters,
-and the built_in function-call counts, 3347 in all, are:
-= -- 337
-> -- 104
-< -- 5
-+ -- 49
-- -- 30
-* -- 206
-:= -- 603
-add.period$ -- 44
-call.type$ -- 14
-change.case$ -- 51
+The style file: unsrt.bst
+Database file #1: Thesis.bib
+Name 5 in "Alberts, Bruce and Johnson, Alexander and Lewis, Julian and Raff, Martin and Roberts, Keith, and Walter,Peter" has a comma at the end for entry Alberts2002
+while executing---line 944 of file unsrt.bst
+You've used 66 entries,
+            1791 wiz_defined-function locations,
+            894 strings with 14016 characters,
+and the built_in function-call counts, 16021 in all, are:
+= -- 1409
+> -- 749
+< -- 4
++ -- 276
+- -- 210
+* -- 1265
+:= -- 2583
+add.period$ -- 201
+call.type$ -- 66
+change.case$ -- 58
 chr.to.int$ -- 0
-cite$ -- 14
-duplicate$ -- 147
-empty$ -- 287
-format.name$ -- 30
-if$ -- 679
+cite$ -- 66
+duplicate$ -- 635
+empty$ -- 1550
+format.name$ -- 210
+if$ -- 3487
 int.to.chr$ -- 0
-int.to.str$ -- 14
-missing$ -- 12
-newline$ -- 75
-num.names$ -- 28
-pop$ -- 52
+int.to.str$ -- 66
+missing$ -- 71
+newline$ -- 333
+num.names$ -- 67
+pop$ -- 125
 preamble$ -- 1
-purify$ -- 43
+purify$ -- 0
 quote$ -- 0
-skip$ -- 82
+skip$ -- 243
 stack$ -- 0
-substring$ -- 154
-swap$ -- 18
-text.length$ -- 5
+substring$ -- 1303
+swap$ -- 92
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 48
+type$ -- 0
 warning$ -- 0
-while$ -- 36
-width$ -- 16
-write$ -- 163
-(There were 25 warnings)
+while$ -- 155
+width$ -- 68
+write$ -- 724
+(There was 1 error message)
