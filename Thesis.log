@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  6 AUG 2018 15:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.7.30)  7 AUG 2018 10:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,9 +105,21 @@ Package grffile Info: Option `extendedchars' is set to `false'.
 Package grffile Info: Option `space' is set to `true'.
 Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 486.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count90
+\rotFPtop=\skip41
+\rotFPbot=\skip42
+\rot@float@box=\box26
+\rot@mess@toks=\toks15
+)
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/03 v2.15a AMS math features
-\@mathmargin=\skip41
+\@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -115,7 +127,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks15
+\@emptytoks=\toks16
 \ex@=\dimen105
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -125,41 +137,41 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 199.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 297.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box26
-\strutbox@=\box27
+\Mathstrutbox@=\box27
+\strutbox@=\box28
 \big@size=\dimen107
 LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
-\tag@help=\toks16
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
-\andhelp@=\toks17
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks17
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks18
 \eqnshift@=\dimen108
 \alignsep@=\dimen109
 \tagshift@=\dimen110
 \tagwidth@=\dimen111
 \totwidth@=\dimen112
 \lineht@=\dimen113
-\@envbody=\toks18
-\multlinegap=\skip42
-\multlinetaggap=\skip43
-\mathdisplay@stack=\toks19
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2735.
 LaTeX Info: Redefining \] on input line 2736.
 )
@@ -175,15 +187,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2015/03/04 v2.20.2
-\thm@style=\toks20
-\thm@bodyfont=\toks21
-\thm@headfont=\toks22
-\thm@notefont=\toks23
-\thm@headpunct=\toks24
-\thm@preskip=\skip44
-\thm@postskip=\skip45
-\thm@headsep=\skip46
-\dth@everypar=\toks25
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xr.sty
 Package: xr 1994/05/28 v5.02 eXternal References (DPC)
@@ -232,13 +244,13 @@ Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen114
-\Hy@linkcounter=\count102
-\Hy@pagecounter=\count103
+\Hy@linkcounter=\count103
+\Hy@pagecounter=\count104
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count104
+\Hy@SavedSpaceFactor=\count105
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -250,7 +262,7 @@ Package hyperref Info: Plain pages OFF on input line 4458.
 Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count105
+\c@Hy@tempcnt=\count106
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
@@ -258,7 +270,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen115
-\Fld@menulength=\count106
+\Fld@menulength=\count107
 \Field@Width=\dimen116
 \Fld@charsize=\dimen117
 Package hyperref Info: Hyper figures OFF on input line 6295.
@@ -270,24 +282,24 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count107
-\c@Item=\count108
-\c@Hfootnote=\count109
+\Hy@abspage=\count108
+\c@Item=\count109
+\c@Hfootnote=\count110
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count110
-\c@bookmark@seq@number=\count111
+\Fld@listcount=\count111
+\c@bookmark@seq@number=\count112
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip47
+\Hy@SectionHShift=\skip49
 )
 (/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -324,55 +336,55 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@indent=\dimen122
 \caption@parindent=\dimen123
 \caption@hangindent=\dimen124
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+\abovecaptionskip=\skip50
+\belowcaptionskip=\skip51
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 )
-\c@KVtest=\count112
-\sf@farskip=\skip50
+\c@KVtest=\count113
+\sf@farskip=\skip52
 \sf@captopadj=\dimen125
-\sf@capskip=\skip51
-\sf@nearskip=\skip52
-\c@subfigure=\count113
-\c@subfigure@save=\count114
-\c@lofdepth=\count115
-\c@subtable=\count116
-\c@subtable@save=\count117
-\c@lotdepth=\count118
-\sf@top=\skip53
-\sf@bottom=\skip54
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip55
+\sf@bottom=\skip56
 ) (./Thesis.aux)
 \openout1 = `Thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
+LaTeX Font Info:    ... okay on input line 49.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count119
+\scratchcounter=\count120
 \scratchdimen=\dimen126
-\scratchbox=\box28
-\nofMPsegments=\count120
-\nofMParguments=\count121
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count122
+\scratchbox=\box29
+\nofMPsegments=\count121
+\nofMParguments=\count122
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count123
 \MPscratchDim=\dimen127
-\MPnumerator=\count123
-\makeMPintoPDFobject=\count124
-\everyMPtoPDFconversion=\toks27
+\MPnumerator=\count124
+\makeMPintoPDFobject=\count125
+\everyMPtoPDFconversion=\toks28
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -388,16 +400,16 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\AtBeginShipoutBox=\box29
+\AtBeginShipoutBox=\box30
 
 
 Package hyperref Warning: Height of page (\paperheight) is invalid (0.0pt),
 (hyperref)                using 11in.
 
-Package hyperref Info: Link coloring OFF on input line 48.
-LaTeX Info: Redefining \ref on input line 48.
-LaTeX Info: Redefining \pageref on input line 48.
-LaTeX Info: Redefining \nameref on input line 48.
+Package hyperref Info: Link coloring OFF on input line 49.
+LaTeX Info: Redefining \ref on input line 49.
+LaTeX Info: Redefining \pageref on input line 49.
+LaTeX Info: Redefining \nameref on input line 49.
 (./Thesis.out) (./Thesis.out)
 \@outlinefile=\write3
 \openout3 = `Thesis.out'.
@@ -405,31 +417,23 @@ LaTeX Info: Redefining \nameref on input line 48.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 71.
+LaTeX Font Info:    Try loading font information for U+msa on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 71.
+LaTeX Font Info:    Try loading font information for U+msb on input line 73.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 71.
- [2] (./Thesis.toc
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] (./Thesis.toc
 [3
 
 ])
@@ -443,12 +447,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 \openout5 = `Thesis.lof'.
 
  [7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 97--103
 
  []
 
@@ -459,7 +463,7 @@ Chapter 1.
 ] [2]
 Chapter 2.
 
-Overfull \hbox (2.6164pt too wide) in paragraph at lines 142--145
+Overfull \hbox (2.6164pt too wide) in paragraph at lines 144--147
 \OT1/cmr/m/n/10.95 poly-meric photo-responsive ma-te-ri-als [[], [], [], [], []
 ] or the syn-the-sis of in-di-vid-ual molecules
  []
@@ -470,97 +474,97 @@ Overfull \hbox (2.6164pt too wide) in paragraph at lines 142--145
 File: Fig1_label.pdf Graphic file (type pdf)
 
 <use Fig1_label.pdf>
-Package pdftex.def Info: Fig1_label.pdf used on input line 248.
+Package pdftex.def Info: Fig1_label.pdf used on input line 250.
 (pdftex.def)             Requested size: 415.55249pt x 311.66194pt.
  [7] [8 <./Fig1_label.pdf>] [9] [10]
 <expVplot.pdf, id=458, 796.9775pt x 598.235pt>
 File: expVplot.pdf Graphic file (type pdf)
  <use expVplot.pdf>
-Package pdftex.def Info: expVplot.pdf used on input line 342.
+Package pdftex.def Info: expVplot.pdf used on input line 344.
 (pdftex.def)             Requested size: 415.55249pt x 311.9238pt.
  [11] [12 <./expVplot.pdf>] <0505per.pdf, id=477, 587.19376pt x 443.6575pt>
 File: 0505per.pdf Graphic file (type pdf)
 
 <use 0505per.pdf>
-Package pdftex.def Info: 0505per.pdf used on input line 383.
+Package pdftex.def Info: 0505per.pdf used on input line 385.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
  <4040per.pdf, id=478, 587.19376pt x 443.6575pt>
 File: 4040per.pdf Graphic file (type pdf)
 
 <use 4040per.pdf>
-Package pdftex.def Info: 4040per.pdf used on input line 385.
+Package pdftex.def Info: 4040per.pdf used on input line 387.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
 
 
-LaTeX Warning: Float too large for page by 29.05643pt on input line 397.
+LaTeX Warning: Float too large for page by 29.05643pt on input line 399.
 
 <0505rand.pdf, id=479, 587.19376pt x 443.6575pt>
 File: 0505rand.pdf Graphic file (type pdf)
  <use 0505rand.pdf>
-Package pdftex.def Info: 0505rand.pdf used on input line 401.
+Package pdftex.def Info: 0505rand.pdf used on input line 403.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
 
 <4040rand.pdf, id=480, 587.19376pt x 443.6575pt>
 File: 4040rand.pdf Graphic file (type pdf)
  <use 4040rand.pdf>
-Package pdftex.def Info: 4040rand.pdf used on input line 403.
+Package pdftex.def Info: 4040rand.pdf used on input line 405.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
 
 
-LaTeX Warning: Float too large for page by 1.85641pt on input line 410.
+LaTeX Warning: Float too large for page by 1.85641pt on input line 412.
 
 [13] [14 <./0505per.pdf> <./4040per.pdf>] [15 <./0505rand.pdf> <./4040rand.pdf>
 ] [16] [17] [18] [19] [20] [21] <vs.pdf, id=587, 796.9775pt x 598.235pt>
 File: vs.pdf Graphic file (type pdf)
 
 <use vs.pdf>
-Package pdftex.def Info: vs.pdf used on input line 633.
+Package pdftex.def Info: vs.pdf used on input line 635.
 (pdftex.def)             Requested size: 415.55249pt x 311.9238pt.
  <Pnl_spr.pdf, id=589, 792.9625pt x 598.235pt>
 File: Pnl_spr.pdf Graphic file (type pdf)
  <use Pnl_spr.pdf>
-Package pdftex.def Info: Pnl_spr.pdf used on input line 646.
+Package pdftex.def Info: Pnl_spr.pdf used on input line 648.
 (pdftex.def)             Requested size: 415.55249pt x 313.51212pt.
 
 [22] [23 <./vs.pdf>] [24 <./Pnl_spr.pdf>]
 <Pasvp.pdf, id=621, 792.9625pt x 598.235pt>
 File: Pasvp.pdf Graphic file (type pdf)
  <use Pasvp.pdf>
-Package pdftex.def Info: Pasvp.pdf used on input line 668.
+Package pdftex.def Info: Pasvp.pdf used on input line 670.
 (pdftex.def)             Requested size: 415.55249pt x 313.51212pt.
  [25 <./Pasvp.pdf>]
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 714--718
+Underfull \hbox (badness 10000) in paragraph at lines 716--720
 
  []
 
 <1dpot.pdf, id=640, 467.7475pt x 270.00874pt>
 File: 1dpot.pdf Graphic file (type pdf)
  <use 1dpot.pdf>
-Package pdftex.def Info: 1dpot.pdf used on input line 722.
+Package pdftex.def Info: 1dpot.pdf used on input line 724.
 (pdftex.def)             Requested size: 415.55249pt x 239.89088pt.
  [27 <./1dpot.pdf>] [28] [29] [30] [31] [32] [33] [34] [35]
 <fvsv.k15.pdf, id=729, 796.9775pt x 598.235pt>
 File: fvsv.k15.pdf Graphic file (type pdf)
  <use fvsv.k15.pdf>
-Package pdftex.def Info: fvsv.k15.pdf used on input line 1064.
+Package pdftex.def Info: fvsv.k15.pdf used on input line 1066.
 (pdftex.def)             Requested size: 289.07999pt x 216.98927pt.
 
 <maxpower.pdf, id=730, 796.9775pt x 598.235pt>
 File: maxpower.pdf Graphic file (type pdf)
  <use maxpower.pdf>
-Package pdftex.def Info: maxpower.pdf used on input line 1066.
+Package pdftex.def Info: maxpower.pdf used on input line 1068.
 (pdftex.def)             Requested size: 289.07999pt x 216.98927pt.
 
 
-LaTeX Warning: Float too large for page by 12.60239pt on input line 1079.
+LaTeX Warning: Float too large for page by 12.60239pt on input line 1081.
 
 [36] [37 <./fvsv.k15.pdf> <./maxpower.pdf>] [38] [39] [40]
 Chapter 3.
 [41
 
 ]
-Overfull \hbox (25.14502pt too wide) in paragraph at lines 1177--1191
+Overfull \hbox (25.14502pt too wide) in paragraph at lines 1179--1193
 []\OT1/cmr/m/n/10.95 Recently, in some re-mark-able ex-per-i-ments, Sanchez et 
 al. demon-strated metachronal
  []
@@ -568,150 +572,151 @@ al. demon-strated metachronal
 [42] <MT_forces.pdf, id=814, 294.09875pt x 547.04375pt>
 File: MT_forces.pdf Graphic file (type pdf)
  <use MT_forces.pdf>
-Package pdftex.def Info: MT_forces.pdf used on input line 1231.
+Package pdftex.def Info: MT_forces.pdf used on input line 1233.
 (pdftex.def)             Requested size: 144.54pt x 268.8551pt.
 
 [43] [44 <./MT_forces.pdf>] [45] [46]
 <Sec2.png, id=870, 800.0289pt x 268.1217pt>
 File: Sec2.png Graphic file (type png)
  <use Sec2.png>
-Package pdftex.def Info: Sec2.png used on input line 1351.
-(pdftex.def)             Requested size: 415.55249pt x 139.2727pt.
- [47]
-Overfull \hbox (0.97525pt too wide) detected at line 1373
+Package pdftex.def Info: Sec2.png used on input line 1353.
+(pdftex.def)             Requested size: 587.19374pt x 196.79501pt.
+ [47] [48 <./Sec2.png>]
+Overfull \hbox (0.97525pt too wide) detected at line 1375
 []\U/msb/m/n/10.95 G\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 r\OT1/cmr/m/n/10.95
  ) = [] []
  []
 
-[48 <./Sec2.png>] [49] <2plates.pdf, id=898, 645.41125pt x 174.6525pt>
+[49] [50] <2plates.pdf, id=902, 645.41125pt x 174.6525pt>
 File: 2plates.pdf Graphic file (type pdf)
-
-<use 2plates.pdf>
-Package pdftex.def Info: 2plates.pdf used on input line 1404.
+ <use 2plates.pdf>
+Package pdftex.def Info: 2plates.pdf used on input line 1406.
 (pdftex.def)             Requested size: 415.55249pt x 112.45145pt.
- <hydroforces.pdf, id=901, 433.62pt x 322.20375pt>
+
+<hydroforces.pdf, id=905, 433.62pt x 322.20375pt>
 File: hydroforces.pdf Graphic file (type pdf)
-
-<use hydroforces.pdf>
-Package pdftex.def Info: hydroforces.pdf used on input line 1417.
+ <use hydroforces.pdf>
+Package pdftex.def Info: hydroforces.pdf used on input line 1419.
 (pdftex.def)             Requested size: 289.07999pt x 214.81343pt.
- [50 <./2plates.pdf>] [51 <./hydroforces.pdf>] [52]
-[53] [54] [55] [56] [57] [58] [59]
-<anim_circ.png, id=1005, 1150.2975pt x 1155.31625pt>
-File: anim_circ.png Graphic file (type png)
- <use anim_circ.png>
-Package pdftex.def Info: anim_circ.png used on input line 1683.
-(pdftex.def)             Requested size: 415.55249pt x 417.35909pt.
 
-<anim_plane.png, id=1006, 3212.0pt x 401.5pt>
+[51 <./2plates.pdf>] [52 <./hydroforces.pdf>] [53] [54] [55] [56] [57] [58]
+[59] [60] <anim_circ.png, id=1009, 1150.2975pt x 1155.31625pt>
+File: anim_circ.png Graphic file (type png)
+
+<use anim_circ.png>
+Package pdftex.def Info: anim_circ.png used on input line 1685.
+(pdftex.def)             Requested size: 415.55249pt x 417.35909pt.
+ <anim_plane.png, id=1010, 3212.0pt x 401.5pt>
 File: anim_plane.png Graphic file (type png)
- <use anim_plane.png>
-Package pdftex.def Info: anim_plane.png used on input line 1687.
+
+<use anim_plane.png>
+Package pdftex.def Info: anim_plane.png used on input line 1689.
 (pdftex.def)             Requested size: 415.55249pt x 51.93951pt.
 
-Overfull \hbox (7.29999pt too wide) in paragraph at lines 1683--1690
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 1685--1692
  [][] 
  []
 
 
-Overfull \hbox (7.29999pt too wide) in paragraph at lines 1683--1690
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 1685--1692
  [][] 
  []
 
-[60] <circ-0p1-10-4.png, id=1015, 195.129pt x 433.62pt>
+[61] [62 <./anim_circ.png> <./anim_plane.png>]
+<circ-0p1-10-4.png, id=1028, 195.129pt x 433.62pt>
 File: circ-0p1-10-4.png Graphic file (type png)
-
-<use circ-0p1-10-4.png>
-Package pdftex.def Info: circ-0p1-10-4.png used on input line 1731.
+ <use circ-0p1-10-4.png>
+Package pdftex.def Info: circ-0p1-10-4.png used on input line 1733.
 (pdftex.def)             Requested size: 124.667pt x 277.03946pt.
- <circ-0p2-10-4.png, id=1016, 192.9609pt x 433.62pt>
+
+<circ-0p2-10-4.png, id=1029, 192.9609pt x 433.62pt>
 File: circ-0p2-10-4.png Graphic file (type png)
-
-<use circ-0p2-10-4.png>
-Package pdftex.def Info: circ-0p2-10-4.png used on input line 1734.
+ <use circ-0p2-10-4.png>
+Package pdftex.def Info: circ-0p2-10-4.png used on input line 1736.
 (pdftex.def)             Requested size: 124.667pt x 280.15584pt.
- <circ-0p3-10-4.png, id=1017, 195.8517pt x 433.62pt>
-File: circ-0p3-10-4.png Graphic file (type png)
 
-<use circ-0p3-10-4.png>
-Package pdftex.def Info: circ-0p3-10-4.png used on input line 1737.
+<circ-0p3-10-4.png, id=1030, 195.8517pt x 433.62pt>
+File: circ-0p3-10-4.png Graphic file (type png)
+ <use circ-0p3-10-4.png>
+Package pdftex.def Info: circ-0p3-10-4.png used on input line 1739.
 (pdftex.def)             Requested size: 124.667pt x 276.02052pt.
 
-<circ_tcorrs_oseen_10-4.png, id=1018, 500.8311pt x 382.3083pt>
+<circ_tcorrs_oseen_10-4.png, id=1031, 500.8311pt x 382.3083pt>
 File: circ_tcorrs_oseen_10-4.png Graphic file (type png)
 
 <use circ_tcorrs_oseen_10-4.png>
-Package pdftex.def Info: circ_tcorrs_oseen_10-4.png used on input line 1741.
+Package pdftex.def Info: circ_tcorrs_oseen_10-4.png used on input line 1743.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
- [61] [62 <./anim_circ.png> <./anim_plane.png>] [63 <./circ-0p1-10-4.png> <./ci
-rc-0p2-10-4.png> <./circ-0p3-10-4.png> <./circ_tcorrs_oseen_10-4.png>] <plane-0
-p1-5-4.png, id=1049, 156.8259pt x 380.8629pt>
-File: plane-0p1-5-4.png Graphic file (type png)
 
-<use plane-0p1-5-4.png>
-Package pdftex.def Info: plane-0p1-5-4.png used on input line 1773.
+<plane-0p1-5-4.png, id=1036, 156.8259pt x 380.8629pt>
+File: plane-0p1-5-4.png Graphic file (type png)
+ <use plane-0p1-5-4.png>
+Package pdftex.def Info: plane-0p1-5-4.png used on input line 1775.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
- <plane-0p1-10-4.png, id=1050, 156.8259pt x 380.8629pt>
+
+<plane-0p1-10-4.png, id=1037, 156.8259pt x 380.8629pt>
 File: plane-0p1-10-4.png Graphic file (type png)
 
 <use plane-0p1-10-4.png>
-Package pdftex.def Info: plane-0p1-10-4.png used on input line 1776.
+Package pdftex.def Info: plane-0p1-10-4.png used on input line 1778.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
 
-<plane-0p1-20-4.png, id=1051, 156.8259pt x 380.8629pt>
+<plane-0p1-20-4.png, id=1038, 156.8259pt x 380.8629pt>
 File: plane-0p1-20-4.png Graphic file (type png)
 
 <use plane-0p1-20-4.png>
-Package pdftex.def Info: plane-0p1-20-4.png used on input line 1779.
+Package pdftex.def Info: plane-0p1-20-4.png used on input line 1781.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
 
-<plane_tcorr_stiff-0p1-4.png, id=1052, 500.8311pt x 382.3083pt>
+<plane_tcorr_stiff-0p1-4.png, id=1039, 500.8311pt x 382.3083pt>
 File: plane_tcorr_stiff-0p1-4.png Graphic file (type png)
 
 <use plane_tcorr_stiff-0p1-4.png>
-Package pdftex.def Info: plane_tcorr_stiff-0p1-4.png used on input line 1783.
+Package pdftex.def Info: plane_tcorr_stiff-0p1-4.png used on input line 1785.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
 
-<circ-1H-0p2-10-4.png, id=1056, 156.8259pt x 380.8629pt>
+<circ-1H-0p2-10-4.png, id=1043, 156.8259pt x 380.8629pt>
 File: circ-1H-0p2-10-4.png Graphic file (type png)
 
 <use circ-1H-0p2-10-4.png>
-Package pdftex.def Info: circ-1H-0p2-10-4.png used on input line 1807.
+Package pdftex.def Info: circ-1H-0p2-10-4.png used on input line 1809.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
 
-<circ-p5H-0p2-10-4.png, id=1057, 156.8259pt x 380.8629pt>
+<circ-p5H-0p2-10-4.png, id=1044, 156.8259pt x 380.8629pt>
 File: circ-p5H-0p2-10-4.png Graphic file (type png)
 
 <use circ-p5H-0p2-10-4.png>
-Package pdftex.def Info: circ-p5H-0p2-10-4.png used on input line 1810.
+Package pdftex.def Info: circ-p5H-0p2-10-4.png used on input line 1812.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
 
-<circ-p1H-0p2-10-4.png, id=1058, 156.8259pt x 380.8629pt>
+<circ-p1H-0p2-10-4.png, id=1045, 156.8259pt x 380.8629pt>
 File: circ-p1H-0p2-10-4.png Graphic file (type png)
 
 <use circ-p1H-0p2-10-4.png>
-Package pdftex.def Info: circ-p1H-0p2-10-4.png used on input line 1813.
+Package pdftex.def Info: circ-p1H-0p2-10-4.png used on input line 1815.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
 
-<circ_tcorr_H-0p2-10-4.png, id=1059, 500.8311pt x 382.3083pt>
+<circ_tcorr_H-0p2-10-4.png, id=1046, 500.8311pt x 382.3083pt>
 File: circ_tcorr_H-0p2-10-4.png Graphic file (type png)
 
 <use circ_tcorr_H-0p2-10-4.png>
-Package pdftex.def Info: circ_tcorr_H-0p2-10-4.png used on input line 1817.
+Package pdftex.def Info: circ_tcorr_H-0p2-10-4.png used on input line 1819.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
- [64] [65 <./plane-0p1-5-4.png> <./plane-0p1-10-4.png> <./plane-0p1-20-4.png> <
-./plane_tcorr_stiff-0p1-4.png>] [66 <./circ-1H-0p2-10-4.png> <./circ-p5H-0p2-10
--4.png> <./circ-p1H-0p2-10-4.png> <./circ_tcorr_H-0p2-10-4.png>] [67] [68]
+ [63] [64 <./circ-0p1-10-4.png> <./circ-0p2-10-4.png> <./circ-0p3-10-4.png> <./
+circ_tcorrs_oseen_10-4.png>] [65 <./plane-0p1-5-4.png> <./plane-0p1-10-4.png> <
+./plane-0p1-20-4.png> <./plane_tcorr_stiff-0p1-4.png>] [66] [67 <./circ-1H-0p2-
+10-4.png> <./circ-p5H-0p2-10-4.png> <./circ-p1H-0p2-10-4.png> <./circ_tcorr_H-0
+p2-10-4.png>] [68] [69]
 Chapter 4.
-[69
+[70
 
 ]
 Chapter 5.
-(./Thesis.bbl [70
+(./Thesis.bbl [71
 
-] [71
+] [72
 
-] [72]
+] [73]
 Underfull \hbox (badness 4303) in paragraph at lines 86--91
 []\OT1/cmr/m/n/10.95 Peter R Ash-ton, Roberto Bal-lar-dini, Vin-cenzo Balzani, 
 Al-berto Credi,
@@ -720,40 +725,44 @@ Al-berto Credi,
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[73] [74] [75] [76] [77] [78]) [79]
+[74] [75] [76] [77] [78] [79]) [80]
 Appendix A.
 
-Overfull \hbox (10.3504pt too wide) in paragraph at lines 1910--1914
+Overfull \hbox (10.3504pt too wide) in paragraph at lines 1912--1916
 []$\OT1/cmtt/m/n/10.95 https : / / sites . google . com / ucsc . edu / joshdeut
 sch / metachronal-[]videos ? authuser =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1910--1914
+Underfull \hbox (badness 10000) in paragraph at lines 1912--1916
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1917.
-[80
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1919.
+[81
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1917.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1919.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1917.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1917.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1919.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1919.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
 (rerunfilecheck)             Checksum: 4123F9B879C0308A179799CC35565749;2025.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1917.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1919.
  ) 
 Here is how much of TeX's memory you used:
- 7503 strings out of 494910
- 110862 string characters out of 6179836
- 208987 words of memory out of 5000000
- 10405 multiletter control sequences out of 15000+600000
+ 7594 strings out of 494910
+ 111976 string characters out of 6179836
+ 211782 words of memory out of 5000000
+ 10491 multiletter control sequences out of 15000+600000
  15888 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 42i,12n,49p,1042b,460s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,12n,49p,1042b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
@@ -772,10 +781,10 @@ texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (90 pages, 2447641 bytes).
+Output written on Thesis.pdf (91 pages, 2447572 bytes).
 PDF statistics:
- 1290 PDF objects out of 1440 (max. 8388607)
- 1074 compressed objects within 11 object streams
- 275 named destinations out of 1000 (max. 500000)
+ 1295 PDF objects out of 1440 (max. 8388607)
+ 1078 compressed objects within 11 object streams
+ 276 named destinations out of 1000 (max. 500000)
  391 words of extra memory for PDF output out of 10000 (max. 10000000)
 

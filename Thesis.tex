@@ -21,6 +21,7 @@
 \usepackage{graphicx}
 %\usepackage{mathptmx}
 \usepackage{grffile}
+\usepackage{rotating}
 
 \usepackage{amsmath,amssymb,amsthm}
 %\newcounter{subfigure}
@@ -68,8 +69,9 @@
 \begin{frontmatter}
 
 \maketitle
-\copyrightpage
-
+%\copyrightpage
+\newpage
+\ \newpage
 \tableofcontents
 \listoffigures
 %\listoftables
@@ -1346,12 +1348,12 @@ for metachronal wave formation.
 
 \section{The Quasi-2D Interaction Tensor}
 \label{app:2Dint}
-\begin{figure*}
+\begin{sidewaysfigure*}
 \begin{center}
 \includegraphics[width=\textwidth]{Sec2}
 \caption{Fluid speeds as a function of distance $\rho$ from the stokeslet $\mathbf{F} = \hat \imath$. Solid curves are calculated using the full interaction tensor (\ref{eq:uab}) and dashed lines are the far-field approximation (\ref{eq:uff}). (a) $u_x(\rho)$ along the line $y=0$; (b) $u_x(\rho)$ along the line $x=0$; (c) $u_y(\rho)$ along the line $y=x$. \label{fig:oseen}}
 \end{center}
-\end{figure*}
+\end{sidewaysfigure*}
 The interaction tensor used in simulations is that of a stokeslet enclosed by two infinite parallel plates, as derived by Liron and Mochon\cite{Liron1976}. In general, the interaction tensor $\mathbb{G}$ is defined as the relationship between the fluid flow $\mathbf{u(r)}$ and the stokeslet $\mathbf{F}$ which causes this flow:
 \begin{equation}
 \label{eq:oseen}
