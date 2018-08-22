@@ -1,5 +1,10 @@
 \begin{thebibliography}{10}
 
+\bibitem{Sanchez2011}
+T.~Sanchez, D.~Welch, D.~Nicastro, and Z.~Dogic.
+\newblock Filler.
+\newblock {\em Science}, 333(6041):456--459, 2011.
+
 \bibitem{deutsch2015photomechanical}
 Joshua~M Deutsch and Stephen~E Martin.
 \newblock Photomechanical energy conversion using polymer brush dissociation.
@@ -10,16 +15,70 @@ Stephen~E Martin, Matthew~E Brunner, and Joshua~M Deutsch.
 \newblock Emergence of metachronal waves in active microtubule arrays.
 \newblock {\em arXiv preprint arXiv:1806.06993}, 2018.
 
-\bibitem{Sanchez2011}
-T.~Sanchez, D.~Welch, D.~Nicastro, and Z.~Dogic.
-\newblock Filler.
-\newblock {\em Science}, 333(6041):456--459, 2011.
-
 \bibitem{sanchez2013engineering}
 Timothy Sanchez and Zvonimir Dogic.
 \newblock Engineering oscillating microtubule bundles.
 \newblock In {\em Methods in enzymology}, volume 524, pages 205--224. Elsevier,
   2013.
+
+\bibitem{rice1999structural}
+Sarah Rice, Abel~W Lin, Daniel Safer, Cynthia~L Hart, Nariman Naber, Bridget~O
+  Carragher, Shane~M Cain, Elena Pechatnikova, Elizabeth~M Wilson-Kubalek,
+  Michael Whittaker, et~al.
+\newblock A structural change in the kinesin motor protein that drives
+  motility.
+\newblock {\em Nature}, 402(6763):778, 1999.
+
+\bibitem{vale2000way}
+Ronald~D Vale and Ronald~A Milligan.
+\newblock The way things move: looking under the hood of molecular motor
+  proteins.
+\newblock {\em Science}, 288(5463):88--95, 2000.
+
+\bibitem{vale1985identification}
+Ronald~D Vale, Thomas~S Reese, and Michael~P Sheetz.
+\newblock Identification of a novel force-generating protein, kinesin, involved
+  in microtubule-based motility.
+\newblock {\em Cell}, 42(1):39--50, 1985.
+
+\bibitem{vale1996direct}
+Ronald~D Vale, Takashi Funatsu, Daniel~W Pierce, Laura Romberg, Yoshie Harada,
+  and Toshio Yanagida.
+\newblock Direct observation of single kinesin molecules moving along
+  microtubules.
+\newblock {\em Nature}, 380(6573):451, 1996.
+
+\bibitem{kim2013microhydrodynamics}
+Sangtae Kim and Seppo~J Karrila.
+\newblock {\em Microhydrodynamics: principles and selected applications}.
+\newblock Courier Corporation, 2013.
+
+\bibitem{lisicki2013four}
+Maciej Lisicki.
+\newblock Four approaches to hydrodynamic green's functions--the oseen tensors.
+\newblock {\em arXiv preprint arXiv:1312.6231}, 2013.
+
+\bibitem{Blake1971}
+J.~R. Blake.
+\newblock A note on the image system for a stokeslet in a no-slip boundary.
+\newblock {\em Mathematical Proceedings of the Cambridge Philosophical
+  Society}, 70(2):303--310, 1971.
+
+\bibitem{chwang1975hydromechanics}
+Allen~T Chwang and T~Yao-Tsu Wu.
+\newblock Hydromechanics of low-reynolds-number flow. part 2. singularity
+  method for stokes flows.
+\newblock {\em Journal of Fluid Mechanics}, 67(4):787--815, 1975.
+
+\bibitem{Monteith2016}
+C.~E. Monteith, M.~E. Brunner, I.~Djagaeva, A.~M. Bielecki, and J.~M. Deutsch.
+\newblock Filler.
+\newblock {\em Biophys. J.}, 110(9):2053--2065, 2016.
+
+\bibitem{Liron1976}
+Nadav Liron and S~Mochon.
+\newblock Stokes flow for a stokeslet between two parallel flat plates.
+\newblock {\em Journal of Engineering Mathematics}, 10(4):287--303, 1976.
 
 \bibitem{IrieKunwatchakun}
 Masahiro Irie and Dawan Kunwatchakun.
@@ -259,22 +318,6 @@ Thomas Niedermayer, Bruno Eckhardt, and Peter Lenz.
   ciliary chains.
 \newblock {\em Chaos: An Interdisciplinary Journal of Nonlinear Science},
   18(3):037128, 2008.
-
-\bibitem{Monteith2016}
-C.~E. Monteith, M.~E. Brunner, I.~Djagaeva, A.~M. Bielecki, and J.~M. Deutsch.
-\newblock Filler.
-\newblock {\em Biophys. J.}, 110(9):2053--2065, 2016.
-
-\bibitem{Blake1971}
-J.~R. Blake.
-\newblock A note on the image system for a stokeslet in a no-slip boundary.
-\newblock {\em Mathematical Proceedings of the Cambridge Philosophical
-  Society}, 70(2):303--310, 1971.
-
-\bibitem{Liron1976}
-Nadav Liron and S~Mochon.
-\newblock Stokes flow for a stokeslet between two parallel flat plates.
-\newblock {\em Journal of Engineering Mathematics}, 10(4):287--303, 1976.
 
 \bibitem{bourdieu1995spiral}
 L~Bourdieu, T~Duke, MB~Elowitz, DA~Winkelmann, S~Leibler, and A~Libchaber.

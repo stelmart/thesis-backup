@@ -77,36 +77,57 @@
 %\listoftables
 
 \begin{abstract}
-Theses have elements.  Isn't that nice?
+\begin{minipage}{\textwidth}
 
+Three active matter systems involving long, flexible molecules (which we often refer to generally as polymers) are examined. Phenomena arising from these systems -- be it pure prediction (as in chapters \ref{chap:photomechanical} and \ref{chap:opt_trap}) or based on a known experiment (chapter \ref{chap:metachronal}) -- are analyzed theoretically and through simulation. The first system we consider is a plate resting on a tilted polymer brush, where the ends of the polymers bind to sites on the plate and unbind in response to an incoming photon. We show that, under the right conditions, the plate will move in the direction of the polymer tilt, converting incoming light energy directly to mechanical energy. This mechanism was inspired by a similar mechanism already present in biology: the actin-myosin interface in muscle tissue. The second system is that of microtubule bundles confined between two parallel plates with one end bound to a surface, as studied experimentally by Sanchez et al \cite{Sanchez2011}. In this experiment, the spontaneous formation of metachronal waves was observed. We show that this result can be reproduced using first-principles hydrodynamic simulations, and argue that these basic interactions are sufficient to explain the observed behavior. Finally, we propose an experiment in which microtubules are not bound to a surface, but rather confined to an optical trap. We show that, under the right conditions, drifting microtubules exhibit various phases, and can even align, circling the trap uniformly.
+
+\end{minipage}
 \end{abstract}
 
 \begin{dedication}
 \null\vfil
 {\large
 \begin{center}
-To myself,\\\vspace{12pt}
-Perry H. Disdainful,\\\vspace{12pt}
-the only person worthy of my company.
+To my family:\\\vspace{24pt}
+My parents, Mike and Carol, who unconditionally give me wisdom from what was.\\\vspace{24pt}
+Jon and Moryah, who show me what it means to stay focused on what is.\\\vspace{24pt}
+Elizabeth, Henry, Ruth, Jack, Aulani, and Short Round, who remind me to think about what could be.
 \end{center}}
 \vfil\null
 \end{dedication}
 
 
 \begin{acknowledgements}
+
+I would like to thank my advisor, Josh Deutsch, for his patience, guidance, and insight over the past several years as I gradually learned a number of physics, math, and computer science tools that fall well outside of the standard physics curriculum. I would also like to thank Onuttom Narayan and Sasha Sher for serving on my dissertation reading committee as well as my oral qualifying exam committee.
+
+Further thanks go to my friends: Adam Coogan, Devon Hollowood, Sheena Shier, and Caitlin Johnson for helping me get through the first two years and for their continuing support, Alice Durand for so many unexpected baked goods at so many unexpected times, and to Taren Stinebrickner-Kauffman, Kelsey Kauffman, and Tuck Eskay for their selfless help in reviewing and offering input on this document. 
+
 The text of this dissertation includes
-reprints of the following previously published material. The primary co-author for both is Josh Deutsch, who directed and supervised the research.\\ \\
+reprints of the following previously published material and material that has been submitted for publication. The primary co-author for all of these is Josh Deutsch, who directed and supervised the research.\\ \\
 Chapter 2 -- Photomechanical Energy Conversion \cite{deutsch2015photomechanical}\\
 I made computational and modeling contributions to the three dimensional model, especially in relation to randomly placed binding sites, and wrote sections of the paper.\\ \\
 Chapter 3 -- Emergence of Metachronal Waves \cite{martin2018emergence}\\
-I wrote most of this paper, ran all of the simulations and theoretical work. The backbone of the simulation was written by Matthew Brunner, who co-authored the paper. 
+I wrote most of this paper, ran all of the simulations and performed the theoretical work. The backbone of the simulation was written by Matthew Brunner, who co-authored the paper, but I added several important modifications. \\ \\
+Chapter 4 -- Spontaneous Circulation of Active Microtubules \cite{martin2018spontaneous}\\
+I wrote all of this paper, ran all simulations, and performed nearly all analysis. The simulation used was adapted from the simulation used to simulate metachronal waves (chapter \ref{chap:metachronal}) so again the backbone of the simulation was written by Matthew Brunner, a coauthor.
 \end{acknowledgements}
 
 \end{frontmatter}
 
 \chapter{Introduction}
 
-A device is investigated that continuously and directly converts
+Experiments in recent years show puzzling, counterintuitive, and potentially very useful emergent phenomena that arise in biological or synthetic systems which have some mechanism to convert energy from an external or internal source to organized motion. These types of systems, broadly speaking, have come to be called ``active matter." This may seem at first to be outside the realm of traditional physics. However, applying some of the same sorts of physical reasoning to biological systems has led to interesting and useful understanding of how and why they behave the way they do.
+
+At the highest level, active matter systems are interesting because -- while unpowered systems always seek equilibrium -- active matter systems often remain out of equilibrium so long as their energy source is not depleted. A variety of phenomena in a number of systems have been studied: collective motion such as swarming, large-scale mixing, spontaneous stable vortex formation, and Brownian ratcheting have all been observed, sometimes with the same phenomenon being observed in seemingly unrelated systems.
+
+In what follows, we focus on and analyze such active matter systems, both treating the systems theoretically and through simulation. We specifically focus on the sorts of phenomena that arise when long, flexible molecules such as polymers and microtubules play an important function in the organized motion of the system.
+
+\section{Outline}
+
+In the sections that follow in this chapter, we first discuss the biology and interesting physics of what exactly makes matter ``active": motor proteins that are able to convert the chemical energy in ATP into mechanical energy. We specifically discuss the actin-myosin interface in muscle tissue (as this is relevant to the material in chapter \ref{chap:photomechanical}) and the mechanism by which kinesin move along microtubules (relevant to chapters \ref{chap:metachronal}-\ref{chap:opt_trap}). The simulations in chapters \ref{chap:metachronal} and \ref{chap:opt_trap} also make use of first-principles hydrodynamic interactions. For this reason, we also discuss in detail the fundamentals of fluid flow at the subcellular level (i.e. the Stokes regime) and how localized forces (stokeslets) affect this flow. We expand this analysis to address relevant boundary value problems, and give a qualitative comparison of these flows. 
+
+In chapter \ref{chap:photomechanical}, a device is investigated that continuously and directly converts
 light into mechanical energy, using polymers and photodissociation.
 A polymer brush tethered to a surface, is brought into contact with a parallel
 plate a small distance above it that contains reaction sites where
@@ -124,8 +145,8 @@ much larger than the thermal energy but at the expense of requiring
 a greatly diminished photodissociation rate. Parameters
 are discussed in order to optimize mechanical energy conversion.
 
-The physical mechanism behind the spontaneous formation of metachronal
-waves in microtubule arrays in a low Reynolds number fluid has been
+In chapter \ref{chap:metachronal}, we investigate the physical mechanism behind the spontaneous formation of metachronal
+waves in microtubule arrays in a low Reynolds number fluid. This has been
 of interest for the past several years, yet is still not well
 understood. We present a model implementing the hydrodynamic coupling
 hypothesis from first principles, and use this model to simulate
@@ -136,7 +157,265 @@ parameters, we determine regimes in which the metachronal wave
 phenomenon emerges, and categorize other types of possible microtubule
 motion outside these regimes.
 
+In chapter \ref{chap:opt_trap}, we propose an experiment to demonstrate spontaneous ordering and symmetry breaking of kinesin-driven microtubules confined to an optical trap. Calculations involving the feasibility of such an experiment are first performed which analyze the power needed to confine microtubules and address heating concerns. We then present the results of first-principles simulation of active microtubules confined in such a trap and analyze the types of motion observed by the microtubules as well as the velocity of the surrounding fluid, both near the trap and in the far-field. We also analyze the power spectrum of the angular momenta of polymers to quantify the noise in each state. Under the correct conditions, microtubules were found to spontaneously align with one another and circle the trap in one direction.
+
+\section{Motor proteins and non-equilibrium}
+
+\subsection{Actin and myosin}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{actinmyosin}
+\caption{A series of illustrations depicting the mechanism by which muscles contract. Image credit to OpenStax Anatomy and Physiology.\label{fig:actinmyosin}}
+\end{figure}
+
+The interaction between myosin-II (a motor protein) and microfilaments comprised of actin are the basis for how skeletal muscles contract. A skeletal muscle is comprised of long muscle fibers, and each fiber is segmented into sections called sarcomeres. Each sarcomere is spanned internally by myosin structures, and is partially spanned on each end by actin microfilaments. The sarcomeres contract (and thus the muscle contracts) when the myosin structures exert an inward force on the actin microfilaments.
+
+This is the question that is of particular interest: how does the myosin exert this inward force? Figure \ref{fig:actinmyosin} shows a series of illustrations for how this cycle occurs. The myosin head is able to attach and detache to binding sites on the actin microfilament. Its lowest energy state is when bound to the filament -- for this reason, muscles that are not contracted have actin binding sites blocked by the protein tropomyosin (otherwise muscles would continually flex -- this is the mechanism behind rigor mortis). When the myosin head binds, it undergoes a so-called "power stroke" which pulls the microfilament. Once a myosin head is bound to a binding site, this bond is typically broken only by hydrolosis of ATP, and then the myosin falls back and is able to bind to another binding site and repeat the cycle.
+
+This is a statistical process at its core. The motion of the unbound myosin head is Brownian, but because it is tilted back, when it does bind to the microfilament it tends to be in a place where it can exert an effective power stroke. This does not work every time -- sometimes, the myosin head is not far back enough, and sometimes the entire cycle does negative work on the microfilament. On average, though, each cycle results in positive work, and so the sarcomere contracts on the whole.
+
+The device proposed in chapter \ref{chap:photomechanical} is inspired by this process. However, instead of converting chemical energy (in the form of ATP) to mechanical energy, we propose an entirely synthetic device which converts light into mechanical energy. It should be mentioned that, while the power stroke certainly makes the energy conversion process more efficient, it is not necessary for there to be a net work. We show in this chapter that having a tilted polymer brush, with binding sites which tend to fix the binding head at an angle, are enough to create a net positive average work per cycle.
+
+\subsection{Kinesin and microtubules}
+\label{sec:kinesinMT}
+
+Kinesin is another motor protein that, like myosin, binds to a long, slender molecule called a microtubule. Microtubules are comprised of the protein tubulin, and are present in the cytoplasm of eukaryotes. Kinesin are also present throughout the cytoplasm, and when a kinesin comes near a microtubule, it has two heads (although it might be more appropriate to call these ``feet") which can bind to the microtubule. It then begins to walk -- that is, each head binds and unbinds to the microtubule (hydrolyzing ATP), similar to how myosin binds and unbinds with actin microfilaments. The walk is made unidirectional due to the structure of the microtubule binding sites (all kinesins only walk a single direction on a given microtubule) and a process known as neck linker zippering \cite{rice1999structural}. A link to a video animation of this process is given in the appendix \cite{vale2000way}.
+
+The function of this walking is to assist in cargo transport within the cell: some cellular structures which need to be distributed throughout the cell are too large to mix purely by diffusion. Instead, they bind to kinesin, which then walk them along microtubules to a relatively distant location.
+
+From the perspective of active matter, the kinesin/microtubule interaction has an interesting consequence: as kinesin walk along a microtubule, there is a viscous drag force that opposes its motion. This imparts a force on the microtubule and (by Newton's third law) an equal and opposite force on the fluid. This can cause interesting motions in both the fluid and in the microtubules, and if we wish to understand these motions it is therefore critical to understand the physics of hydrodynmaic forces at the microscopic level.
+
+\section{Stokes flow}
+
+In order to understand active matter in biological fluids, we must have a firm grasp of non-active fluid dynamics at the microscopic scale. We begin, then, by writing the full Navier-Stokes equation:
+
+\begin{equation}
+\label{eq:navier}
+\left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u}\cdot\nabla\mathbf{u}\right) = -\frac1\rho\nabla p + \nu\nabla^2\mathbf{u} + \mathbf{F}
+\end{equation}
+
+Here, $\mathbf{u}(\mathbf{r},t)$ is the fluid velocity, $p(\mathbf{r},t)$ is the fluid pressure, $\rho$ is the density, $\nu$ is the kinematic viscosity, and $\mathbf{F}(\mathbf{r},t)$ is the body force on the fluid. We can make this equation dimensionless by multiplying both sides by the quantity $L/V^2$, where $L$ and $V$ are characteristic length and velocity scales, respectively. We can now redefine all of the quantities and derivatives to be dimensionless:
+\begin{itemize}
+\item $\mathbf{u} = \frac{\mathbf{u}}{V}$
+\item $p = \frac{p}{\rho V^2}$
+\item $\mathbf{F} = \frac{\mathbf{F}L}{V^2}$
+\item $\frac{\partial}{\partial t} = \frac{L}{V}\frac{\partial}{\partial t}$
+\item $\nabla = L\nabla$
+\end{itemize} 
+Equation \ref{eq:navier} then becomes 
+\begin{equation}
+\label{eq:navier2}
+\left(\frac{\partial \mathbf{u}}{\partial t} + \mathbf{u}\cdot\nabla\mathbf{u}\right) = -\nabla p + \frac{1}{\text{Re}}\nabla^2\mathbf{u} + \mathbf{F}
+\end{equation}
+where Re $\equiv LV/\nu$ is called the Reynolds number. The Reynolds number allows us to make a very important observation: for microscopic biological phenomena, length scales are (by definition) quite small, as are velocities. For example, the kinematic viscosity of room temperature water is $\nu\approx 10^{-6}$ m$^2$/s. Microtubules (of considerable interest in the chapters that follow) have lengths on the order of around tens of microns, so $L\sim10^{-5}$ m. If fluid is being driven by kinesin, then the characteristic speed is on the order of the kinesin walk speed, which is no more than $V\sim10^{-6}$ m/s \cite{vale1985identification,vale1996direct}. This gives Re $\sim10^{-5}$, making the $\nabla^2\mathbf{u}$ term in equation \ref{eq:navier2} dominant over the other derivative terms. We thus let the left hand side go to zero, leaving
+\begin{equation}
+\label{eq:lowRe}
+-\nabla p + \frac{1}{\text{Re}}\nabla^2\mathbf{u} + \mathbf{F} = 0
+\end{equation} 
+This, along with the incompressibility condition $\nabla \cdot \mathbf u = 0$, is the definition of Stokes flow. Conceptually, the Reynolds number can be thought of as the ratio of inertial forces to viscous forces. Letting the Reynolds number equal zero therefore means that, in the Stokes regime, there is no inertia: an moving object with no external forces acting on it will stop immediately.
+
+While mathematically useful for the elimination of the left hand side of equation \ref{eq:navier2}, equation \ref{eq:lowRe} is difficult to conceptualize due to its lack of dimensionality. The more common form of the Stokes flow equations is
+\begin{equation}
+\label{eq:stokes}
+\mu\nabla^2\mathbf{u} - \nabla p + \mathbf{F} = 0; \qquad\qquad \nabla\cdot\mathbf{u} = 0
+\end{equation}
+where $\mu = \rho \nu$ is the dynamic viscosity.
+
+\subsection{The stokeslet}
+
+Equation \ref{eq:stokes} is a good starting point, but it leaves the question of what to do about the body force, $\mathbf{F}$. For the microtubule-kinesin active matter system, the forces being exerted on the fluid are complicated: there is a drag force exerted by kinesin walkers, and the microtubules themselves experience external forces (which are then transferred perfectly to the fluid because there are no inertial effects). How can we begin to approach this? A key observation here is that Stokes flow allows for superposition of solutions, i.e. the resulting velocity $\mathbf{u}$ and pressure $p$ from two body forces $\mathbf{F}_1$ and $\mathbf{F}_2$ are
+\begin{equation}
+\mathbf{u} = \mathbf{u}_1 + \mathbf{u}_2\qquad\qquad\text{and} \qquad\qquad p = p_1+p_2,
+\end{equation}
+where $\mathbf{u}_{1,2}$ and $p_{1,2}$ are the solutions to the Stokes equations for each force individually,
+\begin{equation}
+\mu\nabla^2\mathbf{u}_{1,2} - \nabla p_{1,2} + \mathbf{F}_{1,2} = 0; \qquad\qquad \nabla\cdot\mathbf{u}_{1,2} = 0
+\end{equation}
+This superposition is important, as it allows us to express forces in the fluid as sums and/or integrals of point forces in the fluid, similar to superposition problems in electricity and magnetism. This is, in essence, the strategy for summing forces on microtubules in chapters \ref{chap:metachronal}-\ref{chap:opt_trap}, and why the results of the derivations for a single point force in the following sections are so important to the method of simulation used.
+
+Such a point force in the fluid is known as a stokeslet. A stokeslet at position $\mathbf{R}$ with magnitude $\mathbf{F}$ can be expressed as $\delta(\mathbf{r}-\mathbf{R})\mathbf{F}$, where $\delta(\mathbf{r})$ is the Dirac delta function. The following sections show solutions to the Stokes equations with a single stokeslet and various boundary conditions.
+
+\subsection{Boundary-value problems with stokeslets}
+
+\subsubsection{The Oseen tensor}
+\label{sec:oseentensor}
+
+We begin with a seemingly simple question: what is the solution to the Stokes equation for a single stokeslet immersed in ``infinite" fluid (i.e. far from any boundaries)? This was solved exactly by Oseen nearly a century ago, but here we present a solution from Kim \& Karilla \cite{kim2013microhydrodynamics,lisicki2013four}. We begin with the Stokes equation with a stokeslet at the origin:
+\begin{equation}
+\label{eq:stokes_oseen}
+\mu\nabla^2\mathbf{u} - \nabla p = -\mathbf{F}\delta(\mathbf{r})\qquad\qquad\nabla\cdot\mathbf{u} = 0
+\end{equation} 
+These equations are linear in $p$ and in $\mathbf{u}$, so we can express solutions as the products
+\begin{equation}
+\label{eq:pu_exp}
+p(\mathbf{r}) = \frac{\mathbf{P(r)}\cdot\mathbf{F}}{8\pi\mu} \qquad\qquad\qquad \mathbf{u(r)} = \frac{\mathbb{J}(\mathbf{r})\cdot\mathbf{F}}{8\pi \mu}
+\end{equation}
+for some vector field $\mathbf{P(r)}$ and second-rank tensor $\mathbb{J}(\mathbf{r})$. Applying a Fourier transform to equation \ref{eq:stokes_oseen},
+\begin{equation}
+\label{eq:stokes_ft}
+-i\mathbf{k}\hat{p} -\mu k^2\hat{\mathbf{u}} = -\mathbf{F}
+\end{equation}
+This allows us to insert the Fourier transform of our expected solutions in equation \ref{eq:pu_exp}:
+\begin{equation}
+-i\frac{\mathbf{k}}{8\pi\mu}\hat{\mathbf{P}}\cdot\mathbf{F} - \frac{k^2}{8\pi}\hat{\mathbb{J}}\cdot\mathbf{F} = -\mathbf{F}
+\end{equation}
+We can now use the identity $\mathbf{A}(\mathbf{B}\cdot\mathbf{C}) = (\mathbf{A}\otimes\mathbf{B})\cdot\mathbf{C}$ to get rid of the $\mathbf{F}$ terms, leaving 
+\begin{equation}
+\label{eq:stokes_ft_exp}
+-\frac{i}{8\pi\mu}\mathbf{k}\otimes\hat{\mathbf{P}} - \frac{k^2}{8\pi}\hat{\mathbb{J}} = -\mathbb{I}
+\end{equation}
+where $\mathbb{I}$ is the identity matrix. We can similarly take the Fourier tranform of the incompressibility condition $\nabla\cdot\mathbf{u} = 0$, and use equation \ref{eq:pu_exp} to deduce that
+\begin{equation}
+\hat{\mathbb{J}}\cdot \mathbf{k} = 0
+\end{equation}
+This suggests that equation \ref{eq:stokes_ft_exp} may be simplified by applying an inner product with $\mathbf{k}$:
+\[
+-\frac{i}{8\pi\mu}(\mathbf{k}\otimes\hat{\mathbf{P}})\cdot\mathbf{k} = -\mathbf{k}
+\]
+\begin{equation}
+\label{eq:dotwithk}
+-\frac{ik^2}{8\pi\mu}\hat{\mathbf{P}} = -\mathbf{k} \qquad\qquad\rightarrow\qquad\qquad \hat{\mathbf{P}} = -8\pi\mu\frac{i\mathbf{k}}{k^2}
+\end{equation}
+Now we apply an inverse Fourier transform,
+\begin{equation}
+\mathbf{P} = -8\pi\mu \nabla \left[\mathcal{F}^{-1}\left(\frac{1}{k^2}\right)\right]
+\end{equation}
+This inverse Fourier transform is known: $\mathcal{F}^{-1}\left(\frac{1}{k^2}\right) = \frac{1}{4\pi r}$. We therefore have
+\begin{equation}
+\label{eq:Pfinal}
+\mathbf{P} = -2\mu \nabla \left(\frac1r\right)
+\end{equation}
+Now we can solve for the velocity field. Inserting equation \ref{eq:dotwithk} into equation \ref{eq:stokes_ft_exp},
+\begin{equation}
+\label{eq:subinP}
+-\frac{\mathbf{k}\otimes\mathbf{k}}{k^2} - \frac{k^2}{8\pi}\hat{\mathbb{J}} = -\mathbb{I}
+\end{equation}
+Solving for $\hat{\mathbb{J}}$,
+\begin{equation}
+\label{eq:Jhat}
+\frac{\hat{\mathbb{J}}}{8\pi} = \frac{\mathbb{I}}{k^2} - \frac{\mathbf{k}\otimes\mathbf{k}}{k^4}
+\end{equation}
+Like before, we take an inverse Fourier transform, again utilizing $\mathcal{F}^{-1}\left(\frac{1}{k^2}\right) = \frac{1}{4\pi r}$:
+\begin{equation}
+\label{eq:JwithIFT}
+\frac{\mathbb{J}}{8\pi} = \frac{\mathbb{I}}{4\pi r} - \mathcal{F}^{-1}\left(\frac{\mathbf{k}\otimes\mathbf{k}}{k^4}\right)
+\end{equation}
+We give the following inverse Fourier transform without derivation:
+\begin{equation}
+\mathcal{F}^{-1}\left(\frac{\mathbf{k}\otimes\mathbf{k}}{k^4}\right) = \frac{\mathbb{I}}{8\pi r} - \frac{\mathbf{r\otimes r}}{8\pi r^3}
+\end{equation}
+Equation \ref{eq:JwithIFT} therefore becomes
+\begin{equation}
+\label{eq:oseenfinal}
+\mathbb{J} = \frac1r\left(\mathbb{I} + \frac{\mathbf{r\otimes r}}{r^2}\right)
+\end{equation}
+$\mathbb{J}$ is known as the Oseen tensor. We can now combine our results for $\mathbb{J}$ (equation \ref{eq:oseenfinal}) and $\mathbf{P}$ (equation \ref{eq:Pfinal}) to give final expressions for the fluid velocity and pressure:
+\begin{equation}
+\label{eq:vp_free}
+p(\mathbf{r}) = \frac{\mathbf{r\cdot F}}{4\pi r^3}\qquad\qquad\qquad \mathbf{u(r)} = \frac{1}{8\pi \mu r }\left(\mathbb{I} + \frac{\mathbf{r\otimes r}}{r^2}\right)\cdot\mathbf{F} 
+\end{equation}
+
+
+\subsubsection{The Blake correction and the method of images}
+\label{sec:blaketensor}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{blake_img}
+\caption{An illustration of the image charge system used by Blake to simplify the approach to solving the flow due to a stokeslet in the vicinity of an infinite plane. The real stokeslet (with arbitrary direction) is shown as the red dot ($z=h$). The infinite no-slip surface is the $z=0$ plane, and the image stokelet (blue dot) is placed at $z=-h$ with equal magnitude and opposite direction. \label{fig:blake_img}}
+\end{figure}
+
+The derivation of the Oseen tensor is an important step, but many (if not most) relevant problems in biology are in environments where the ``infinite fluid" approximation does not hold. In what follows, we show how a tool from electrostatics -- the method of images -- can be used to arrive at an exact solution for a stokeslet near an infinite flat plane with no-slip boundaries (i.e. $\mathbf{u} = 0$ at the surface of the plane). This approach was first described by Blake in 1971 \cite{Blake1971} in an effort to understand forces and flows on cilia near a glass slide.
+
+Figure \ref{fig:blake_img} shows the geometry of this problem. A single stokelet is placed a distance $h$ above an infinite no-slip surface at $z=0$, and we wish to find the velocity field everywhere. This problem is difficult, but it simplifies considerably if we construct an image stokeslet of equal magnitude and opposite direction directly below the real stokeslet at $z=-h$. With the image stokelet, we can use equation \ref{eq:vp_free} to calculate the velocity field at $z=0$:
+\begin{equation}
+\label{eq:2stokeslet}
+\mathbf{u}(z = 0) = \frac{1}{8\pi \mu r }\left(\mathbb{I} + \frac{\mathbf{r\otimes r}}{r^2}\right)\cdot\mathbf{F} - \frac{1}{8\pi \mu r' }\left(\mathbb{I} + \frac{\mathbf{r'\otimes r'}}{r'^2}\right)\cdot\mathbf{F}
+\end{equation} 
+where $\mathbf{r} = x\hat\imath + y\hat\jmath - h\hat k$ is the displacement from the real stokeslet to a point on the plate, and $\mathbf{r'}= x\hat\imath + y\hat\jmath + h\hat k$ is the displacement from the image stokeslet to that same point. We immediately see that $\mathbf{r}$ and $\mathbf{r'}$ are equal in magnitude. In matrix form, equation \ref{eq:2stokeslet} simplifies to
+\begin{equation}
+\label{eq:stokeslets_mtx}
+\mathbf{u}(z = 0) = \frac{h}{4\pi\mu r^3}\left(\begin{array}{ccc}
+0&0&x\\
+0&0&y\\
+x&y&0
+\end{array}\right)\cdot\mathbf{F} = \frac{h}{4\pi\mu r^3}\left(\begin{array}{c}
+F_z x\\
+F_z y\\
+F_x x + F_y y
+\end{array}\right)
+\end{equation}
+While this is not zero, most of the elements of the matrix are zero, and this suggests that we may add some higher order multipoles to the image stokeslet such that $\mathbf{u} = 0$ everywhere in the $z=0$ plane. Specifically, we can add what is known as a Stokes doublet (two opposing stokeslets which are very close to one another), and what is known as a ``source doublet" or ``potential doublet" (a source and a sink which are very close to one another). Both of these constructs have been well-studied \cite{chwang1975hydromechanics}, so we state their fluid flows without derivation. The Stokes doublet flow field $\mathbf{v}$ can be expressed as
+\begin{equation}
+\label{eq:stokes_doublet}
+\mathbf{v} = -\boldsymbol{\beta}\cdot\nabla\mathbf{u} = \frac{(\boldsymbol{\beta}\times\mathbf{f})\times\mathbf{r}}{r^3} - \frac{(\mathbf{f}\cdot \boldsymbol{\beta})\mathbf{r}}{r^3} + 3\frac{(\mathbf{f}\cdot\mathbf{r})(\boldsymbol{\beta}\cdot\mathbf{r})\mathbf{r}}{r^5} 
+\end{equation}
+where $\mathbf{u}$ is the flow due to a stokeslet (equation \ref{eq:vp_free}) and $\boldsymbol{\beta}$ is the vector separating the two stokeslets. $\mathbf{f}$ is used as the magnitude and direction of the stokeslet here so as to avoid confusion with $\mathbf{F}$. The source doublet has a flow $\mathbf{w}$:
+\begin{equation}
+\label{eq:source_doublet}
+\mathbf{w} = -\frac12 \nabla^2 \mathbf{u} = -\frac{\boldsymbol{\delta}}{r^3} + 3\frac{(\boldsymbol{\delta}\cdot\mathbf{r})\mathbf{r}}{r^5}
+\end{equation}
+where $\boldsymbol{\delta}$ is a vector in the direction of the displacement between the two sources, similar to $\boldsymbol{\beta}$, although we have also absorbed the strength of the stokeslet into $\boldsymbol{\delta}$ as we are free to tune both the separation and the magnitude. In the above two equations, we are able to choose the values of $\boldsymbol{\beta}$, $\mathbf{f}$, and $\boldsymbol{\delta}$ as we wish in order to make $\mathbf{u}=\mathbf{u}_{stokeslet}+\mathbf{u}_{image}+\mathbf{v}+\mathbf{w} = 0$ everywhere in the $z=0$ plane. There is not a unique solution to this (the magnitudes of $\boldsymbol{\beta}$ and $\mathbf{f}$ are somewhat arbitrary), but appropriate values for these terms are as follows:
+\[
+\beta_{x,y} = -\frac{hF_{x,y}}{4\pi\mu} \qquad\qquad \beta_{z} = \frac{hF_{z}}{4\pi\mu} \qquad\qquad \mathbf{f} = \hat{k}
+\]
+\begin{equation}
+\label{eq:bfd}
+\delta_{x,y} = \frac{h^2F_{x,y}}{4\pi\mu} \qquad\qquad \delta_z = -\frac{h^2F_z}{4\pi\mu}
+\end{equation}
+Adding these together (equations \ref{eq:vp_free}, \ref{eq:stokes_doublet}, and \ref{eq:source_doublet}) gives the final solution for the fluid velocity at location $\mathbf{r}$ due to a stokeslet at $\mathbf{x}$:
+\begin{equation}
+\label{eq:blake_v}
+\mathbf{u(r)} = \mathbf{u(r-x)}-\mathbf{u(r-x}+2h\hat{k})+\mathbf{v(r-x}+2h\hat{k})+\mathbf{w(r-x}+2h\hat{k})
+\end{equation}
+where, using the values in equation \ref{eq:bfd} and ignoring $r^{-5}$ terms as they cancel by construction,
+\begin{align*}
+\mathbf{u(r)} =& \frac{1}{8\pi \mu r }\left(\mathbb{I} + \frac{\mathbf{r\otimes r}}{r^2}\right)\cdot\mathbf{F}\\
+\mathbf{v(r)} =& \frac{(\boldsymbol{\beta}\times\mathbf{f})\times\mathbf{r}}{r^3} - \frac{(\mathbf{f}\cdot \boldsymbol{\beta})\mathbf{r}}{r^3}\\
+\mathbf{w(r)} =& -\frac{\boldsymbol{\delta}}{r^3}
+\end{align*}
+It is a straightforward (albeit tedious) exercise to verify that equation \ref{eq:blake_v} indeed vanishes when $z=0$. This fluid field was used previously in order to simulate cytoplasmic streaming in Drosophila oocytes \cite{Monteith2016}, and a version of this simulation (modified to instead use the Liron-Mochon interaction discussed in the following section) was used to obtain results presented in chapters \ref{chap:metachronal}-\ref{chap:opt_trap}.
+
+\subsubsection{The Liron-Mochon solution}
+\label{sec:lironmochontensor}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\textwidth]{liron_img}
+\caption{An illustration of the image charge system used by Liron and Mochon to simplify the approach to solving the parallel-plate stokeslet flow. The real stokeslet is shown as the red dot near $z=0$, and the solid black lines are the plates. All other dots are image stokelets, with blue dots opposing the real stokeslet and red dots identical. \label{fig:liron_img}}
+\end{figure}
+
+After Blake's paper in 1971, the method of images as an approach for solving boundary value Stokes flow problems gained popularity and was explored thoroughly over the following decade. One such study was completed by Liron and Mochon in 1976, in which they calculate the flow due to a stokeslet contained between two infinite parallel plates \cite{Liron1976}.
+
+The method used to solve this is not as elegant as in the two previous sections. Because infinite image stokeslets are needed to solve this (see Figure \ref{fig:liron_img}), if we wish to express the solution in terms of only images, we also would need to take into account the images of the Blake corrections (Stokes doublets and source doublets). This quickly becomes impractical, and a Fourier transform method is used (Blake also used a Fourier transform method, but this is not strictly required, as shown in the previous section).
+
+Due to its complexity, the Liron-Mochon solution will not be printed in its entirety here. A simplified version of this solution, where the stokeslet is located halfway between the plates ($z=0$) and points only in the $xy$-plane, is described in more detail in section \ref{app:2Dint}.
+
+\subsubsection{Comparison of interaction tensors}
+
+\begin{sidewaysfigure*}
+\centering
+\subfloat[][]{
+\includegraphics[width=0.33\textwidth]{tensor_comparison1}
+}
+\subfloat[][]{
+\includegraphics[width=0.33\textwidth]{tensor_comparison4}
+}
+\subfloat[][]{
+\includegraphics[width=0.33\textwidth]{tensor_comparison3}
+}
+\caption{Comparison of flows due to a single stokeslet in the three geometries described in sections \ref{sec:oseentensor}-\ref{sec:lironmochontensor}. All figures are for a stokeslet placed at the origin, pointing in the $x$-direction with unit magnitude. (a) $u_x(x,0,0)$, the fluid velocity in the direction of the stokeslet along the $x$-axis. The dashed lines are guides to the eye for $u_x\propto r^{-1}$ (blue), $u_x\propto r^{-2}$ (green), and $u_x\propto r^{-3}$ (red). (b) $|u_x(0,y,0)|$, the fluid speed in the direction of the stokeslet along the $y$-axis. The dashed lines are guides to the eye for $u_x\propto r^{-1}$ (blue), $u_x\propto r^{-2}$ (green), and $u_x\propto r^{-5}$ (red). The cusp in the green curve indicates the transition from $u_x>0$ (flowing in the same direction as the stokeslet) and $u_x<0$ (flowing opposite the stokeslet). (c) A zoomed in view of $u_x(0,y,0)$, showing backward flow for the parallel plate geometry.
+\label{fig:tensor_comparison}
+}
+\end{sidewaysfigure*}
+
+Figure \ref{fig:tensor_comparison} contains plots showing the flow for each of the geometries explored above (free field, single infinite plane, parallel infinite planes). We immediately notice a few things about these -- first, a stokeslet near a single plane has a sharper dropoff in fluid speeds in the far field than either of the other two geometries. Free-field stokeslet speeds drop off like $1/r$. Placing a stokeslet near a single plane reduces the fluid velocity because the velocity goes to zero near the plane -- that is, at all points on the plane, the plane exerts a force on the fluid in the opposite direction as the stokeslet. The far-field flow in the parallel plane case, while also experiencing these forces from the no-slip planes, is somewhat bolstered by continuity in its quasi-2D geometry. Whereas the fluid could ``escape" in the $z-$direction for a stokeslet near a single plate, the fluid does not have this option with two parallel plates, and this results in a stronger far-field behavior.
+
+This all being said, in the near field, we see how interesting the parallel plate case really is. While the free-field and single plate cases have qualitatively similar flow fields, the parallel plate geometry often has flows opposing the stokeslet. This opposition is potentially important for emergent phenomena in these geometries, as it can lead to counter-intuitive interactions (see section \ref{app:2Dint}).
+
 \chapter{Photomechanical Energy Conversion Using Polymer Brush Dissociation}
+\label{chap:photomechanical}
 
 \section{Introduction}
 \label{sec:Introduction}
@@ -181,7 +460,7 @@ the motion can be analyzed, and
 it is easily seen that electromagnetic energy can be used instead of chemical
 energy~\cite{ProstPRL}. 
 
-In this paper, we investigate the use of photons in powering a two state motor
+In this chapter, we investigate the use of photons in powering a two state motor
 system similar to biological motors. We consider
 creating motion between two surfaces that are very close together by placing
 %%%%JOSH: added /em:
@@ -206,7 +485,7 @@ This asymmetry, plus a disruption of thermal equilibrium due to energy input
 are the two factors needed to convert energy from chemical or electromagnetic energy, to
 mechanical~\cite{ProstPRL}.
 
-The paper is organized as follows: The photo-mechanical system is described (\nameref{sec:System}) and rough estimates of its
+The chapter is organized as follows: The photo-mechanical system is described (\nameref{sec:System}) and rough estimates of its
 operation are given (\nameref{sec:EOSP}), including a discussion
 of its potential efficiency. In order to illustrate the characteristics
 that need to be understood, a three dimensional simulation of this device
@@ -1159,6 +1438,7 @@ of molecules capable of sophisticated conformational changes~\cite{credi2006}.
 However, its experimental realization is still quite clearly a formidable task.
 
 \chapter{Emergence of Metachronal Waves in Active Microtubule Arrays}
+\label{chap:metachronal}
 
 \section{Introduction}
 Metachronal waves refer to the synchronization of thin, flexible
@@ -1203,7 +1483,7 @@ has not previously been given~\cite{Sanchez2011,sanchez2013engineering},
 and we believe that the agreement between our model and
 experiments provides further evidence to support our proposed explanation. 
 
-In this article, we first outline a mechanism by which the metachronal
+In this chapter, we first outline a mechanism by which the metachronal
 wave formation observed by Sanchez et al. can be understood. 
 %(Section \ref{sec:mech}). 
 The mechanism described here is in most ways
@@ -1691,8 +1971,7 @@ this reduces the elastic constant of a microtubule to that of one in isolation.
 In both cases, $k_{oseen} = 0.1$, $k_{stiff}  = 10.0$, $H=1$.
 \label{fig:anims}}
 \end{figure}
-Videos of select simulations are included in the Supplementary
-Materials. Figure \ref{fig:anims} shows some still frames of simulated
+Links to videos of select simulations are included in the appendix. Figure \ref{fig:anims} shows some still frames of simulated
 arrays demonstrating metachronal wave behavior in both the planar
 and circular geometries.
 
@@ -1837,7 +2116,7 @@ impose. Smaller $H$ reduces the hydrodynamic coupling, causing a decrease in coh
 \label{sec:disc}
 When comparing these results to those of
 Sanchez et al., we find that the basic features agree. The videos
-included in the supplemental materials qualitatively mimic the
+linked in the appendix qualitatively mimic the
 experimental videos, and the experimental correlation analysis
 agrees quite well with the simulations. More importantly, this agreement between
 theory and experiment was reached from first principles. We only
@@ -1900,8 +2179,7 @@ where this kind of behavior can be found.
 
 
 \chapter{Spontaneous Circulation of Active Microtubules Confined by Optical Traps}
-
-\chapter{Conclusion}
+\label{chap:opt_trap}
 
 \nocite{*}
 \bibliographystyle{unsrt}
@@ -1910,9 +2188,11 @@ where this kind of behavior can be found.
 \appendix
 \chapter{Supplementary Videos}
 \noindent
-Supplementary videos for the material in Chapter 3 can be found here:\\
+Video showing the kinesin walking process discussed in section \ref{sec:kinesinMT}:\\
+\url{https://www.youtube.com/watch?v=YAva4g3Pk6k}\\
+Supplementary videos for the material in chapter 3 can be found here:\\
 \url{https://sites.google.com/ucsc.edu/joshdeutsch/metachronal-videos?authuser=0}\\ \\
-Supplementary videos for the material in Chapter 4 can be found here:
+Supplementary videos for the material in chapter 4 can be found here:
 
 
 
