@@ -15,6 +15,12 @@ Stephen~E Martin, Matthew~E Brunner, and Joshua~M Deutsch.
 \newblock Emergence of metachronal waves in active microtubule arrays.
 \newblock {\em arXiv preprint arXiv:1806.06993}, 2018.
 
+\bibitem{martin2018spontaneous}
+Stephen~E Martin, Matthew~E Brunner, and Joshua~M Deutsch.
+\newblock Spontaneous circulation of active microtubules confined by optical
+  traps.
+\newblock Unpublished.
+
 \bibitem{sanchez2013engineering}
 Timothy Sanchez and Zvonimir Dogic.
 \newblock Engineering oscillating microtubule bundles.
@@ -347,6 +353,104 @@ JM~Deutsch and TL~Madden.
 \newblock Theoretical studies of dna during gel electrophoresis.
 \newblock {\em The Journal of Chemical Physics}, 90(4):2476--2485, 1989.
 
+\bibitem{sumino2012large}
+Yutaka Sumino, Ken~H Nagai, Yuji Shitaka, Dan Tanaka, Kenichi Yoshikawa, Hugues
+  Chat{\'e}, and Kazuhiro Oiwa.
+\newblock Large-scale vortex lattice emerging from collectively moving
+  microtubules.
+\newblock {\em Nature}, 483(7390):448, 2012.
+
+\bibitem{sanchez2012spontaneous}
+Tim Sanchez, Daniel~TN Chen, Stephen~J DeCamp, Michael Heymann, and Zvonimir
+  Dogic.
+\newblock Spontaneous motion in hierarchically assembled active matter.
+\newblock {\em Nature}, 491(7424):431, 2012.
+
+\bibitem{decamp2015orientational}
+Stephen~J DeCamp, Gabriel~S Redner, Aparna Baskaran, Michael~F Hagan, and
+  Zvonimir Dogic.
+\newblock Orientational order of motile defects in active nematics.
+\newblock {\em Nature materials}, 14(11):1110, 2015.
+
+\bibitem{wu2017transition}
+Kun-Ta Wu, Jean~Bernard Hishamunda, Daniel~TN Chen, Stephen~J DeCamp, Ya-Wen
+  Chang, Alberto Fern{\'a}ndez-Nieves, Seth Fraden, and Zvonimir Dogic.
+\newblock Transition from turbulent to coherent flows in confined
+  three-dimensional active fluids.
+\newblock {\em Science}, 355(6331):eaal1979, 2017.
+
+\bibitem{ashkin1987cell}
+Arthur Ashkin, James~M Dziedzic, and T~Yamane.
+\newblock Optical trapping and manipulation of single cells using infrared
+  laser beams.
+\newblock {\em Nature}, 330(6150):769, 1987.
+
+\bibitem{stevenson2006optically}
+DJ~Stevenson, TK~Lake, B~Agate, V~Garc{\'e}s-Ch{\'a}vez, K~Dholakia, and
+  F~Gunn-Moore.
+\newblock Optically guided neuronal growth at near infrared wavelengths.
+\newblock {\em Optics express}, 14(21):9786--9793, 2006.
+
+\bibitem{ashkin1987virus}
+Arthur Ashkin and James~M Dziedzic.
+\newblock Optical trapping and manipulation of viruses and bacteria.
+\newblock {\em Science}, 235(4795):1517--1520, 1987.
+
+\bibitem{harada1996radiation}
+Yasuhiro Harada and Toshimitsu Asakura.
+\newblock Radiation forces on a dielectric sphere in the rayleigh scattering
+  regime.
+\newblock {\em Optics communications}, 124(5-6):529--541, 1996.
+
+\bibitem{gittes1993flexural}
+Frederick Gittes, Brian Mickey, Jilda Nettleton, and Jonathon Howard.
+\newblock Flexural rigidity of microtubules and actin filaments measured from
+  thermal fluctuations in shape.
+\newblock {\em The Journal of cell biology}, 120(4):923--934, 1993.
+
+\bibitem{felgner1996flexural}
+Harald Felgner, Rainer Frank, and Manfred Schliwa.
+\newblock Flexural rigidity of microtubules measured with the use of optical
+  tweezers.
+\newblock {\em Journal of cell science}, 109(2):509--516, 1996.
+
+\bibitem{bon2014fast}
+Pierre Bon, Sandrine L{\'e}cart, Emmanuel Fort, and Sandrine
+  L{\'e}v{\^e}que-Fort.
+\newblock Fast label-free cytoskeletal network imaging in living mammalian
+  cells.
+\newblock {\em Biophysical journal}, 106(8):1588--1595, 2014.
+
+\bibitem{mershin2004tubulin}
+Andreas Mershin, Alexandre~A Kolomenski, Hans~A Schuessler, and Dimitri~V
+  Nanopoulos.
+\newblock Tubulin dipole moment, dielectric constant and quantum behavior:
+  computer simulations, experimental results and suggestions.
+\newblock {\em Biosystems}, 77(1-3):73--85, 2004.
+
+\bibitem{peterman2003laser}
+Erwin~JG Peterman, Frederick Gittes, and Christoph~F Schmidt.
+\newblock Laser-induced heating in optical traps.
+\newblock {\em Biophysical journal}, 84(2):1308--1316, 2003.
+
+\bibitem{kedenburg2012linear}
+Stefan Kedenburg, Marius Vieweg, Timo Gissibl, and Harald Giessen.
+\newblock Linear refractive index and absorption measurements of nonlinear
+  optical liquids in the visible and near-infrared spectral region.
+\newblock {\em Optical Materials Express}, 2(11):1588--1611, 2012.
+
+\bibitem{polinkovsky2014ultrafast}
+Mark~E Polinkovsky, Yann Gambin, Priya~R Banerjee, Michael~J Erickstad, Alex
+  Groisman, and Ashok~A Deniz.
+\newblock Ultrafast cooling reveals microsecond-scale biomolecular dynamics.
+\newblock {\em Nature communications}, 5:5737, 2014.
+
+\bibitem{serbus2005dynein}
+Laura~R Serbus, Byeong-Jik Cha, William~E Theurkauf, and William~M Saxton.
+\newblock Dynein and the actin cytoskeleton control kinesin-driven cytoplasmic
+  streaming in drosophila oocytes.
+\newblock {\em Development}, 132(16):3743--3752, 2005.
+
 \bibitem{BrunnerThesis}
 M.~E. Brunner.
 \newblock {\em Polymer Dynamics}.
@@ -410,5 +514,10 @@ Bruce Alberts, Alexander Johnson, Julian Lewis, Martin Raff, Keith Roberts, and
 Dennis Bray.
 \newblock {\em Cell movements: from molecules to motility}.
 \newblock Garland Science, 2000.
+
+\bibitem{mcmeekin1964refractive}
+Thomas~L McMeekin, Merton~L Groves, and Norbert~J Hipp.
+\newblock Refractive indices of amino acids, proteins, and related substances.
+\newblock {\em Amino acids and serum proteins}, 44:54--66, 1964.
 
 \end{thebibliography}

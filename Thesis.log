@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.16)  22 AUG 2018 09:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.8.16)  26 AUG 2018 14:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,7 +351,14 @@ Package caption Info: Unknown document class (or package),
 \c@lotdepth=\count118
 \sf@top=\skip55
 \sf@bottom=\skip56
-) (./Thesis.aux)
+) (./Thesis.aux
+
+LaTeX Warning: Label `eq:oseen' multiply defined.
+
+
+LaTeX Warning: Label `sec:results' multiply defined.
+
+)
 \openout1 = `Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
@@ -368,8 +375,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
 LaTeX Font Info:    ... okay on input line 49.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count119
 \scratchdimen=\dimen126
@@ -449,16 +455,11 @@ mr/m/n/10.95 -direction with unit mag-ni-tude. (a) $\OML/cmm/m/it/10.95 u[]\OT1
 
 [5
 
-] [6])
+] [6] [7])
 \tf@lof=\write5
 \openout5 = `Thesis.lof'.
 
- [7] [8] [9]
-
-LaTeX Warning: Citation `martin2018spontaneous' on page x undefined on input li
-ne 112.
-
-
+ [8] [9] [10]
 Underfull \hbox (badness 10000) in paragraph at lines 106--114
 
  []
@@ -473,259 +474,272 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--114
 
  []
 
-[10] [11]
+[11] [12]
 Chapter 1.
 [1
 
 ] [2] [3]
-<actinmyosin.jpg, id=414, 803.0pt x 1246.6575pt>
+<actinmyosin.jpg, id=545, 803.0pt x 1246.6575pt>
 File: actinmyosin.jpg Graphic file (type jpg)
 <use actinmyosin.jpg>
 Package pdftex.def Info: actinmyosin.jpg  used on input line 168.
 (pdftex.def)             Requested size: 332.44325pt x 516.13579pt.
  [4] [5 <./actinmyosin.jpg>] [6] [7] [8] [9] [10] [11] [12]
-<blake_img.pdf, id=505, 613.29124pt x 205.76875pt>
+<blake_img.pdf, id=636, 613.29124pt x 205.76875pt>
 File: blake_img.pdf Graphic file (type pdf)
 <use blake_img.pdf>
 Package pdftex.def Info: blake_img.pdf  used on input line 325.
 (pdftex.def)             Requested size: 415.55249pt x 139.4248pt.
  [13 <./blake_img.pdf>] [14] [15]
-<liron_img.pdf, id=564, 329.23pt x 518.93875pt>
+<liron_img.pdf, id=694, 329.23pt x 518.93875pt>
 File: liron_img.pdf Graphic file (type pdf)
 <use liron_img.pdf>
 Package pdftex.def Info: liron_img.pdf  used on input line 385.
 (pdftex.def)             Requested size: 290.88547pt x 458.5125pt.
  [16] [17 <./liron_img.pdf>]
-<tensor_comparison1.png, id=597, 406.1574pt x 299.9205pt>
+<tensor_comparison1.png, id=728, 406.1574pt x 299.9205pt>
 File: tensor_comparison1.png Graphic file (type png)
 <use tensor_comparison1.png>
 Package pdftex.def Info: tensor_comparison1.png  used on input line 401.
-(pdftex.def)             Requested size: 193.77501pt x 143.0861pt.
-<tensor_comparison4.png, id=599, 406.1574pt x 299.9205pt>
+(pdftex.def)             Requested size: 186.99734pt x 138.08408pt.
+<tensor_comparison4.png, id=730, 406.1574pt x 299.9205pt>
 File: tensor_comparison4.png Graphic file (type png)
 <use tensor_comparison4.png>
 Package pdftex.def Info: tensor_comparison4.png  used on input line 404.
-(pdftex.def)             Requested size: 193.77501pt x 143.0861pt.
-<tensor_comparison3.png, id=600, 388.0899pt x 296.307pt>
+(pdftex.def)             Requested size: 186.99734pt x 138.08408pt.
+<tensor_comparison3.png, id=731, 388.0899pt x 296.307pt>
 File: tensor_comparison3.png Graphic file (type png)
 <use tensor_comparison3.png>
-Package pdftex.def Info: tensor_comparison3.png  used on input line 407.
-(pdftex.def)             Requested size: 193.77501pt x 147.94968pt.
-
-Overfull \hbox (16.03125pt too wide) in paragraph at lines 401--410
- [][][][][][] 
- []
-
-[18] [19 <./tensor_comparison1.png> <./tensor_comparison4.png> <./tensor_compar
-ison3.png>] [20]
+Package pdftex.def Info: tensor_comparison3.png  used on input line 408.
+(pdftex.def)             Requested size: 186.99734pt x 142.77281pt.
+ [18] [19 <./tensor_comparison1.png> <./tensor_comparison4.png> <./tensor_compa
+rison3.png>] [20]
 Chapter 2.
 [21
 
 ] [22] [23] [24]
-<Fig1_label.pdf, id=703, 722.7pt x 542.025pt>
+<Fig1_label.pdf, id=834, 722.7pt x 542.025pt>
 File: Fig1_label.pdf Graphic file (type pdf)
 <use Fig1_label.pdf>
-Package pdftex.def Info: Fig1_label.pdf  used on input line 529.
+Package pdftex.def Info: Fig1_label.pdf  used on input line 530.
 (pdftex.def)             Requested size: 415.55249pt x 311.66194pt.
  [25] [26 <./Fig1_label.pdf>] [27] [28]
-<expVplot.pdf, id=756, 796.9775pt x 598.235pt>
+<expVplot.pdf, id=887, 796.9775pt x 598.235pt>
 File: expVplot.pdf Graphic file (type pdf)
 <use expVplot.pdf>
-Package pdftex.def Info: expVplot.pdf  used on input line 623.
+Package pdftex.def Info: expVplot.pdf  used on input line 624.
 (pdftex.def)             Requested size: 415.55249pt x 311.9238pt.
  [29] [30 <./expVplot.pdf>]
-<0505per.pdf, id=774, 587.19376pt x 443.6575pt>
+<0505per.pdf, id=905, 587.19376pt x 443.6575pt>
 File: 0505per.pdf Graphic file (type pdf)
 <use 0505per.pdf>
-Package pdftex.def Info: 0505per.pdf  used on input line 664.
+Package pdftex.def Info: 0505per.pdf  used on input line 665.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
-<4040per.pdf, id=775, 587.19376pt x 443.6575pt>
+<4040per.pdf, id=906, 587.19376pt x 443.6575pt>
 File: 4040per.pdf Graphic file (type pdf)
 <use 4040per.pdf>
-Package pdftex.def Info: 4040per.pdf  used on input line 666.
+Package pdftex.def Info: 4040per.pdf  used on input line 667.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
 
 
-LaTeX Warning: Float too large for page by 29.05643pt on input line 678.
+LaTeX Warning: Float too large for page by 29.05643pt on input line 679.
 
-<0505rand.pdf, id=776, 587.19376pt x 443.6575pt>
+<0505rand.pdf, id=907, 587.19376pt x 443.6575pt>
 File: 0505rand.pdf Graphic file (type pdf)
 <use 0505rand.pdf>
-Package pdftex.def Info: 0505rand.pdf  used on input line 682.
+Package pdftex.def Info: 0505rand.pdf  used on input line 683.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
-<4040rand.pdf, id=777, 587.19376pt x 443.6575pt>
+<4040rand.pdf, id=908, 587.19376pt x 443.6575pt>
 File: 4040rand.pdf Graphic file (type pdf)
 <use 4040rand.pdf>
-Package pdftex.def Info: 4040rand.pdf  used on input line 684.
+Package pdftex.def Info: 4040rand.pdf  used on input line 685.
 (pdftex.def)             Requested size: 289.07999pt x 218.41629pt.
 
-LaTeX Warning: Float too large for page by 1.85641pt on input line 691.
+LaTeX Warning: Float too large for page by 1.85641pt on input line 692.
 
 [31] [32 <./0505per.pdf> <./4040per.pdf>] [33 <./0505rand.pdf> <./4040rand.pdf>
 ] [34] [35] [36] [37] [38] [39]
-<vs.pdf, id=882, 796.9775pt x 598.235pt>
+<vs.pdf, id=1013, 796.9775pt x 598.235pt>
 File: vs.pdf Graphic file (type pdf)
 <use vs.pdf>
-Package pdftex.def Info: vs.pdf  used on input line 914.
+Package pdftex.def Info: vs.pdf  used on input line 915.
 (pdftex.def)             Requested size: 415.55249pt x 311.9238pt.
-<Pnl_spr.pdf, id=884, 792.9625pt x 598.235pt>
+<Pnl_spr.pdf, id=1015, 792.9625pt x 598.235pt>
 File: Pnl_spr.pdf Graphic file (type pdf)
 <use Pnl_spr.pdf>
-Package pdftex.def Info: Pnl_spr.pdf  used on input line 927.
+Package pdftex.def Info: Pnl_spr.pdf  used on input line 928.
 (pdftex.def)             Requested size: 415.55249pt x 313.51212pt.
  [40] [41 <./vs.pdf>] [42 <./Pnl_spr.pdf>]
-<Pasvp.pdf, id=916, 792.9625pt x 598.235pt>
+<Pasvp.pdf, id=1047, 792.9625pt x 598.235pt>
 File: Pasvp.pdf Graphic file (type pdf)
 <use Pasvp.pdf>
-Package pdftex.def Info: Pasvp.pdf  used on input line 949.
+Package pdftex.def Info: Pasvp.pdf  used on input line 950.
 (pdftex.def)             Requested size: 415.55249pt x 313.51212pt.
 
 [43 <./Pasvp.pdf>] [44]
-Underfull \hbox (badness 10000) in paragraph at lines 995--999
+Underfull \hbox (badness 10000) in paragraph at lines 996--1000
 
  []
 
-<1dpot.pdf, id=936, 467.7475pt x 270.00874pt>
+<1dpot.pdf, id=1067, 467.7475pt x 270.00874pt>
 File: 1dpot.pdf Graphic file (type pdf)
 <use 1dpot.pdf>
-Package pdftex.def Info: 1dpot.pdf  used on input line 1003.
+Package pdftex.def Info: 1dpot.pdf  used on input line 1004.
 (pdftex.def)             Requested size: 415.55249pt x 239.89088pt.
 [45 <./1dpot.pdf>] [46] [47] [48] [49] [50] [51] [52] [53]
-<fvsv.k15.pdf, id=1024, 796.9775pt x 598.235pt>
+<fvsv.k15.pdf, id=1155, 796.9775pt x 598.235pt>
 File: fvsv.k15.pdf Graphic file (type pdf)
 <use fvsv.k15.pdf>
-Package pdftex.def Info: fvsv.k15.pdf  used on input line 1345.
+Package pdftex.def Info: fvsv.k15.pdf  used on input line 1346.
 (pdftex.def)             Requested size: 289.07999pt x 216.98927pt.
-<maxpower.pdf, id=1025, 796.9775pt x 598.235pt>
+<maxpower.pdf, id=1156, 796.9775pt x 598.235pt>
 File: maxpower.pdf Graphic file (type pdf)
 <use maxpower.pdf>
-Package pdftex.def Info: maxpower.pdf  used on input line 1347.
+Package pdftex.def Info: maxpower.pdf  used on input line 1348.
 (pdftex.def)             Requested size: 289.07999pt x 216.98927pt.
 
 
-LaTeX Warning: Float too large for page by 12.60239pt on input line 1360.
+LaTeX Warning: Float too large for page by 12.60239pt on input line 1361.
 
 [54] [55 <./fvsv.k15.pdf> <./maxpower.pdf>] [56] [57] [58]
 Chapter 3.
 [59
 
 ]
-Overfull \hbox (25.14502pt too wide) in paragraph at lines 1459--1473
+Overfull \hbox (25.14502pt too wide) in paragraph at lines 1460--1474
 []\OT1/cmr/m/n/10.95 Recently, in some re-mark-able ex-per-i-ments, Sanchez et 
 al. demon-strated metachronal
  []
 
 [60]
-<MT_forces.pdf, id=1110, 294.09875pt x 547.04375pt>
+<MT_forces.pdf, id=1241, 294.09875pt x 547.04375pt>
 File: MT_forces.pdf Graphic file (type pdf)
 <use MT_forces.pdf>
-Package pdftex.def Info: MT_forces.pdf  used on input line 1513.
+Package pdftex.def Info: MT_forces.pdf  used on input line 1514.
 (pdftex.def)             Requested size: 144.54pt x 268.8551pt.
  [61] [62 <./MT_forces.pdf>] [63] [64]
-<Sec2.png, id=1162, 800.0289pt x 268.1217pt>
-File: Sec2.png Graphic file (type png)
-<use Sec2.png>
-Package pdftex.def Info: Sec2.png  used on input line 1633.
-(pdftex.def)             Requested size: 587.19374pt x 196.79501pt.
- [65] [66 <./Sec2.png>]
-Overfull \hbox (0.97525pt too wide) detected at line 1655
+<Sec2a.pdf, id=1293, 427.8384pt x 310.0383pt>
+File: Sec2a.pdf Graphic file (type pdf)
+<use Sec2a.pdf>
+Package pdftex.def Info: Sec2a.pdf  used on input line 1636.
+(pdftex.def)             Requested size: 186.99734pt x 135.50896pt.
+<Sec2b.pdf, id=1294, 427.8384pt x 310.0383pt>
+File: Sec2b.pdf Graphic file (type pdf)
+<use Sec2b.pdf>
+Package pdftex.def Info: Sec2b.pdf  used on input line 1639.
+(pdftex.def)             Requested size: 186.99734pt x 135.50896pt.
+<Sec2c.pdf, id=1295, 427.8384pt x 310.0383pt>
+File: Sec2c.pdf Graphic file (type pdf)
+<use Sec2c.pdf>
+Package pdftex.def Info: Sec2c.pdf  used on input line 1643.
+(pdftex.def)             Requested size: 186.99734pt x 135.50896pt.
+ [65] [66 <./Sec2a.pdf> <./Sec2b.pdf
+
+pdfTeX warning: pdflatex (file ./Sec2b.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <./Sec2c.pdf
+
+pdfTeX warning: pdflatex (file ./Sec2c.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+>]
+Overfull \hbox (0.97525pt too wide) detected at line 1665
 []\U/msb/m/n/10.95 G\OT1/cmr/m/n/10.95 (\OT1/cmr/bx/n/10.95 r\OT1/cmr/m/n/10.95
  ) = [] []
  []
 
 [67] [68]
-<2plates.pdf, id=1193, 645.41125pt x 174.6525pt>
+<2plates.pdf, id=1347, 645.41125pt x 174.6525pt>
 File: 2plates.pdf Graphic file (type pdf)
 <use 2plates.pdf>
-Package pdftex.def Info: 2plates.pdf  used on input line 1686.
+Package pdftex.def Info: 2plates.pdf  used on input line 1696.
 (pdftex.def)             Requested size: 415.55249pt x 112.45145pt.
-<hydroforces.pdf, id=1196, 433.62pt x 322.20375pt>
+<hydroforces.pdf, id=1350, 433.62pt x 322.20375pt>
 File: hydroforces.pdf Graphic file (type pdf)
 <use hydroforces.pdf>
-Package pdftex.def Info: hydroforces.pdf  used on input line 1699.
+Package pdftex.def Info: hydroforces.pdf  used on input line 1709.
 (pdftex.def)             Requested size: 289.07999pt x 214.81343pt.
  [69 <./2plates.pdf>] [70 <./hydroforces.pdf>] [71] [72] [73] [74]
 [75] [76] [77] [78]
-<anim_circ.png, id=1298, 1150.2975pt x 1155.31625pt>
+<anim_circ.png, id=1453, 1150.2975pt x 1155.31625pt>
 File: anim_circ.png Graphic file (type png)
 <use anim_circ.png>
-Package pdftex.def Info: anim_circ.png  used on input line 1965.
+Package pdftex.def Info: anim_circ.png  used on input line 1975.
 (pdftex.def)             Requested size: 415.55249pt x 417.35909pt.
-<anim_plane.png, id=1299, 3212.0pt x 401.5pt>
+<anim_plane.png, id=1454, 3212.0pt x 401.5pt>
 File: anim_plane.png Graphic file (type png)
 <use anim_plane.png>
-Package pdftex.def Info: anim_plane.png  used on input line 1969.
+Package pdftex.def Info: anim_plane.png  used on input line 1979.
 (pdftex.def)             Requested size: 415.55249pt x 51.93951pt.
 
-Overfull \hbox (7.29999pt too wide) in paragraph at lines 1965--1972
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 1975--1982
  [][] 
  []
 
 
-Overfull \hbox (7.29999pt too wide) in paragraph at lines 1965--1972
+Overfull \hbox (7.29999pt too wide) in paragraph at lines 1975--1982
  [][] 
  []
 
 [79] [80 <./anim_circ.png> <./anim_plane.png>]
-<circ-0p1-10-4.png, id=1317, 195.129pt x 433.62pt>
+<circ-0p1-10-4.png, id=1472, 195.129pt x 433.62pt>
 File: circ-0p1-10-4.png Graphic file (type png)
 <use circ-0p1-10-4.png>
-Package pdftex.def Info: circ-0p1-10-4.png  used on input line 2012.
+Package pdftex.def Info: circ-0p1-10-4.png  used on input line 2008.
 (pdftex.def)             Requested size: 124.667pt x 277.03946pt.
-<circ-0p2-10-4.png, id=1318, 192.9609pt x 433.62pt>
+<circ-0p2-10-4.png, id=1473, 192.9609pt x 433.62pt>
 File: circ-0p2-10-4.png Graphic file (type png)
 <use circ-0p2-10-4.png>
-Package pdftex.def Info: circ-0p2-10-4.png  used on input line 2015.
+Package pdftex.def Info: circ-0p2-10-4.png  used on input line 2011.
 (pdftex.def)             Requested size: 124.667pt x 280.15584pt.
-<circ-0p3-10-4.png, id=1319, 195.8517pt x 433.62pt>
+<circ-0p3-10-4.png, id=1474, 195.8517pt x 433.62pt>
 File: circ-0p3-10-4.png Graphic file (type png)
 <use circ-0p3-10-4.png>
-Package pdftex.def Info: circ-0p3-10-4.png  used on input line 2018.
+Package pdftex.def Info: circ-0p3-10-4.png  used on input line 2014.
 (pdftex.def)             Requested size: 124.667pt x 276.02052pt.
-<circ_tcorrs_oseen_10-4.png, id=1320, 500.8311pt x 382.3083pt>
+<circ_tcorrs_oseen_10-4.png, id=1475, 500.8311pt x 382.3083pt>
 File: circ_tcorrs_oseen_10-4.png Graphic file (type png)
 <use circ_tcorrs_oseen_10-4.png>
-Package pdftex.def Info: circ_tcorrs_oseen_10-4.png  used on input line 2022.
+Package pdftex.def Info: circ_tcorrs_oseen_10-4.png  used on input line 2018.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
-<plane-0p1-5-4.png, id=1325, 156.8259pt x 380.8629pt>
+<plane-0p1-5-4.png, id=1480, 156.8259pt x 380.8629pt>
 File: plane-0p1-5-4.png Graphic file (type png)
 <use plane-0p1-5-4.png>
-Package pdftex.def Info: plane-0p1-5-4.png  used on input line 2054.
+Package pdftex.def Info: plane-0p1-5-4.png  used on input line 2050.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<plane-0p1-10-4.png, id=1326, 156.8259pt x 380.8629pt>
+<plane-0p1-10-4.png, id=1481, 156.8259pt x 380.8629pt>
 File: plane-0p1-10-4.png Graphic file (type png)
 <use plane-0p1-10-4.png>
-Package pdftex.def Info: plane-0p1-10-4.png  used on input line 2057.
+Package pdftex.def Info: plane-0p1-10-4.png  used on input line 2053.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<plane-0p1-20-4.png, id=1327, 156.8259pt x 380.8629pt>
+<plane-0p1-20-4.png, id=1482, 156.8259pt x 380.8629pt>
 File: plane-0p1-20-4.png Graphic file (type png)
 <use plane-0p1-20-4.png>
-Package pdftex.def Info: plane-0p1-20-4.png  used on input line 2060.
+Package pdftex.def Info: plane-0p1-20-4.png  used on input line 2056.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<plane_tcorr_stiff-0p1-4.png, id=1328, 500.8311pt x 382.3083pt>
+<plane_tcorr_stiff-0p1-4.png, id=1483, 500.8311pt x 382.3083pt>
 File: plane_tcorr_stiff-0p1-4.png Graphic file (type png)
 <use plane_tcorr_stiff-0p1-4.png>
-Package pdftex.def Info: plane_tcorr_stiff-0p1-4.png  used on input line 2064.
+Package pdftex.def Info: plane_tcorr_stiff-0p1-4.png  used on input line 2060.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
-<circ-1H-0p2-10-4.png, id=1332, 156.8259pt x 380.8629pt>
+<circ-1H-0p2-10-4.png, id=1487, 156.8259pt x 380.8629pt>
 File: circ-1H-0p2-10-4.png Graphic file (type png)
 <use circ-1H-0p2-10-4.png>
-Package pdftex.def Info: circ-1H-0p2-10-4.png  used on input line 2088.
+Package pdftex.def Info: circ-1H-0p2-10-4.png  used on input line 2084.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<circ-p5H-0p2-10-4.png, id=1333, 156.8259pt x 380.8629pt>
+<circ-p5H-0p2-10-4.png, id=1488, 156.8259pt x 380.8629pt>
 File: circ-p5H-0p2-10-4.png Graphic file (type png)
 <use circ-p5H-0p2-10-4.png>
-Package pdftex.def Info: circ-p5H-0p2-10-4.png  used on input line 2091.
+Package pdftex.def Info: circ-p5H-0p2-10-4.png  used on input line 2087.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<circ-p1H-0p2-10-4.png, id=1334, 156.8259pt x 380.8629pt>
+<circ-p1H-0p2-10-4.png, id=1489, 156.8259pt x 380.8629pt>
 File: circ-p1H-0p2-10-4.png Graphic file (type png)
 <use circ-p1H-0p2-10-4.png>
-Package pdftex.def Info: circ-p1H-0p2-10-4.png  used on input line 2094.
+Package pdftex.def Info: circ-p1H-0p2-10-4.png  used on input line 2090.
 (pdftex.def)             Requested size: 124.667pt x 302.76712pt.
-<circ_tcorr_H-0p2-10-4.png, id=1335, 500.8311pt x 382.3083pt>
+<circ_tcorr_H-0p2-10-4.png, id=1490, 500.8311pt x 382.3083pt>
 File: circ_tcorr_H-0p2-10-4.png Graphic file (type png)
 <use circ_tcorr_H-0p2-10-4.png>
-Package pdftex.def Info: circ_tcorr_H-0p2-10-4.png  used on input line 2098.
+Package pdftex.def Info: circ_tcorr_H-0p2-10-4.png  used on input line 2094.
 (pdftex.def)             Requested size: 207.77625pt x 158.60248pt.
  [81] [82 <./circ-0p1-10-4.png> <./circ-0p2-10-4.png> <./circ-0p3-10-4.png> <./
 circ_tcorrs_oseen_10-4.png>]
@@ -733,58 +747,185 @@ circ_tcorrs_oseen_10-4.png>]
 e_tcorr_stiff-0p1-4.png>] [84] [85 <./circ-1H-0p2-10-4.png> <./circ-p5H-0p2-10-
 4.png> <./circ-p1H-0p2-10-4.png> <./circ_tcorr_H-0p2-10-4.png>] [86] [87]
 Chapter 4.
-(./Thesis.bbl [88
+[88
 
-] [89
+] [89] [90] [91] [92] [93]
+Package epstopdf Info: Source file: <TvsWL.eps>
+(epstopdf)                    date: 2018-08-21 14:16:19
+(epstopdf)                    size: 205336 bytes
+(epstopdf)             Output file: <TvsWL-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-08-21 14:16:59
+(epstopdf)                    size: 14023 bytes
+(epstopdf)             Command: <repstopdf --outfile=TvsWL-eps-converted-to.pdf
+ TvsWL.eps>
+(epstopdf)             \includegraphics on input line 2271.
+Package epstopdf Info: Output file is already uptodate.
+<TvsWL-eps-converted-to.pdf, id=1622, 462.72874pt x 347.2975pt>
+File: TvsWL-eps-converted-to.pdf Graphic file (type pdf)
+<use TvsWL-eps-converted-to.pdf>
+Package pdftex.def Info: TvsWL-eps-converted-to.pdf  used on input line 2271.
+(pdftex.def)             Requested size: 415.55249pt x 311.89185pt.
+ [94] [95 <./TvsWL-eps-converted-to.pdf>] [96]
+<elastic_optical.pdf, id=1660, 294.09875pt x 547.04375pt>
+File: elastic_optical.pdf Graphic file (type pdf)
+<use elastic_optical.pdf>
+Package pdftex.def Info: elastic_optical.pdf  used on input line 2305.
+(pdftex.def)             Requested size: 166.21844pt x 309.18045pt.
+<hydroforces_optical.pdf, id=1661, 207.77625pt x 277.035pt>
+File: hydroforces_optical.pdf Graphic file (type pdf)
+<use hydroforces_optical.pdf>
+Package pdftex.def Info: hydroforces_optical.pdf  used on input line 2308.
+(pdftex.def)             Requested size: 207.77625pt x 277.047pt.
 
-] [90] [91]
-Underfull \hbox (badness 4303) in paragraph at lines 145--150
+[97] [98 <./elastic_optical.pdf> <./hydroforces_optical.pdf
+
+pdfTeX warning: pdflatex (file ./hydroforces_optical.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
+<l8_uncorr.pdf, id=1700, 722.7pt x 722.7pt>
+File: l8_uncorr.pdf Graphic file (type pdf)
+<use l8_uncorr.pdf>
+Package pdftex.def Info: l8_uncorr.pdf  used on input line 2341.
+(pdftex.def)             Requested size: 186.99734pt x 186.9933pt.
+<l8_circ.pdf, id=1701, 722.7pt x 722.7pt>
+File: l8_circ.pdf Graphic file (type pdf)
+<use l8_circ.pdf>
+Package pdftex.def Info: l8_circ.pdf  used on input line 2344.
+(pdftex.def)             Requested size: 186.99734pt x 186.9933pt.
+<l4_stasis.pdf, id=1702, 722.7pt x 722.7pt>
+File: l4_stasis.pdf Graphic file (type pdf)
+<use l4_stasis.pdf>
+Package pdftex.def Info: l4_stasis.pdf  used on input line 2348.
+(pdftex.def)             Requested size: 186.99734pt x 186.9933pt.
+ [99] [100] [101 <./l8_uncorr.pdf> <./l8_circ.pdf
+
+pdfTeX warning: pdflatex (file ./l8_circ.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./l4_stasis.pdf
+
+pdfTeX warning: pdflatex (file ./l4_stasis.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+>] [102]
+<farfield.pdf, id=1760, 462.52798pt x 346.89601pt>
+File: farfield.pdf Graphic file (type pdf)
+<use farfield.pdf>
+Package pdftex.def Info: farfield.pdf  used on input line 2391.
+(pdftex.def)             Requested size: 415.55249pt x 311.67949pt.
+ [103] [104 <./farfield.pdf>]
+<ps_uncorr.pdf, id=1793, 389.5353pt x 325.215pt>
+File: ps_uncorr.pdf Graphic file (type pdf)
+<use ps_uncorr.pdf>
+Package pdftex.def Info: ps_uncorr.pdf  used on input line 2403.
+(pdftex.def)             Requested size: 186.99734pt x 156.12128pt.
+<ps_stasis.pdf, id=1794, 389.5353pt x 325.215pt>
+File: ps_stasis.pdf Graphic file (type pdf)
+<use ps_stasis.pdf>
+Package pdftex.def Info: ps_stasis.pdf  used on input line 2406.
+(pdftex.def)             Requested size: 186.99734pt x 156.12128pt.
+<order.pdf, id=1795, 411.2163pt x 305.7021pt>
+File: order.pdf Graphic file (type pdf)
+<use order.pdf>
+Package pdftex.def Info: order.pdf  used on input line 2410.
+(pdftex.def)             Requested size: 249.33403pt x 185.35849pt.
+ [105] [106 <./ps_uncorr.pdf> <./ps_stasis.pdf
+
+pdfTeX warning: pdflatex (file ./ps_stasis.pdf): PDF inclusion: multiple pdfs w
+ith page group included in a single page
+> <./order.pdf
+
+pdfTeX warning: pdflatex (file ./order.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+>] [107]
+<cats-1.pdf, id=1840, 246.4407pt x 165.4983pt>
+File: cats-1.pdf Graphic file (type pdf)
+<use cats-1.pdf>
+Package pdftex.def Info: cats-1.pdf  used on input line 2454.
+(pdftex.def)             Requested size: 149.59914pt x 100.4639pt.
+<cats-2.pdf, id=1841, 207.4149pt x 165.4983pt>
+File: cats-2.pdf Graphic file (type pdf)
+<use cats-2.pdf>
+Package pdftex.def Info: cats-2.pdf  used on input line 2458.
+(pdftex.def)             Requested size: 124.667pt x 99.47145pt.
+<cats-3.pdf, id=1842, 207.4149pt x 165.4983pt>
+File: cats-3.pdf Graphic file (type pdf)
+<use cats-3.pdf>
+Package pdftex.def Info: cats-3.pdf  used on input line 2463.
+(pdftex.def)             Requested size: 124.667pt x 99.47145pt.
+<cats-4.pdf, id=1843, 154.6578pt x 106.2369pt>
+File: cats-4.pdf Graphic file (type pdf)
+<use cats-4.pdf>
+Package pdftex.def Info: cats-4.pdf  used on input line 2467.
+(pdftex.def)             Requested size: 99.73488pt x 68.50847pt.
+ [108 <./cats-1.pdf> <./cats-2.pdf
+
+pdfTeX warning: pdflatex (file ./cats-2.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <./cats-3.pdf
+
+pdfTeX warning: pdflatex (file ./cats-3.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+> <./cats-4.pdf
+
+pdfTeX warning: pdflatex (file ./cats-4.pdf): PDF inclusion: multiple pdfs with
+ page group included in a single page
+>] [109] [110] (./Thesis.bbl [111] [112
+
+] [113] [114]
+Underfull \hbox (badness 4303) in paragraph at lines 151--156
 []\OT1/cmr/m/n/10.95 Peter R Ash-ton, Roberto Bal-lar-dini, Vin-cenzo Balzani, 
 Al-berto Credi,
  []
 
-[92]
+[115]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [93] [94] [95] [96] [97]) [98]
+ [116] [117] [118] [119] [120] [121] [122]) [123]
 Appendix A.
 
-Overfull \hbox (10.3504pt too wide) in paragraph at lines 2190--2196
+Underfull \hbox (badness 10000) in paragraph at lines 2492--2499
+
+ []
+
+
+Overfull \hbox (10.3504pt too wide) in paragraph at lines 2492--2499
 []$\OT1/cmtt/m/n/10.95 https : / / sites . google . com / ucsc . edu / joshdeut
 sch / metachronal-[]videos ? authuser =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2190--2196
+Underfull \hbox (badness 10000) in paragraph at lines 2492--2499
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2199.
-[99
+
+Overfull \hbox (16.59909pt too wide) in paragraph at lines 2492--2499
+[]$\OT1/cmtt/m/n/10.95 https : / / sites . google . com / ucsc . edu / joshdeut
+sch / optical-[]trap-[]videos ? authuser =
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2502.
+[124
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2502.
  (./Thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2199.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2199.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2502.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2502.
 
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 96124B00136B5E1B62B51559FBC7451D;2480.
+(rerunfilecheck)             Checksum: 627E7602D8EA9C1339AD7CE6BB9D0676;3529.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2199.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2502.
  ) 
 Here is how much of TeX's memory you used:
- 7708 strings out of 494880
- 114399 string characters out of 6179601
- 219861 words of memory out of 5000000
- 10566 multiletter control sequences out of 15000+600000
+ 7933 strings out of 494880
+ 118402 string characters out of 6179601
+ 228263 words of memory out of 5000000
+ 10687 multiletter control sequences out of 15000+600000
  15888 words of font info for 59 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  42i,13n,49p,1580b,456s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -793,23 +934,24 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Thesis.pdf (110 pages, 2773312 bytes).
+t/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/symbols/msbm10.pfb>
+Output written on Thesis.pdf (136 pages, 4066048 bytes).
 PDF statistics:
- 1601 PDF objects out of 1728 (max. 8388607)
- 1343 compressed objects within 14 object streams
- 346 named destinations out of 1000 (max. 500000)
- 469 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2129 PDF objects out of 2487 (max. 8388607)
+ 1795 compressed objects within 18 object streams
+ 450 named destinations out of 1000 (max. 500000)
+ 669 words of extra memory for PDF output out of 10000 (max. 10000000)
 
